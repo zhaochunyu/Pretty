@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+#console {
+  width : 100%;
+  border: 1px dashed gray;
+  display : none;
+  max-height : 600px;
+  overflow-y : scroll;
+}
+#console ul {
+  width : 100%;
+}
+#console li {
+  text-align : left;
+  list-style : none;
+}
+.loading {
+  margin-left : 40px;
+}
+
+

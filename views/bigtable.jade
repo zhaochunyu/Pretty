@@ -1,0 +1,110 @@
+extends header
+block content
+            div.page-header
+                    h1#pheader #{pheader}
+            div.container(style='padding:'+10+'px '+15+'px '+0+'px')
+                 div.row  
+                     form(action='/bigtableSelect',method='post')
+                       div.col-xs-6.col-md-3                             
+                              textarea.form-control#updataId(rows="2",name="updataId",placeholder='请输入更新单号，多个用“;”分隔。',value='#{updataId}') #{updataId}
+                              button.btn.btn-default#bigtableSelect(type='submit',style="margin:3% ;color: #CCC;background-color: #39307C") 查  询
+                       div.col-xs-6.col-md-2        
+                              div.input-group
+                                    span.input-group-addon  上线状态
+                                    select.form-control#isonline(name="isonline")
+                                               option(value="all") 全部
+                                               option(value="否") 否
+                                               option(value="是") 是                                               
+                                               option(value="撤销") 撤销
+                                               
+                       div.col-xs-6.col-md-3
+                              strong 上生产时间  
+                              div.input-group
+                                    span.input-group-addon 从
+                                    input(size="10", type="text", value="", readonly, style="font-size: 15px", class="form_datetime",name="begindata")
+                                    span.input-group-addon 到
+                                    input(size="10", type="text", value="", readonly ,style="font-size: 15px", class="form_datetime",name="enddata")                        
+                       div.col-xs-6.col-md-2
+                            strong 上QA时间                        
+                            div.input-group
+                                    span.input-group-addon 从
+                                    input(size="10", type="text", readonly,style="font-size: 15px",  class="form_datetime",value="",name="begindataQA")
+                                    span.input-group-addon 到
+                                    input(size="10", type="text", value="", readonly,style="font-size: 15px",  class="form_datetime",name="enddataQA")                                
+               table.table.table-striped
+                     thead
+                          tr
+                            th OA流水号
+                            th 部门
+                            th 所属项目                            
+                            th 上线内容
+                            th 核心代码 	
+                            th 数据库 	
+                            th 项目负责人
+                            th 测试人
+                            th 自动化
+                            th 更新次数	
+                            th 上线状态
+                            th 上线时间	
+                            th 上线次数
+                            th 是否可回滚
+                            th QA时间
+                            th special                                         
+                     tbody
+                          - if (items.length)
+                               - var i=0                            
+                            - items.forEach(function(items){ 
+                              - if ((items._id.split(/\_/)).length<3)
+                                 - i++
+                                 tr
+                                  td #{items._id.replace(/\_/,'')}
+                                  td  #{items.info.department}
+                                  td  #{items.info.project}                                 
+                                  td  #{items.info.filename.replace('.txt','')}
+                                  td  #{items.info.core}
+                                  td  #{items.info.db}
+                                  td  #{items.info.own} 
+                                  td #{items.info.tester}
+                                  td #{items.info.auto}                          
+                                  td #{items.info.update}
+                                  td #{items.online}
+                                  td #{items.onliedate.replace('Invalid date','待定')}
+                                  td #{items.onlinecount}
+                                  td #{items.info.ifback}
+                                  td #{items.info.date}
+                                  td #{items.info.special}       
+                            - })
+                 a 共 #{i} 条记录             
+               table
+                        form(action='/setOnile',method='post')
+                                         textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}
+                                         button.btn.btn-default(type="submit",style="margin:2.5% ;color: #CCC;background-color: #563D7C") 提交上线     
+                        form(action='/setGoback',method='post')     
+                                         textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}
+                                         button.btn.btn-primary#setGoback(type="submit",style='margin: '+(5/2)+'%') 标记回滚
+                        form(action='/setSecond',method='post')
+                                         textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}  
+                                         button.btn.btn-success#setSecond(type="submit",style='margin: '+(5/2)+'%') 重复上线
+                        form(action='/setCancel',method='post')
+                                         textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}
+                                         button.btn.btn-info#setCancel(type="submit",style='margin: '+(5/2)+'%') 设置撤销            
+                        form(action='/doExport',method='post')
+                                         textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}
+                                         textarea.form-control#items(rows="1",name="items",style="display: none" ) #{itemsStr}
+                                         button.btn.btn-danger#doExport(type="submit",style='margin: '+(5/2)+'%') 导出报表
+                        form(action='/setTxt',method='post')
+                                         textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}                                         
+                                         button.btn.btn-warning#setTxt(type="submit",style='margin: '+(5/2)+'%') 添加备注
+                                         textarea.form-control(rows="1",id="notes",name="notes",placeholder='输入备注') 
+             
+ block extjs
+          script(type='text/javascript',src="/stylesheets/dist/js/bootstrap-datetimepicker.js",charset="UTF-8")
+          script(type='text/javascript',src="/js/msg.js")
+          script.
+              $(".form_datetime").datetimepicker({
+                   language:  'fr',
+                   weekStart: 1,
+                   todayBtn:  1,   autoclose: 1,  todayHighlight: 1, startView: 2,minView: 2,forceParse: 0, format: 'yyyy-mm-dd 00:00:00 '
+                  }); 
+          script .
+                $( function Todate(num) {  num = num + "";   var date = "";  var month = new Array();  month["Jan"] = 1; month["Feb"] = 2; month["Mar"] = 3; month["Apr"] = 4; month["May"] = 5; month["Jan"] = 6;  month["Jul"] = 7; month["Aug"] = 8; month["Sep"] = 9; month["Oct"] = 10; month["Nov"] = 11; month["Dec"] = 12; var week = new Array(); week["Mon"] = "一"; week["Tue"] = "二"; week["Wed"] = "三"; week["Thu"] = "四"; week["Fri"] = "五"; week["Sat"] = "六"; week["Sun"] = "日"; str = num.split(" "); date = str[5] + "-"; date = date + month[str[1]] + "-" + str[2]; return date;   });        

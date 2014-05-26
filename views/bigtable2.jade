@@ -1,0 +1,48 @@
+extends header
+block content
+            div.page-header
+                    h1#pheader 未上线清单
+            div.container(style='padding:'+10+'px '+15+'px '+0+'px')
+                 div.row  
+                                                   
+               table.table.table-striped
+                     thead
+                          tr
+                            th OA流水号
+                            th 部门
+                            th 所属项目                            
+                            th 上线内容
+                            th 核心代码 	
+                            th 数据库 	
+                            th 项目负责人
+                            th 测试人
+                            th 自动化
+                            th 更新次数	
+                            th 是否可回滚
+                            th QA时间
+                     tbody
+                          - if (items.length)
+                               - var i=0                            
+                            - items.forEach(function(items){ 
+                              - if ((items._id.split(/\_/)).length<3)
+                                 - i++
+                                 tr
+                                  td #{items._id.replace(/\_/,'')}
+                                  td  #{items.info.department}
+                                  td  #{items.info.project}                                 
+                                  td  #{items.info.filename.replace('.txt','')}
+                                  td  #{items.info.core}
+                                  td  #{items.info.db}
+                                  td  #{items.info.own} 
+                                  td #{items.info.tester}
+                                  td #{items.info.auto}                          
+                                  td #{items.info.update}
+                                  td #{items.info.ifback}
+                                  td #{items.info.date}
+                            - })
+                 a 共 #{i} 条记录                           
+             
+ block extjs
+          script(type='text/javascript',src="/stylesheets/dist/js/bootstrap-datetimepicker.js",charset="UTF-8")
+          script(type='text/javascript',src="/js/msg.js")
+      

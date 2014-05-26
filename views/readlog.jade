@@ -1,0 +1,17 @@
+extends header
+block content
+            div.page-header
+                     h1#pheader #{pheader}
+            div.container  
+                div.row
+                  form(action='/readlog',method='post')
+                   - var item
+                   - var items = ['102', '103', '104','105', '106', '107','108', '109', '110','111', '112', '113','114', '115', '116',]
+                   - each item in items
+                     div.col-md-3
+                         li= item
+                             h4.panel-title
+                                   span.input                                         
+                                         button.btn.btn-default#loghost(type='submit',value=item,name='loghost') 查看日志
+block extjs
+          script(type='text/javascript',src="/js/msg.js")

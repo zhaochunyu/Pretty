@@ -1,0 +1,21 @@
+extends header
+block content
+            div.page-header
+                    h1 #{pheader}
+                    a(href='../log.log') log
+            div.container
+                div.row
+                   - var item
+                   - var items = ['151', '106', "107"]
+                   - each item in items
+                     div.col-md-4
+                         li= item
+                         a.btn.btn-default(href='javascript:tail('+item+');', role="button") 查看终端
+                div.row#console
+                  ul
+                  p.loading
+                    img(src="/images/loading.gif")
+
+block extjs
+    script(type='text/javascript',src="/socket.io/socket.io.js")
+    script(type='text/javascript',src="/js/terminal.js")

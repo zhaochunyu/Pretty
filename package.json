@@ -1,0 +1,43 @@
+{
+  "name": "pretty",
+  "version": "0.0.1",
+  "private": true,
+  "author": "chunyu.zhao <chunyu.zhao@yeepay.com>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "jade": "*",
+    "connect-mongo": "*",
+    "connect-flash": "*",
+    "generic-pool": "*",
+    "mysql": "*",
+    "domain": "*",
+    "procstreams": "*",
+    "ssh2": "*",
+    "markdown": "*",
+    "express.io": "*",
+    "socket.io": "*",
+    "iconv-lite": "*",
+    "tail": "*",
+    "date-format": "*",
+    "log4js": "*",
+    "moment": "~2.6.0",
+    "excel-export":"*"
+  },
+  "description": "二代更新自动化",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "license": "no"
+}

@@ -1,0 +1,24 @@
+extends header
+block content
+            div.page-header
+                     h1#pheader #{pheader}
+                    button.btn.btn-default#goback(type='button') 回   滚
+            div.container  
+                        - if (gobackfile.length)
+                            -  gobackfile.forEach(function(items , index){                                 
+                                 - if(items.text)                                
+                                      div.col-md-2
+                                              div.panel.panel-default
+                                                    div.panel-heading
+                                                             h4.panel-title
+                                                                        span.input
+                                                                                  input(type="radio",value="#{items.name}&&#{items.text}", name="gobackId",
+                                            id="gobackId" )
+                                                                        a(data-toggle="collapse",data-parent="#accordion",href="##{items.name}") #{items.name}
+                                                             div.panel-collapse.collapse.collapse(id="#{items.name}")
+                                                                    div.panel-body
+                                                                           p #{items.text}                                        
+                            - })
+                            
+block extjs
+          script(type='text/javascript',src="/js/msg.js")

@@ -1,0 +1,19 @@
+doctype html
+
+head(lang="zh-cn")
+     mate( charset="utf-8" )
+     title 'pretty'
+     link(href='/stylesheets/dist/css/bootstrap.css', type='text/css', rel="stylesheet")
+     link(href='/stylesheets/dist/css/signin.css',type='text/css', rel="stylesheet")
+body
+    div.container
+        form.form-signin(action='/sigin',method='post')    
+             .form-signin-heading
+                 h3(style="height: 28px;width: 400px;") #{user} #{massage}               
+             input.form-control(type='text',placeholder="用户名",name="user",required autofocus)
+             input.form-control(type='password',placeholder="密码",name="pass",required)
+             lable.checkbox  记住我
+                   input(type="checkbox", value="remember-me")         
+             button.btn.btn-lg.btn-primary.btn-block(type='submit') 登  录
+             
+             

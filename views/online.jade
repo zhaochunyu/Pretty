@@ -1,0 +1,120 @@
+extends header
+block content
+            div.page-header
+                    h1#pheader #{pheader}    
+                    p#endtime
+                    p#state(style="display: none")
+            div.container
+                div.row
+                    div.col-lg-2
+                        div.input-group
+                                form(action='',method='post')
+                                    textarea.form-control(rows="5",id='updataId',placeholder='请输入更新单号，多个用“;”分隔。')
+                                    span.input-group-btn
+                                         button.btn.btn-default#updataid(type='button') 查 询
+
+                    div.col-lg-5
+                        div.list-group
+                              div.panel.panel-default
+                                div.panel-heading
+                                    h4.panel-title
+                                       a(data-toggle="collapse",data-parent="#accordion",href="#collapseList") 清单名称
+                                    div.panel-collapse.collapse.in#collapseList
+                                        div.panel-body
+                                            p#updatainfo #{updatainfo}
+                              div.panel.panel-default
+                                div.panel-heading
+                                    h4.panel-title
+                                       a(data-toggle="collapse",data-parent="#accordion",href="#collapseListsrc") 清单内容
+                                    div.panel-collapse.collapse.collapse#collapseListsrc
+                                        div.panel-body
+                                            p#srclist #{srclist}
+                              div.panel.panel-default
+                                div.panel-heading
+                                    h4.panel-title
+                                       a(data-toggle="collapse",data-parent="#accordion",href="#updatesrclist") 本次更新
+                                    div.panel-collapse.collapse.collapse#updatesrclist
+                                        div.panel-body
+                                            p#srclist #{updatesrclist}              
+                              button.btn.btn-default#build(type='button') 编 译
+                    div.col-lg-5
+                        div.list-group
+                            div.panel.panel-default
+                                div.panel-heading
+                                    h4.panel-title
+                                       a(data-toggle="collapse",data-parent="#accordion",href="#collapseOne") 清单文件
+                                    div.panel-collapse.collapse.in#collapseOne
+                                        div.panel-body
+                                            p#updatalist #{updatalist} 
+                            div.panel.panel-default
+                                div.panel-heading
+                                    h4.panel-title
+                                       a(data-toggle="collapse",data-parent="#accordion",href="#collapseTwo") 编译文件
+                                    div.panel-collapse.collapse.collapse#collapseTwo
+                                        div.panel-body
+                                            p#bulidresult #{bulidresult} 
+                            div.panel.panel-default
+                                div.panel-heading
+                                    h4.panel-title
+                                       a(data-toggle="collapse",data-parent="#accordion",href="#collapseThree") 缺失文件
+                                    div.panel-collapse.collapse.collapse#collapseThree
+                                        div.panel-body
+                                            p#nohave #{nohave}                
+                            button.btn.btn-default#updata(type='button') 更 新
+
+block extjs
+    script(type='text/javascript',src="/socket.io/socket.io.js")
+    script(type='text/javascript',src="/js/msg.js")
+    script.             
+                var CID = "endtime";
+                  var iTime =' 600'; 
+                function RemainTime()
+                {                           
+                    var iDay,iHour,iMinute,iSecond;
+                    var sDay="",sHour="",sMinute="",sSecond="",sTime="";
+                    if (iTime >= 0)
+                    {
+                         var state=document.getElementById('state').innerHTML;
+                         if(state){                       
+                       iTime='-1';
+                    } 
+                        iDay = parseInt(iTime/24/3600);
+                        if (iDay > 0)
+                        {
+                            sDay = iDay + "天";
+                        }
+                        iHour = parseInt((iTime/3600)%24);
+                        if (iHour > 0){
+                            sHour = iHour + "小时";
+                        }
+                        iMinute = parseInt((iTime/60)%60);
+                        if (iMinute > 0){
+                            sMinute = iMinute + "分钟";
+                        }
+                       iSecond = parseInt(iTime%60);
+                        if (iSecond >= 0){
+                            sSecond = iSecond + "秒";
+                        }
+                        if ((sDay=="")&&(sHour=="")){
+                            sTime="<span style='color:darkorange'>" + sMinute+sSecond + "</font>";
+                        }
+                        else
+                        {
+                            sTime=sDay+sHour+sMinute+sSecond;
+                       }
+                        if(iTime==0){
+                            clearTimeout(Account);
+                              sTime="<span style='color:red'>倒计时结束！如果未返回结果，执行可能出现异常了，请查看日志！</span>";
+                        }
+                        else
+                        {
+                            Account = setTimeout("RemainTime()",1000);
+                        }
+                        iTime=iTime-1;
+                    }
+                   else
+                    {
+                            sTime="<span style='color:#5bc0de'>倒计时结束！</span>";
+                    }
+                 document.getElementById(CID).innerHTML = sTime;
+                }
