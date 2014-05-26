@@ -4,8 +4,8 @@ module.exports = {
   db: 'pretty',
   host: '172.17.103.132',
   username:'pretty',
-  password:'chunchun',
+  password:'******',
   buildPath : '/home/chunchun/CVS',
-  cvsPasswd : '123456',
+  cvsPasswd : '*******',
   termMaxLine : 100
 };
