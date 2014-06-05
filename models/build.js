@@ -91,7 +91,7 @@ Build.run = function(file, callback) {
 								}
 								nofile = nofile + filetxtlist[i]
 							}
-							return callback(null, start, '编译完成,文件可能不一致,提交：'+len+'个 ，更新：'+number+'个 ', nofile,
+							return callback(null, start, '编译成功,文件可能不一致,提交：'+len+'个 ，更新：'+number+'个 ', nofile,
 									filetxt,goal)
 						}
 						return callback(null, start, '编译成功,全部一致', '无', filetxt,goal)
@@ -107,15 +107,15 @@ Build.run = function(file, callback) {
 				else {
 					if (data.indexOf('[处理成功的文件]: 0') > -1) {
 						start = false;
-						logger.warn("无文件进行编译");
-						return callback(null, start, '无文件编译', nofile, filetxt,'无')
+						logger.warn("无文件进行编译，编译失败！！！！！！！");
+						return callback(null, start, '编译失败！！！！！！！，无文件编译', nofile, filetxt,'无')
 					} else {
 						start = false;
-						logger.warn("编译失败");
+						logger.warn("编译失败！！！！！！！");
 						var beg = '[失败的文件]:', en = 'TaskEnd';
 						nofile = data.split(beg)[1].split(en)[0];
 						nofile = nofile.substring(3);								
-						return callback(null, start, '编译失败了'+nofile, nofile, filetxt,'无')
+						return callback(null, start, '编译失败！！！！！！！！'+nofile, nofile, filetxt,'无')
 					}
 				}
 

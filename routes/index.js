@@ -118,7 +118,7 @@ module.exports = function(app) {
 																														.info('亲！应该有文件为空或者找不到编译文件，请确认格式是否合法!');
 																														dataInfo = {
 																																'message' : '亲，有文件为空或找不到文件，请确认路径是否合法!',
-																																'name' : 'no body！'
+																																'name' : 'no body！'																																	
 																															};
 																															res
 																																	.json(dataInfo);
@@ -562,7 +562,7 @@ module.exports = function(app) {
 
 	});
 	// 注册
-	app.get('/reg', checkNotLogin);
+/*	app.get('/reg', checkNotLogin);
 	app.get('/reg', function(req, res) {
 		res.render('reg', {
 			title : 'Pretty'
@@ -587,7 +587,7 @@ module.exports = function(app) {
 							}
 						})
 
-					});
+					});*/
 	// 退出
 	app.get('/logout', checkLogin);
 	app.get('/logout', function(req, res) {
@@ -1301,6 +1301,67 @@ else{
 		});}
 	});
 
+	
+
+	app.post('/addupdate', function(req, res) {
+		var updataId = req.body.updataId;
+		var updataIdr = req.body.updataId;
+		var selectInfo;
+		updataId=	updataId.trim();
+		logger.info('addupdate: ' + updataId);
+		if(!updataId.match('^[0-9]*[0-9;]+$')){
+			res.render('bigtable', {
+				pheader : '出错了！',
+				updataId : updataIdr.trim(),
+				items : 0,
+				user : req.session.user
+			});
+		}
+		else{
+		var myID = new Array();
+		updataId = updataId.replace(/;/g, ' ');
+		updataId = updataId.trim();
+		myID = updataId.split(' ');
+		myID.forEach(function(id_oa, index, array1) {
+			var oaid = '_' + id_oa;
+			myID[index] = oaid;
+		});
+		var datainfo = {
+			'infoupdate' : true,
+			'nocount' : true			
+		};
+		Online.update_bigtable(myID, datainfo, function(err, online) {
+			if (online) {
+						Bigtable.oalistSelect(myID, selectInfo, function(
+							err,	items) {
+							if (items) {
+								items.forEach(function(it,index){				
+									it.onliedate= Moment(it.onliedate).format('YYYY-MM-DD');
+			                    	it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
+									items[index]=it;
+									if(index==items.length-1){
+										res.render('bigtable', {
+											pheader : '清单大表',
+											updataId : updataIdr.trim(),
+											items : items,
+											itemsStr : JSON.stringify(items),
+											user : req.session.user
+										});
+									}
+								})
+					} else {
+						res.render('bigtable', {
+							pheader : '出错了！',
+							updataId : updataIdr.trim(),
+							items : 0,
+							user : req.session.user
+						});
+					}
+				});
+			}
+		});}
+	});
+	
 	
 	app.post('/setTxt', function(req, res) {
 		var updataId = req.body.updataId;

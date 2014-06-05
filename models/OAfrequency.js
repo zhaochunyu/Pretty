@@ -15,9 +15,19 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 	var newfilepath = '/export/home/qarelease/antbuild/' + oa_id + '.txt';// 新生成的文件清单
 	
 	var j=0;
+	
+	if(filepath.length!=oa_id.length){
+		logger.error('上线单中存在非法流水号');
+		return callback(
+				null,
+				null,
+				null);
+	}
+	else{
+			
 	oa_id.forEach(function(id_oa) {
 		j++;
-		oaid = oaid+ "_"+ id_oa;
+		oaid = oaid+ "_"+ id_oa;//为构造oaid
 		if(j==oa_id.length)
 			{logger.info('oaid：' +oaid);
 		
@@ -217,5 +227,7 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 	
 			}//if
 	})//oa_id.forEach(function(id_oa) {
+	
+	}//else
 	
 }

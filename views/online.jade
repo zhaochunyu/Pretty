@@ -36,7 +36,7 @@ block content
                                     div.panel-collapse.collapse.collapse#updatesrclist
                                         div.panel-body
                                             p#srclist #{updatesrclist}              
-                              button.btn.btn-default#build(type='button') 编 译
+                              button.btn.btn-default#build(type='button', disabled='disabled') 编 译
                     div.col-lg-5
                         div.list-group
                             div.panel.panel-default
@@ -60,7 +60,7 @@ block content
                                     div.panel-collapse.collapse.collapse#collapseThree
                                         div.panel-body
                                             p#nohave #{nohave}                
-                            button.btn.btn-default#updata(type='button') 更 新
+                            button.btn.btn-default#updata(type='button', disabled='disabled') 更 新
 
 block extjs
     script(type='text/javascript',src="/socket.io/socket.io.js")

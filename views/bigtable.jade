@@ -74,7 +74,7 @@ block content
                                   td #{items.info.date}
                                   td #{items.info.special}       
                             - })
-                 a 共 #{i} 条记录             
+                  a 共 #{i} 条记录             
                table
                         form(action='/setOnile',method='post')
                                          textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}
@@ -92,10 +92,13 @@ block content
                                          textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}
                                          textarea.form-control#items(rows="1",name="items",style="display: none" ) #{itemsStr}
                                          button.btn.btn-danger#doExport(type="submit",style='margin: '+(5/2)+'%') 导出报表
+                        form(action='/addupdate',method='post')
+                                         textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}                                         
+                                         button.btn.btn-warning#setTxt(type="submit",style="margin:2.5% ;color: #0B0909;background-color: #FF33CC") 更新+1
                         form(action='/setTxt',method='post')
                                          textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}                                         
                                          button.btn.btn-warning#setTxt(type="submit",style='margin: '+(5/2)+'%') 添加备注
-                                         textarea.form-control(rows="1",id="notes",name="notes",placeholder='输入备注') 
+                                         textarea.form-control(rows="1",id="notes",name="notes",placeholder='输入备注')                                         
              
  block extjs
           script(type='text/javascript',src="/stylesheets/dist/js/bootstrap-datetimepicker.js",charset="UTF-8")

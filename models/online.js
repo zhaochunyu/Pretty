@@ -144,19 +144,35 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 //				时间为空，按状态查询
 				if( selectInfo.begindata=="" && selectInfo.begindataQA=="") 
 				{
-					collection.find(
-							{online:selectInfo.isonline},
-							function(err, online) {
-						pool.release(db);
-						if (err) {
-							return callback(err);// 失败！返回 err 信息
-						}
-						online.toArray(function(err, items) {          
-							logger.info("online: " + items.length);
-							return      callback(null, items);
-						})
-						// 成功！返回查询信息
-					});
+					if(selectInfo.isonline.match("all")){
+						collection.find(function(err, online) {
+							pool.release(db);
+							if (err) {
+								return callback(err);// 失败！返回 err 信息
+							}
+							online.toArray(function(err, items) {          
+								logger.info("online: " + items.length);
+								return      callback(null, items);
+							})
+							// 成功！返回查询信息
+						});	
+					}
+					else{
+						collection.find(
+								{online:selectInfo.isonline},
+								function(err, online) {
+							pool.release(db);
+							if (err) {
+								return callback(err);// 失败！返回 err 信息
+							}
+							online.toArray(function(err, items) {          
+								logger.info("online: " + items.length);
+								return      callback(null, items);
+							})
+							// 成功！返回查询信息
+						});	
+					}
+				
 				}
 				else{
 					//按时间查询
@@ -252,23 +268,43 @@ Online.update_bigtable= function(updataId,datainfo, callback) {
 				return callback(err);// 错误，返回 err 信息
 			}
 			logger.info("datainfo.nocount: " +datainfo.nocount);
-if(datainfo.nocount)	{
-	collection.update({_id:{"$in":updataId}}, 
-			{
-	    	$set :	datainfo
-			},{upsert: true, multi: true ,w : 1},
-			function(err,online) {				
-			pool.release(db);
-			if (err) {
-				logger.info("err: " + err);
-				return callback(err);// 错误，返回 err 信息
+if(datainfo.nocount)	{	
+	if(datainfo.infoupdate)	{
+		logger.info("update_bigtableelse: " + updataId);		
+		collection.update({_id:{"$in":updataId}}, 
+				{
+				$inc:{'info.update':1}				
+				},{upsert: true, multi: true ,w : 1},
+				function(err,online) {				
+				pool.release(db);
+				if (err) {
+					logger.info("err: " + err);
+					return callback(err);// 错误，返回 err 信息
+				}
+				logger.info("online: " + online);
+				return	callback(null, online);// 成功！err 为 null
 			}
-			logger.info("online: " + online);
-			return	callback(null, online);// 成功！err 为 null
-		}
-		);
+			);
 	}	
+
 	else{
+		collection.update({_id:{"$in":updataId}}, 
+				{
+		    	$set :	datainfo
+				},{upsert: true, multi: true ,w : 1},
+				function(err,online) {				
+				pool.release(db);
+				if (err) {
+					logger.info("err: " + err);
+					return callback(err);// 错误，返回 err 信息
+				}
+				logger.info("online: " + online);
+				return	callback(null, online);// 成功！err 为 null
+			}
+			);
+	}
+	}	
+if(!datainfo.nocount)	{
 //		db.online.update(    { oa_id: {"$in":["_403370","_403316","_404827"]} },    {       $set: { online: "是" },       $inc: { onlinecount: 1 }    } ,{ upsert: true, multi: true });
 		logger.info("update_bigtableelse: " + updataId);		
 		collection.update({_id:{"$in":updataId}}, 
@@ -287,6 +323,8 @@ if(datainfo.nocount)	{
 			}
 			);
 	}		
+
+
 		});
 	});
 };

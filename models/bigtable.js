@@ -42,7 +42,6 @@ Bigtable.save =  function(myIDs ,callback){
 			j++;
 			if(j== myIDs.length)
 			{
-			logger.info(index+'*******index!');
 			 logger.info(myIDs+'查询结束!');
 			return	callback(null,true);
 			}
@@ -52,7 +51,6 @@ Bigtable.save =  function(myIDs ,callback){
 		SelectOAinfo.SeleEndTime(myID,function(err, end_time, run_name) { 
 			if (err) { // 增加run_name为空时处理
 				logger.info('查询上线单故障!');					
-	
 			}
 			else {
 				SelectOAinfo.SeleData708(myID,function(err,serverIP) {
@@ -95,17 +93,9 @@ Bigtable.save =  function(myIDs ,callback){
 										'own':serverIP.data_699.split("20")[0],
 										'core':serverIP.data_1037,
 										'ifback':serverIP.data_633,
-										'db':serverIP.data_683,
-										'ispretty':'bigtable'
+										'db':serverIP.data_683
 									};
-							 var online = {															
-										finish : false,
-										info : datainfo,
-										online:'否',
-										tester : this.tester,
-										onliedate:"",
-										onlinecount:0
-									};
+
 							 pool.acquire(function(err, db) {
 								 
 								 if (err) {
@@ -120,7 +110,18 @@ Bigtable.save =  function(myIDs ,callback){
 //										 collection.save({_id :  "_"+myID ,finish : false,info : datainfo }
 										 collection.update({_id:"_"+myID}, 
 													{
-											    	$set :	{'info' :datainfo}
+											    	$set :	{'info.auto' :datainfo.auto,
+											    		'info.special' :datainfo.special,
+											    		'info.tester' :datainfo.tester,
+											    		'info.confServer' :datainfo.confServer,
+											    		'info.filename' :datainfo.filename,
+											    		'info.department' :datainfo.department,
+											    		'info.project' :datainfo.project,
+											    		'info.own' :datainfo.own,
+											    		'info.core' :datainfo.core,
+											    		'info.ifback' :datainfo.ifback,
+											    		'info.db' :datainfo.db							    	
+											    	}
 													},{upsert: true, multi: true ,w : 1}
 										 , function(err, dbonline) {
 											 pool.release(db);
@@ -128,10 +129,8 @@ Bigtable.save =  function(myIDs ,callback){
 													 logger.error(err);
 												}
 												j++;
-												 logger.info(myID+"查询成功"+j);
 													if(j== myIDs.length)
 													{
-													logger.info(index+'*******index!');
 													 logger.info(myIDs+'查询结束!');
 													return	callback(null,true);
 													}
@@ -158,16 +157,9 @@ Bigtable.save =  function(myIDs ,callback){
 										'own':serverIP.data_699.split("20")[0],
 										'core':serverIP.data_1037,
 										'ifback':serverIP.data_633,
-										'db':serverIP.data_683,
-										'ispretty':'bigtable'
+										'db':serverIP.data_683
 									};
-							 var online = {															
-										finish : false,
-										info : datainfo,
-										tester : this.tester
-									};
-							 pool.acquire(function(err, db) {
-								 
+									 pool.acquire(function(err, db) {
 								 if (err) {
 									 logger.error(err);
 									}
@@ -200,14 +192,11 @@ Bigtable.save =  function(myIDs ,callback){
 													 logger.error(err);
 												}
 												j++;
-												 logger.info(myID+"查询成功"+j);
 													if(j== myIDs.length)
 													{
-													logger.info(index+'*******index!');
 													 logger.info(myIDs+'查询结束!');
 													return	callback(null,true);
 													}
-											 
 										 })
 									 }
 									 
@@ -217,7 +206,6 @@ Bigtable.save =  function(myIDs ,callback){
 							 
 								if(j== myIDs.length)
 								{
-								logger.info(index+'*******index!');
 								 logger.info(myIDs+'查询结束!');
 								return	callback(null,true);
 								}

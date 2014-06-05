@@ -31,7 +31,7 @@ $(document).ready(function() {
 	$("#updataid").click(function() {
 		var updataId = $("#updataId").val();
 		$("#pheader").html('查询进行中……');
-		$("#updataid").attr("disabled", "disabled");
+		$("#updataid").attr("disabled", "disabled");		
 		$("#updatainfo").html('');
 		$("#srclist").html('');
 		$("#updatesrclist").html('');			
@@ -42,8 +42,9 @@ $(document).ready(function() {
   			$("#srclist").html(data.srclist);
   			$("#updatesrclist").html(data.updatesrclist);
   			alert("" + data.message);
-  			$("#pheader").html('查询结束');  			
+  			$("#pheader").html('查询结束:  '+data.message);  			
   			$("#updataid").removeAttr("disabled");
+  			$("#build").removeAttr("disabled");
   			if (!updataId || $("#updatainfo").val()=='no body！') {
   				$("#build").attr("disabled", "disabled");
   				$("#updata").attr("disabled", "disabled");
@@ -74,8 +75,9 @@ $(document).ready(function() {
 			$("#nohave").html(data.nohave);
 			$("#updatalist").html(data.updatalist);
 			alert("嗨：" + data.message);
-			$("#pheader").html('编译结束');
+			$("#pheader").html('编译结束:   '+data.message);
 			$("#build").removeAttr("disabled");
+			$("#updata").removeAttr("disabled");
 		});
 	});
 
@@ -104,6 +106,14 @@ $(document).ready(function() {
 			$("#pheader").html(data);
 			$("#updata").removeAttr("disabled");
 			$("#state").html(true);
+			if(confirm("亲，更新完了，是否退出？"))
+{
+				$.get('/logout');
+				window.location.href="http://172.17.103.151:1331/";
+}				
+			else{
+				alert("亲，记得退出哦！别让我等太久哈！");				
+			}
 		});
 	}
 		else{
