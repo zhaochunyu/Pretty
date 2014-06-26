@@ -1,27 +1,29 @@
 
 
-# helloword
-
+# Pretty
+ 用于大型系统测试环境部署，实现多服务器交互增量部署。需与实际情况结合。
 
 
 ## Usage
 
-
+数据库：mongodb
+页面：Bootstrap
 
 ## Developing
 
-
+一期项目，在学习中使用nodejs
+页面风格统一使用：http://www.bootcss.com/
 
 ### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
-
-页面风格统一使用：http://a.yeepay.com/jforum/posts/list/236.page
-
-
-scp -r /home/chunchun/opt/Auto/pretty_dev/  root@172.17.103.132:/opt/pretty
-
+技术点：
+1、数据库池链接与查询，增，改，包括mysql，mongodb
+2、nodejs本地命令执行，远程命令执行和交换验证。
+3、log4j日志系统。
+4、日志通过文件方式访问并，默认显示最后一行。
+5、文本文件读写。
+6、gbk文件处理。与utf-8互转。
+7、报表文件生成与下载。
+8、关键字断言与交互。
+9、用户，注册，登录，md5加密等
+10、终端日志推送。
 
