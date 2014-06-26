@@ -67,8 +67,9 @@ exports.SeleData708 = function(runid, callback) {
 			} else {
 				logger.info("flow_data_790 ");
 				var data_708='',data_603='',data_604='',data_605='',data_606='',data_607='',data_608='',data_609='',data_610='',data_611='',data_612='',data_613='',data_614='',data_615='',data_616='',data_617='',data_618='',data_619='',data_620='',data_621='',data_622='',data_623='',data_624='',data_625='',data_1011=''
-					data_1039='',data_673='',data_599='',data_691='',data_699='',data_1036='',data_1037='',data_633='',data_683='',data_1040='';
+					data_631='',data_1039='',data_673='',data_599='',data_691='',data_699='',data_1036='',data_1037='',data_633='',data_683='',data_1040='';
 					for ( var i in rows) {
+						data_631=data_631+rows[i].data_631,
 						data_1040=data_1040+rows[i].data_1040,
 						data_1039=data_1039+rows[i].data_1039,
 						data_673=data_673+rows[i].data_673,
@@ -109,6 +110,7 @@ exports.SeleData708 = function(runid, callback) {
 					else{data_1011=data_1011 +"&&"+rows[i].data_1011};// 上线单路径
 					if(i==rows.length-1){
 						serverIP = {
+								data_631:data_631,
 								data_1040:data_1040,
 								data_1039:data_1039,
 								data_673:data_673,

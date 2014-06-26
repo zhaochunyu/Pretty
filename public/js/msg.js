@@ -1,4 +1,36 @@
 $(document).ready(function() {	
+	//重启
+	$("#restart").click(function() {
+		$("#pheader").html('重启进行中，大概10分钟内完成，请稍等！');
+		var host = $("input[name='host']:checked").val();
+		if (!host || host==null) {
+			alert("请选择重启服务器！");
+			$("#pheader").html('请选择重启服务器！');		
+			return;
+		}
+		if(confirm("重启: "+host+" 大概10分钟内完成，请确认是否重启？")){
+		MessageBox.popup("tipblock",{title:"重启进行中……",width:"350px"});
+		$("#restart").attr("disabled", "disabled");
+		$.post("/restart",
+				{
+			 host : host
+		},
+		function(data, status) {
+			//加载图片消失
+			MessageBox.unpopup("tipblock");
+			$("#restart").removeAttr("disabled");
+			alert("提示： " + data);
+			$("#pheader").html('操作完成: '+data);
+		});
+		}
+		else{
+			alert("重启取消！");
+			$("#pheader").html('服务器列表：');
+			return;	
+	}
+	
+	});	
+	
 	//回滚
 	$("#goback").click(function() {		
 		var gobackId = $("input[name='gobackId']:checked").val();
@@ -99,17 +131,20 @@ $(document).ready(function() {
 	          }		
 			$("#pheader").html('分发,重启进行中……');
 		$("#updata").attr("disabled", "disabled");
+		MessageBox.popup("tipblock",{title:"更新进行中……",width:"350px"});
 		$.post("/updata", {
 			updataId : updataId
 		}, function(data, status) {
 			alert("" + data);
 			$("#pheader").html(data);
 			$("#updata").removeAttr("disabled");
+			MessageBox.unpopup("tipblock");
 			$("#state").html(true);
 			if(confirm("亲，更新完了，是否退出？"))
 {
-				$.get('/logout');
-				window.location.href="http://172.17.103.151:1331/";
+				$.get('/logout',function(data, status) {
+					window.location.href="/";
+				});
 }				
 			else{
 				alert("亲，记得退出哦！别让我等太久哈！");				

@@ -5,6 +5,8 @@ block content
                     p#endtime
                     p#state(style="display: none")
             div.container
+                div#tipblock(style="display:none")
+                     img(src="/images/2.gif")                  
                 div.row
                     div.col-lg-2
                         div.input-group
@@ -28,14 +30,14 @@ block content
                                        a(data-toggle="collapse",data-parent="#accordion",href="#collapseListsrc") 清单内容
                                     div.panel-collapse.collapse.collapse#collapseListsrc
                                         div.panel-body
-                                            p#srclist #{srclist}
+                                            p #{srclist}
                               div.panel.panel-default
                                 div.panel-heading
                                     h4.panel-title
                                        a(data-toggle="collapse",data-parent="#accordion",href="#updatesrclist") 本次更新
-                                    div.panel-collapse.collapse.collapse#updatesrclist
+                                    div.panel-collapse.collapse.collapse#updatesrclist(style="height: auto;white-space:pre-line;word-wrap:break-word")
                                         div.panel-body
-                                            p#srclist #{updatesrclist}              
+                                            p #{updatesrclist}              
                               button.btn.btn-default#build(type='button', disabled='disabled') 编 译
                     div.col-lg-5
                         div.list-group
@@ -43,27 +45,29 @@ block content
                                 div.panel-heading
                                     h4.panel-title
                                        a(data-toggle="collapse",data-parent="#accordion",href="#collapseOne") 清单文件
-                                    div.panel-collapse.collapse.in#collapseOne
+                                    div.panel-collapse.collapse.in#collapseOne(style="height: auto;white-space:pre-line;word-wrap:break-word")
                                         div.panel-body
                                             p#updatalist #{updatalist} 
                             div.panel.panel-default
                                 div.panel-heading
                                     h4.panel-title
                                        a(data-toggle="collapse",data-parent="#accordion",href="#collapseTwo") 编译文件
-                                    div.panel-collapse.collapse.collapse#collapseTwo
+                                    div.panel-collapse.collapse.collapse#collapseTwo(style="height: auto;white-space:pre-line;word-wrap:break-word")
                                         div.panel-body
                                             p#bulidresult #{bulidresult} 
                             div.panel.panel-default
                                 div.panel-heading
                                     h4.panel-title
                                        a(data-toggle="collapse",data-parent="#accordion",href="#collapseThree") 缺失文件
-                                    div.panel-collapse.collapse.collapse#collapseThree
+                                    div.panel-collapse.collapse.collapse#collapseThree(style="height: auto;white-space:pre-line;word-wrap:break-word")
                                         div.panel-body
                                             p#nohave #{nohave}                
                             button.btn.btn-default#updata(type='button', disabled='disabled') 更 新
 
 block extjs
-    script(type='text/javascript',src="/socket.io/socket.io.js")
+    script(type='text/javascript',src="/js/jquery-1.4.4.min.js")
+    script(type='text/javascript',src="/js/jquery-ui-1.8.13.min.js")
+    script(type='text/javascript',src="/js/jquery-ui-i18n.min.js")
     script(type='text/javascript',src="/js/msg.js")
     script.             
                 var CID = "endtime";

@@ -16,6 +16,7 @@ var logger = require('../log4js').logger;
 var Bigtable = require('../models/bigtable.js');
 var Goback = require('../models/goback.js');
 var Readlog = require('../models/readlog.js');
+var ReStart= require('../models/restart.js');
 var Moment = require('moment');
 var nodeExcel = require('excel-export');
 
@@ -352,6 +353,7 @@ module.exports = function(app) {
 																																		'confServer' : confServer,
 																																		'special' : serverIP.data_673,
 																																		'auto' : serverIP.data_1039,
+																																		'sql':serverIP.data_631,
 																																		'project' : serverIP.data_599,
 																																		'tester' : serverIP.data_691,
 																																		'own' : serverIP.data_699.split("20")[0],
@@ -806,6 +808,7 @@ module.exports = function(app) {
 																																							'department':serverIP.data_1040,
 																																							'special' : serverIP.data_673,
 																																							'auto' : serverIP.data_1039,
+																																							'sql':serverIP.data_631,
 																																							'project' : serverIP.data_599,
 																																							'tester' : serverIP.data_691,
 																																							'own' : serverIP.data_699.split("20")[0],
@@ -964,10 +967,9 @@ module.exports = function(app) {
 						next();
 					}
 				}
-			})
+			});
 		}
 	}
-	;
 
 	function checkNotLogin(req, res, next) {
 		if (req.session.user) {
@@ -1440,6 +1442,7 @@ else{
 	                   { caption:'项目负责人',  type:'string'  },
 	                   { caption:'测试人',  type:'string'  },
 	                   { caption:'是否使用自动化',  type:'string'  },
+	                   { caption:'是否有sql评审',  type:'string'  },
 	                   { caption:'QA更新次数',  type:'string'  },
 	                   { caption:'上QA日期',  type:'string'  },
 	                   { caption:'上线状态',  type:'string'  },
@@ -1463,7 +1466,8 @@ else{
 	  			            it.info.incidence, 
 	  		            	  it.info.own, 
 	  		                 it.info.tester, 
-	  			              it.info.auto, 
+	  			              it.info.auto,
+	  			             it.info.sql,
 	  			it.info.update, 
 	  			it.info.date, 
 	  			it.online, 
@@ -1501,6 +1505,39 @@ else{
 
 	});
 	
+	//重启服务器
+    app.get('/restart', checkLogin);
+	app.get('/restart', function(req, res) {
+		res.render('restart',{
+			pheader : '服务器列表:',
+			user : req.session.user
+		})
+	});
+	
+	app.post('/restart', function(req, res) {
+		var host = req.body.host;	
+		logger.info(host);
+		ReStart.host(host,function(err,data){
+			logger.info(data);
+			res.end(data);
+			
+		/*	res.render('restart', {
+				pheader : '操作结束',
+				data : data,
+				user : req.session.user
+			});*/
+			
+			
+		})
+
+	});	
+	
+	app.get('/syslog', function(req, res) {
+		res.render('syslog',{
+			pheader : '服务器列表:',
+				user : 'req.session.user'
+		})
+	});	
 	// **************************************************************************************&&&&&&&&&&&&&&&&&&&&&&&&
 
 };

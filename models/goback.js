@@ -7,9 +7,9 @@ function Goback() {
 module.exports = Goback;
 //读文件并返回到页面
 Goback.file = function( callback) {
-	var filename= format.asString('yyyyMMdd', new Date());
-	exec('ls -R '+filename+'*',{cwd : '/export/home/qaback/'},function(err, stdout, stderr) {
-		var filenamelist=stdout.split(filename);
+//	var filename= format.asString('yyyyMMdd', new Date());
+	exec('find ./ -ctime -2 -type d |grep -v "^\./$" |grep -v "^\.$" |xargs ls -R',{cwd : '/export/home/qaback/'},function(err, stdout, stderr) {
+		var filenamelist=stdout.split('./');
 	
 		var gobackfile=new Array();
 	var i=0;
@@ -18,12 +18,14 @@ Goback.file = function( callback) {
 					'name':'',
 					'text':''
 			}
-			fileNlist.name=filename+onefilelist.split(':')[0];
+			fileNlist.name=onefilelist.split(':')[0];
 			fileNlist.text=onefilelist.split(':')[1];
 		gobackfile[i]=fileNlist;
 		i++;
+		if(i==filenamelist.length){
+			return callback(gobackfile);
+		}
 		})
-		return callback(gobackfile);
 });
 	
 };

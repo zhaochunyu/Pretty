@@ -12,8 +12,8 @@ var dlist={"data_603" : "yptxp", "data_604" : "portal", "data_605" : "ypboss",
 		 "data_616" : "racoon", "data_617" : "anole", "data_618" : "cfb", "data_619" : "icc_txp",
 		 "data_620" : "icc_web", "data_621" : "icc_bps01", "data_622" : "无线 93、94",
 		 "data_623" : "无线 91、92", "data_624" : "bizfor3g", "data_625" : "txp-service"};
-var slist={"yptxp":"2,3","txp-service":"2,3", "portal": "4,5","ypboss":"6,7","3g-ypboss":"6,7","ypepos":"8,9","ypcheckaccount":"8,9",
-		"bear":"10","hunter":"10", "wolf":"10","dorado":"10","daemon01":"11","mctnotify":"11","ypbps":"11"
+var slist={"yptxp":"4,5","txp-service":"4,5", "portal": "6,7","ypboss":"8,9","3g-ypboss":"8,9","ypepos":"10,11","ypcheckaccount":"10,11",
+		"bear":"17","hunter":"17", "wolf":"17","dorado":"17","daemon01":"18","mctnotify":"18","ypbps":"18"
 		,"racoon" :"13","anole":"13","cfb":"13","bizfor3g":"13","icc_txp":"14","icc_web":"14","icc_bps01":"14"
 };
 
@@ -72,16 +72,14 @@ Restart.restartS = function(data,oaid,callback) {
    var c=new Array();;
    var i=0
 	for (var i in b) {
-		c[i] = b[i].split('103.')[1];
+		c[i] = b[i].split('60.1.1.')[1];
 		c[i]=parseInt(c[i]);
-		c[i]=c[i]-100
+//		c[i]=c[i]-100
 		restartS=restartS+' '+c[i];
 		restartS=restartS.replace("NaN","");
 		restartS=restartS.trim();
-
-//获取单击服务器值
 	}
-   
+ //获取单击服务器值
 	Restart.get(oaid,function(restart){
 		//从restart去掉对外的机器（restartS里面有的）。
 		

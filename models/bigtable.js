@@ -88,6 +88,7 @@ Bigtable.save =  function(myIDs ,callback){
 										'special':serverIP.data_673,
 										'department':serverIP.data_1040,
 										'auto':serverIP.data_1039,
+										'sql':serverIP.data_631,
 										'project':serverIP.data_599,
 										'tester':serverIP.data_691,
 										'own':serverIP.data_699.split("20")[0],
@@ -118,6 +119,7 @@ Bigtable.save =  function(myIDs ,callback){
 											    		'info.department' :datainfo.department,
 											    		'info.project' :datainfo.project,
 											    		'info.own' :datainfo.own,
+											    		'info.sql':datainfo.sql,
 											    		'info.core' :datainfo.core,
 											    		'info.ifback' :datainfo.ifback,
 											    		'info.db' :datainfo.db							    	
@@ -155,6 +157,7 @@ Bigtable.save =  function(myIDs ,callback){
 										'project':serverIP.data_599,
 										'tester':serverIP.data_691,
 										'own':serverIP.data_699.split("20")[0],
+										'sql':serverIP.data_631,
 										'core':serverIP.data_1037,
 										'ifback':serverIP.data_633,
 										'db':serverIP.data_683
@@ -180,6 +183,7 @@ Bigtable.save =  function(myIDs ,callback){
 											    		'info.department' :datainfo.department,
 											    		'info.project' :datainfo.project,
 											    		'info.own' :datainfo.own,
+											    		'info.sql':datainfo.sql,
 											    		'info.core' :datainfo.core,
 											    		'info.ifback' :datainfo.ifback,
 											    		'info.db' :datainfo.db,
@@ -202,9 +206,9 @@ Bigtable.save =  function(myIDs ,callback){
 									 
 								 })
 								 
-							 })
+							 });
 							 
-								if(j== myIDs.length)
+								if(j==myIDs.length)
 								{
 								 logger.info(myIDs+'查询结束!');
 								return	callback(null,true);

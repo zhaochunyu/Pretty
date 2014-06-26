@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Pretty</title>
+    <link href="../public/stylesheets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../public/stylesheets/dist/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="http://fineui.com/res/css/docs.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+            <script src="../lib/html5shim/html5.js"></script>
+        <![endif]-->
+	<style>
+		body.from-demo {
+			padding-top: 0;
+			background-image: url(../res/img/square.gif);
+		}
+		body.from-demo .navbar {
+			display: none;
+		}
+		body.from-demo .subhead {
+			display: none;
+		}
+		body.from-demo .footer {
+			display: none;
+		}
+		body.from-demo ul.timeline {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+    <div class="jumbotron subhead">
+        <div class="container">
+            <h1>
+                版本更新</h1>
+            <p class="lead">
+                见证 pretty 进步的历程</p>
+        </div>
+    </div>
+    <div class="container">
+        <style>
+			ul.timeline {
+				list-style-type: none;
+				background: url("../res/img/version_line.png") repeat-y scroll 120px 0 transparent;
+				margin: 50px 0;
+				padding: 0;
+			}
+			
+			ul.timeline li {
+				position: relative;
+				margin-bottom: 20px;
+			}
+			ul.timeline li .time {
+				position: absolute;
+				width: 90px;
+				text-align: right;
+				left: 0;
+				top: 10px;
+				color: #999;
+			}
+			ul.timeline li .version {
+				position: absolute;
+				width: 290px;
+				text-align: right;
+				left: -200px;
+				top: 30px;
+				font-size: 40px;
+				line-height: 50px;
+				color: #3594cb;
+				overflow: hidden;
+			}
+			ul.timeline li .number {
+				position: absolute;
+				background: url("../res/img/version_dot.png") no-repeat scroll 0 0 transparent;
+				width: 56px;
+				height: 56px;
+				left: 97px;
+				line-height: 56px;
+				text-align: center;
+				color: #fff;
+				font-size: 18px;
+			}
+			ul.timeline li.alt .number {
+				background-image: url("../res/img/version_dot_alt.png");
+			}
+			ul.timeline li .content {
+				margin-left: 180px;
+				
+			}
+			ul.timeline li .content pre {
+				background-color: #3594cb;
+				padding: 20px;
+				color: #fff;
+				font-size: 13px;
+				line-height: 20px;
+			}
+			ul.timeline li.alt .content pre {
+				background-color: #43B1F1;
+			}
+		</style>
+		
+			
+		<ul class="timeline">
+<li><div class="time">2014-05-11</div><div class="version">v4.0.6</div><div class="number">115</div><div class="content"><pre>-
+-为Web.config和PageManager增加IEEdge属性（在IE浏览器中使用最新的渲染模式），默认为true（⑥阿太⑥）。
+-新增三列面板示例layout/column.aspx（binbin）。
+-修正Alert对话框与ActiveWindow.GetHidePostBackReference冲突的问题（wlj928449657）。
+</pre></div></li>
+<li class="alt"><div class="time">2014-03-03</div><div class="version">v4.0.5</div><div class="number">114</div><div class="content"><pre>-修正表格在AJAX更新时加载慢的问题。
+-修正表格在分页和排序同时存在，分页时会发送两次AJAX请求的问题（Gunu40）。
+-为CheckItem、RadioItem、ListItem增加可以设置是否选中的构造函数（五四）。
+</pre></div></li>	
+<li><div class="time">2014-02-28</div><div class="version">v4.0.4</div><div class="number">113</div><div class="content"><pre>-为Neptune主题下的工具条添加背景色（szjazz）。
+-树控件增加EnableSingleClickExpand属性，实现单击展开树节点功能（erp8@live.cn）。
+
+-修正aspnet/fckeditor.aspx示例无法获取用户输入值的问题（xie_g_j）。
+-添加extjs缺少提醒，避免初学者走弯路。
+</pre></div></li>	
+<li class="alt"><div class="time">2014-01-20</div><div class="version">v4.0.3<br>beta</div><div class="number">112</div><div class="content"><pre>-修正表格动态创建列与模板列的冲突问题，增加示例grid/grid_excel_dynamic_columns.aspx（气人号-4586）。
+-配置项ExtjsBasePath改名为JSBasePath，控件标签前缀由x改名为f，配置项删除不再使用的ResourceHandler。
+-子窗口向父窗口传值错误（小兵、水+木-4591）。
+
++修正向表格末尾添加行时，不能默认选中第一个单元格的问题（奋斗~-4658）。
+	-更新示例grid/grid_editor_cell_new.aspx和grid/grid_editor_cell_new_delete.aspx。
+</pre></div></li>	
+<li class="alt"><div class="time">2013-12-14</div><div class="version">v4.0.2<br>beta</div><div class="number">110</div><div class="content"><pre>+表格合计行重构。
+	-增加属性EnableSummary、SummaryData、SummaryPosition。
+
+-删除面板的FooterBarAlign属性，为Toolbar控件增加ToolbarAlign属性（可能需要为Footer工具栏设置ToolbarAlign="Right"）。
+-修正动态创建模板列无法导出的问题（hroger-4584）。
+</pre></div></li>	
+<li><div class="time">2013-11-21</div><div class="version">v3.3.2</div><div class="number">109</div><div class="content"><pre>-修正IE7/IE8下表格的日期列显示错误，IE不能正确解析Date.parse('2015-10-01')（夏雨雪）。
+-修正表格中模板列在数据绑定时可能不更新的问题（小兵、舞柯庶、蒙奇.D.二毛、李明海）。
++更新示例grid/grid_pageitems_pagesize.aspx和grid/grid_pageitems_pagesize_database.aspx。
+	
+-为窗体控件的GetShowReference增加重载方法，可以在打开窗体时指定宽度和高度（黑冰.cn）。
+-修正Can not add property X_Rows_GZ to Newtonsoft.Json.Linq.JObject（今夕何夕、treedun、欧志辉）。
+</pre></div></li>	
+<li class="alt"><div class="time">2013-10-28</div><div class="version">v4.0.1<br>beta</div><div class="number">108</div><div class="content"><pre>+修正面板的Collapsed属性在客户端改变后状态同步问题。
+	-重现步骤：window/group_panel.aspx示例，折叠分组面板二，点击下面的按钮，不能展开分组面板二。
++修正树控件的SelectedNodeIDArray属性在客户端改变后状态同步问题。
+
+		-为表格增加EnableAfterEditEvent属性和AfterEdit事件，用来处理单元格失去焦点事件。
+		-增加示例grid/grid_editor_cell_afteredit.aspx。
+		</pre></div></li>
+<li class="alt"><div class="time">2013-06-17</div><div class="version">v3.3.0</div><div class="number">106</div><div class="content"><pre>-更新示例form/form_center_button.aspx，支持IE7（Stone.yu）。
+-修正动态添加列在页面回发时的错误（舞柯庶、落寞一声笑、路人甲）。
+
++去AXD化并更新整个示例工程，所有对res.axd的引用都换成直接的网址，这也有效地减少了服务器部署的麻烦。
+	-出于兼容性考虑，之前对res.axd调用依然有效，比如res.axd?icon=World。
+</pre></div></li>
+<li><div class="time">2013-05-21</div><div class="version">v3.2.6</div><div class="number">105</div><div class="content"><pre>+修正extjs v3.4.1.1引入的问题。
+	+恢复表格和树控件中链接光标的手型而非指针。
+	
+		-增加AllowCellEditing、ClicksToEdit属性；CommitChanges、GetModifiedCells、GetModifiedDict几个方法。
+		-增加RenderField和RenderCheckField两个列类型。
+		-增加示例grid/grid_editor_cell.aspx。
+</pre></div></li>
+<li class="alt"><div class="time">2013-04-27</div><div class="version">v3.2.5</div><div class="number">104</div><div class="content"><pre>+更新extjs库到v3.4.1.1。
+	-解决IE9/IE10下的UI显示问题。
+	-解决表格控件在谷歌浏览器下，最后一列的标题栏没对齐的问题。
+	
++更新内置JS函数X.util.initTreeTabStrip，切换选项卡时是否在top.location.hash记录当前页面的地址。
+	-在更新此版本后，你可能需要将此变量置为true，参考js/default.js。
+</pre></div></li>
+		</ul>
+        <br>
+		<br>
+    </div>
+    <footer class="footer">
+            <div class="container" align="center">
+                <p class="text-muted">         易宝支付测试环境更新平台  <a href="mailto:chunyu.zhao@yeepay.com">chunyu.zhao </a></p>
+            </div>
+        </footer>
+	
+</body></html>

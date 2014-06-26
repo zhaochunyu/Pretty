@@ -1,0 +1,10 @@
+iframe(src="../log/log.log",id="data",frameBorder=0, scrolling=no, width="100%", onLoad="iFrameHeight()")
+script.
+         function iFrameHeight() { 
+                                              var ifm= document.getElementById("data"); 
+                                              var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;
+                                                   if(ifm != null && subWeb != null) { 
+                                                      ifm.height = subWeb.body.scrollHeight;        
+                                                      scrollBy( subWeb.body.scrollHeight,  subWeb.body.scrollHeight);                                              
+                                                                    }                                                                    
+                                                                    }

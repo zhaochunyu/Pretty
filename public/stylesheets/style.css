@@ -24,4 +24,7 @@ a {
   margin-left : 40px;
 }
 
+.ui-widget-header{
+background:gray !important;
+}
 

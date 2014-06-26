@@ -1,0 +1,2573 @@
+[2014-06-24 16:01:49.216] [WARN] datelog - GET /syslog
+[2014-06-24 16:01:49.282] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:01:51.933] [WARN] datelog - GET /syslog
+[2014-06-24 16:01:51.977] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:02:02.938] [WARN] datelog - GET /syslog
+[2014-06-24 16:02:02.970] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:02:48.765] [INFO] datelog - GET /syslog
+[2014-06-24 16:02:48.821] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:03:45.816] [ERROR] datelog - GET /syslog
+[2014-06-24 16:03:55.741] [INFO] datelog - GET /syslog
+[2014-06-24 16:03:55.791] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:04:12.417] [WARN] datelog - GET /syslog
+[2014-06-24 16:04:12.459] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:04:28.088] [INFO] datelog - GET /syslog
+[2014-06-24 16:04:28.147] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:05:09.491] [INFO] datelog - GET /syslog
+[2014-06-24 16:05:09.544] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:38.030] [INFO] datelog - GET /syslog
+[2014-06-24 16:06:38.105] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:39.007] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:39.045] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:39.181] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:39.223] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:39.373] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:39.429] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:39.541] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:39.590] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:39.720] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:39.825] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:40.080] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:40.126] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:40.264] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:40.304] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:40.448] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:40.483] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:40.633] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:40.673] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:40.823] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:40.864] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:41.019] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:41.074] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:41.206] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:41.247] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:41.383] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:41.422] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:41.574] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:41.641] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:41.769] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:41.814] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:41.990] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:42.033] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:42.932] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:42.983] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:45.860] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:45.908] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:06:47.653] [WARN] datelog - GET /syslog
+[2014-06-24 16:06:47.690] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:07:06.683] [INFO] datelog - GET /syslog
+[2014-06-24 16:07:06.723] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:07:45.330] [INFO] datelog - GET /syslog
+[2014-06-24 16:07:45.390] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:09:20.601] [INFO] datelog - GET /syslog
+[2014-06-24 16:09:20.655] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:10:39.865] [INFO] datelog - GET /syslog
+[2014-06-24 16:10:39.923] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:10:41.772] [WARN] datelog - GET /syslog
+[2014-06-24 16:10:41.816] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:11:06.394] [INFO] datelog - GET /syslog
+[2014-06-24 16:11:06.443] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:11:38.310] [INFO] datelog - GET /syslog
+[2014-06-24 16:11:38.373] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:11:39.637] [WARN] datelog - GET /syslog
+[2014-06-24 16:11:39.691] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:11:40.374] [WARN] datelog - GET /syslog
+[2014-06-24 16:11:40.477] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:11:41.061] [WARN] datelog - GET /syslog
+[2014-06-24 16:11:41.102] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:11:45.511] [WARN] datelog - GET /syslog
+[2014-06-24 16:11:45.576] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:28.170] [INFO] datelog - GET /syslog
+[2014-06-24 16:12:28.227] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:29.452] [WARN] datelog - GET /syslog
+[2014-06-24 16:12:29.509] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:40.903] [INFO] datelog - GET /syslog
+[2014-06-24 16:12:40.944] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:41.675] [WARN] datelog - GET /syslog
+[2014-06-24 16:12:41.724] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:41.873] [WARN] datelog - GET /syslog
+[2014-06-24 16:12:41.914] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:42.089] [WARN] datelog - GET /syslog
+[2014-06-24 16:12:42.135] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:42.292] [WARN] datelog - GET /syslog
+[2014-06-24 16:12:42.333] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:12:43.780] [WARN] datelog - GET /syslog
+[2014-06-24 16:12:43.849] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:13:26.126] [INFO] datelog - GET /syslog
+[2014-06-24 16:13:26.408] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:13:33.054] [WARN] datelog - GET /syslog
+[2014-06-24 16:13:33.092] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:13:35.912] [WARN] datelog - GET /syslog
+[2014-06-24 16:13:35.964] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:14:01.715] [INFO] datelog - GET /syslog
+[2014-06-24 16:14:01.781] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:36:18.241] [INFO] datelog - GET /syslog
+[2014-06-24 16:36:18.279] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:36:25.275] [WARN] datelog - GET /syslog
+[2014-06-24 16:36:25.312] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:36:27.701] [WARN] datelog - GET /syslog
+[2014-06-24 16:36:27.727] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:40:01.183] [INFO] datelog - GET /syslog
+[2014-06-24 16:40:01.235] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:40:03.303] [WARN] datelog - GET /syslog
+[2014-06-24 16:40:03.353] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:40:04.115] [WARN] datelog - GET /syslog
+[2014-06-24 16:40:04.155] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:40:04.703] [WARN] datelog - GET /syslog
+[2014-06-24 16:40:04.743] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:49:23.217] [INFO] datelog - GET /syslog
+[2014-06-24 16:49:23.267] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:49:27.682] [WARN] datelog - GET /syslog
+[2014-06-24 16:49:27.743] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:49:31.572] [WARN] datelog - GET /syslog
+[2014-06-24 16:49:31.609] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:49:33.971] [WARN] datelog - GET /syslog
+[2014-06-24 16:49:34.023] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:49:37.707] [WARN] datelog - GET /syslog
+[2014-06-24 16:49:37.747] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:49:43.108] [WARN] datelog - GET /syslog
+[2014-06-24 16:49:43.146] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:50:19.924] [INFO] datelog - GET /syslog
+[2014-06-24 16:50:19.953] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:50:25.976] [WARN] datelog - GET /syslog
+[2014-06-24 16:50:26.002] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:50:47.311] [INFO] datelog - GET /syslog
+[2014-06-24 16:50:47.380] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:50:51.377] [WARN] datelog - GET /syslog
+[2014-06-24 16:50:51.416] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:03.544] [INFO] datelog - GET /syslog
+[2014-06-24 16:51:03.569] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:04.947] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:04.967] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:05.697] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:05.721] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:07.803] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:07.843] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:08.352] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:08.383] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:08.782] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:08.817] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:09.141] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:09.172] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:09.458] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:09.490] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:09.760] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:09.786] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:10.045] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:10.071] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:10.273] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:10.297] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:10.546] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:10.578] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:10.776] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:10.800] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:10.985] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:11.016] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:11.220] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:11.245] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:11.678] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:11.712] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:11.950] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:11.988] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:14.313] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:14.371] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:14.581] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:14.627] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:14.977] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:15.032] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:15.205] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:15.241] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:15.594] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:15.637] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:16.412] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:16.452] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:16.756] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:16.802] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:17.067] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:17.112] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:17.347] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:17.388] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:17.723] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:17.763] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:18.096] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:18.134] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:18.821] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:18.862] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:21.271] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:21.326] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:37.257] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:37.287] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:51:38.096] [WARN] datelog - GET /syslog
+[2014-06-24 16:51:38.129] [INFO] datelog - GET /log/log.log
+[2014-06-24 16:53:55.459] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 16:53:55.534] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 16:53:55.581] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 16:53:55.642] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 16:54:35.780] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 16:54:35.868] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 16:54:35.874] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 16:54:35.942] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:23:45.482] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:23:45.533] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:23:45.575] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:23:45.596] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:31.302] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:31.349] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:31.354] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:31.429] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:49.272] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:49.285] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:49.292] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:49.313] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:57.416] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:57.426] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:57.428] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:24:57.444] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:07.361] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:07.361] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:07.372] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:07.382] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:10.299] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:10.301] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:10.304] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:25:10.324] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:03.378] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:03.378] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:03.397] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:03.454] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:52.476] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:52.517] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:52.551] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:26:52.583] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:28:19.494] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:28:19.523] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:28:19.523] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:28:19.547] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:56:24.895] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:56:24.898] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:56:24.922] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-24 17:56:24.944] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:27:20.484] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:27:20.509] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:27:20.527] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:27:20.556] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:27:26.909] [WARN] datelog - GET /online
+[2014-06-25 10:27:27.708] [INFO] datelog - GET /login
+[2014-06-25 10:27:27.826] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:27:27.908] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:27:27.909] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 10:27:35.488] [INFO] datelog - datainfo.state  Wed Jun 25 2014 10:27:35 GMT+0800 (CST)
+[2014-06-25 10:27:35.490] [INFO] datelog - 更新状态成功：1
+[2014-06-25 10:27:36.053] [INFO] datelog - POST /sigin
+[2014-06-25 10:27:36.112] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:27:36.116] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:27:36.120] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:27:36.125] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:27:36.171] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:27:36.174] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:27:36.237] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:27:38.933] [INFO] datelog - GET /restart
+[2014-06-25 10:27:38.985] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:27:38.989] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:27:38.993] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:27:38.995] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:27:38.995] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:27:38.996] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:27:39.008] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:28:13.123] [WARN] datelog - GET /restart
+[2014-06-25 10:28:13.167] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:28:13.169] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:28:13.182] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:28:13.189] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:28:13.193] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:28:13.194] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:28:13.195] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:29:32.210] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:32.291] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:32.292] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:32.304] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:50.399] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:50.407] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:50.468] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:50.480] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:29:58.327] [WARN] datelog - GET /restart
+[2014-06-25 10:29:58.405] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:29:58.424] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:29:58.434] [ERROR] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:29:58.442] [ERROR] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:29:58.481] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:29:58.481] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:29:58.493] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:30:23.387] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:23.392] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:23.476] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:23.534] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:28.082] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:28.153] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:28.168] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:28.213] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:30:32.443] [WARN] datelog - GET /restart
+[2014-06-25 10:30:32.567] [ERROR] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:30:32.574] [ERROR] datelog - GET /js/msg.js
+[2014-06-25 10:30:32.640] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:30:32.640] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:30:32.643] [INFO] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:30:32.644] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:30:32.645] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:31:33.006] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:31:33.076] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:31:33.094] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:31:33.156] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:31:39.108] [WARN] datelog - GET /restart
+[2014-06-25 10:31:39.190] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:31:39.212] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:31:39.216] [ERROR] datelog - GET /js/msg.js
+[2014-06-25 10:31:39.237] [ERROR] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:31:39.252] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:31:39.278] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:31:39.297] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:33:02.422] [WARN] datelog - GET /restart
+[2014-06-25 10:33:02.620] [INFO] datelog - GET /login
+[2014-06-25 10:33:02.657] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 10:33:02.697] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:33:02.698] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:33:11.140] [INFO] datelog - datainfo.state  Wed Jun 25 2014 10:33:11 GMT+0800 (CST)
+[2014-06-25 10:33:11.142] [INFO] datelog - 更新状态成功：1
+[2014-06-25 10:33:11.352] [INFO] datelog - POST /sigin
+[2014-06-25 10:33:11.435] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:33:11.439] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:33:11.440] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:33:11.445] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:33:11.448] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:33:11.455] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:33:11.460] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:33:14.417] [INFO] datelog - GET /restart
+[2014-06-25 10:33:14.454] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:33:14.456] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:33:14.458] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:33:14.459] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:33:14.464] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:33:14.466] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:33:14.467] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:34:06.404] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:06.430] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:06.509] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:06.527] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:19.220] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:19.229] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:19.265] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:19.302] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:34:23.602] [INFO] datelog - GET /restart
+[2014-06-25 10:34:23.682] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:34:23.702] [ERROR] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:34:23.706] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:34:23.715] [ERROR] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:34:23.746] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:34:23.760] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:34:23.763] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:34:33.606] [WARN] datelog - GET /restart
+[2014-06-25 10:34:33.657] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:34:33.659] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:34:33.660] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:34:33.663] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:34:33.667] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:34:33.673] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:34:33.676] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:35:22.541] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:35:48.593] [WARN] datelog - GET /restart
+[2014-06-25 10:35:48.659] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:35:48.660] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:35:48.665] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:35:48.675] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:35:48.680] [INFO] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:35:48.680] [INFO] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:35:48.681] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:35:54.781] [ERROR] datelog - POST /restart
+[2014-06-25 10:36:16.462] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:16.480] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:16.530] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:16.587] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:20.810] [WARN] datelog - GET /restart
+[2014-06-25 10:36:20.872] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:36:20.893] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:36:20.894] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:36:20.915] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:36:20.922] [ERROR] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:36:20.943] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:36:20.976] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:36:49.118] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:49.122] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:49.230] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:49.302] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:58.857] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:58.975] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:59.016] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:36:59.137] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:37:56.525] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:37:56.555] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:37:56.569] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:37:56.600] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:38:09.441] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:38:09.475] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:38:09.495] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:38:09.500] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:38:15.117] [WARN] datelog - GET /restart
+[2014-06-25 10:38:15.202] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:38:15.207] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:38:15.208] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:38:15.212] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:38:15.221] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:38:15.268] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:38:15.268] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:38:19.986] [WARN] datelog - GET /restart
+[2014-06-25 10:38:20.064] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:38:20.065] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:38:20.066] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:38:20.066] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:38:20.067] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:38:20.068] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:38:20.076] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:38:22.902] [WARN] datelog - GET /restart
+[2014-06-25 10:38:22.960] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:38:22.963] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:38:22.964] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:38:22.966] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:38:22.970] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:38:22.975] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:38:22.976] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:39:00.026] [INFO] datelog - GET /restart
+[2014-06-25 10:39:00.101] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:39:00.107] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:39:00.109] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:39:00.116] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:39:00.119] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:39:00.120] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:39:00.123] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:39:14.613] [INFO] datelog - GET /restart
+[2014-06-25 10:39:14.680] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:39:14.680] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:39:14.683] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:39:14.684] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:39:14.685] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:39:14.686] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:39:14.688] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:40:05.609] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:40:05.643] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:40:05.653] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:40:05.723] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 10:40:07.673] [WARN] datelog - GET /restart
+[2014-06-25 10:40:07.772] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:40:07.774] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:40:07.776] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:40:07.797] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:40:07.883] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:40:07.887] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:40:07.889] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:42:10.040] [INFO] datelog - GET /restart
+[2014-06-25 10:42:10.129] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:42:10.131] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:42:10.133] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:42:10.137] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:42:10.138] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:42:10.139] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:42:10.141] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:44:09.569] [INFO] datelog - GET /restart
+[2014-06-25 10:44:09.632] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:44:09.639] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:44:09.639] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:44:09.640] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:44:09.646] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:44:09.648] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:44:09.646] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:44:10.877] [ERROR] datelog - POST /restart
+[2014-06-25 10:44:18.839] [ERROR] datelog - POST /restart
+[2014-06-25 10:44:21.175] [ERROR] datelog - POST /restart
+[2014-06-25 10:44:32.800] [INFO] datelog - GET /restart
+[2014-06-25 10:44:32.835] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:44:32.838] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:44:32.839] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:44:32.840] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:44:32.844] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:44:32.846] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:44:32.848] [INFO] datelog - GET /js/msg.js
+[2014-06-25 10:44:35.165] [ERROR] datelog - POST /restart
+[2014-06-25 10:44:59.446] [ERROR] datelog - POST /restart
+[2014-06-25 10:57:28.608] [ERROR] datelog - GET /restart
+[2014-06-25 10:58:24.255] [ERROR] datelog - GET /restart
+[2014-06-25 10:58:55.832] [INFO] datelog - GET /restart
+[2014-06-25 10:58:55.909] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:58:55.910] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:58:55.911] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:58:55.920] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:58:55.924] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:58:55.925] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:58:55.931] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:59:30.281] [ERROR] datelog - GET /restart
+[2014-06-25 10:59:37.775] [INFO] datelog - GET /restart
+[2014-06-25 10:59:37.811] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:59:37.811] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:59:37.820] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:59:37.830] [WARN] datelog - GET /js/msg.js
+[2014-06-25 10:59:37.834] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:59:37.884] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:59:37.885] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:59:47.831] [INFO] datelog - GET /restart
+[2014-06-25 10:59:47.891] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 10:59:47.894] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 10:59:47.895] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 10:59:47.899] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 10:59:47.900] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 10:59:47.900] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 10:59:47.905] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:00:08.021] [INFO] datelog - GET /restart
+[2014-06-25 11:00:08.075] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:00:08.083] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:00:08.086] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:00:08.088] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:00:08.095] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:00:08.096] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:00:08.097] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:00:24.412] [INFO] datelog - GET /restart
+[2014-06-25 11:00:24.454] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:00:24.460] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:00:24.461] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:00:24.464] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:00:24.470] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:00:24.484] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:00:24.486] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:02.363] [INFO] datelog - GET /restart
+[2014-06-25 11:01:02.406] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:01:02.408] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:01:02.416] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:01:02.420] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:02.420] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:01:02.420] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:01:02.426] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:01:23.803] [INFO] datelog - GET /restart
+[2014-06-25 11:01:23.873] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:01:23.876] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:01:23.877] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:01:23.878] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:01:23.879] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:01:23.901] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:01:23.902] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:42.325] [INFO] datelog - GET /restart
+[2014-06-25 11:01:42.368] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:01:42.368] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:01:42.369] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:01:42.374] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:01:42.376] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:01:42.382] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:42.383] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:01:43.329] [WARN] datelog - GET /restart
+[2014-06-25 11:01:43.372] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:01:43.376] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:01:43.380] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:01:43.389] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:01:43.391] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:01:43.392] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:01:43.396] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:43.565] [WARN] datelog - GET /restart
+[2014-06-25 11:01:43.606] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:01:43.609] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:01:43.627] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:01:43.628] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:01:43.635] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:43.634] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:01:43.637] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:01:43.834] [WARN] datelog - GET /restart
+[2014-06-25 11:01:43.878] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:01:43.878] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:01:43.881] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:01:43.896] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:01:43.896] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:01:43.896] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:01:43.911] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:44.059] [WARN] datelog - GET /restart
+[2014-06-25 11:01:44.110] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:01:44.111] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:01:44.113] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:01:44.127] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:01:44.130] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:01:44.131] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:01:44.134] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:02:20.843] [INFO] datelog - GET /restart
+[2014-06-25 11:02:20.909] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:02:20.916] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:02:20.918] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:02:20.926] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:02:20.930] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:02:20.937] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:02:20.938] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:04:50.941] [INFO] datelog - GET /restart
+[2014-06-25 11:04:51.008] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:04:51.009] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:04:51.011] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:04:51.012] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:04:51.022] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:04:51.023] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:04:51.026] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:05:38.638] [ERROR] datelog - GET /restart
+[2014-06-25 11:05:50.600] [ERROR] datelog - GET /restart
+[2014-06-25 11:05:58.321] [INFO] datelog - GET /restart
+[2014-06-25 11:05:58.362] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:05:58.364] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:05:58.366] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:05:58.369] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:05:58.385] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:05:58.385] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:05:58.388] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:06:16.335] [INFO] datelog - GET /restart
+[2014-06-25 11:06:16.381] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:06:16.384] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:06:16.389] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:06:16.391] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:06:16.407] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:06:16.407] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:06:16.408] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:06:24.193] [INFO] datelog - GET /restart
+[2014-06-25 11:06:24.249] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:06:24.250] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:06:24.253] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:06:24.257] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:06:24.257] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:06:24.258] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:06:24.261] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:06:36.289] [INFO] datelog - GET /restart
+[2014-06-25 11:06:36.347] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:06:36.352] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:06:36.353] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:06:36.359] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:06:36.361] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:06:36.363] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:06:36.366] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:06:45.627] [ERROR] datelog - GET /restart
+[2014-06-25 11:06:51.610] [ERROR] datelog - GET /restart
+[2014-06-25 11:06:56.694] [INFO] datelog - GET /restart
+[2014-06-25 11:06:56.750] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:06:56.753] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:06:56.757] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:06:56.759] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:06:56.760] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:06:56.761] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:06:56.770] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:07:24.205] [INFO] datelog - GET /restart
+[2014-06-25 11:07:24.269] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:07:24.269] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:07:24.275] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:07:24.309] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:07:24.309] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:07:24.310] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:07:24.310] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:07:37.242] [INFO] datelog - GET /restart
+[2014-06-25 11:07:37.290] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:07:37.291] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:07:37.301] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:07:37.305] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:07:37.306] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:07:37.307] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:07:37.311] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:08:03.309] [INFO] datelog - GET /restart
+[2014-06-25 11:08:03.479] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:08:03.480] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:08:03.481] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:08:03.482] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:08:03.487] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:08:03.490] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:08:03.490] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:09:15.848] [INFO] datelog - GET /restart
+[2014-06-25 11:09:15.913] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:09:15.916] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:09:15.916] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:09:15.921] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:09:15.922] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:09:15.923] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:09:15.928] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:09:46.395] [INFO] datelog - GET /restart
+[2014-06-25 11:09:46.469] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:09:46.471] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:09:46.475] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:09:46.475] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:09:46.479] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:09:46.483] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:09:46.483] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:10:24.036] [INFO] datelog - GET /restart
+[2014-06-25 11:10:24.102] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:10:24.103] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:10:24.127] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:10:24.127] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:10:24.128] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:10:24.129] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:10:24.133] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:11:21.433] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:21.446] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:21.453] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:21.467] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:23.600] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:23.601] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:23.749] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:23.760] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:27.567] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:27.607] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:27.696] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:11:27.703] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:12:09.576] [WARN] datelog - GET /restart
+[2014-06-25 11:12:09.645] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:12:09.659] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:12:09.680] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:12:09.697] [ERROR] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:12:09.701] [ERROR] datelog - GET /js/msg.js
+[2014-06-25 11:12:09.740] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:12:09.742] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:12:21.153] [WARN] datelog - GET /restart
+[2014-06-25 11:12:21.223] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:12:21.224] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:12:21.227] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:12:21.230] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:12:21.232] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:12:21.234] [INFO] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:12:21.256] [INFO] datelog - GET /js/msg.js
+[2014-06-25 11:13:27.802] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:13:27.815] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:13:27.942] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:13:28.021] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:13:30.013] [WARN] datelog - GET /restart
+[2014-06-25 11:13:30.105] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:13:30.111] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:13:30.120] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:13:30.137] [ERROR] datelog - GET /js/msg.js
+[2014-06-25 11:13:30.173] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:13:30.235] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:13:30.232] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:13:34.003] [WARN] datelog - GET /restart
+[2014-06-25 11:13:34.086] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:13:34.087] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:13:34.087] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:13:34.089] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:13:34.093] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:13:34.094] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:13:34.120] [INFO] datelog - GET /js/msg.js
+[2014-06-25 11:13:43.293] [INFO] datelog - GET /restart
+[2014-06-25 11:13:43.363] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:13:43.363] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:13:43.365] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:13:43.366] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:13:43.373] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:13:43.376] [INFO] datelog - GET /js/msg.js
+[2014-06-25 11:13:43.376] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:14:33.100] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:14:33.186] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:14:33.240] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:14:33.390] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:14:39.554] [WARN] datelog - GET /restart
+[2014-06-25 11:14:39.632] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:14:39.634] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:14:39.636] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:14:39.657] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:14:39.697] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:14:39.725] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:14:39.732] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:14:43.588] [INFO] datelog - 4
+[2014-06-25 11:14:43.598] [ERROR] datelog - POST /restart
+[2014-06-25 11:14:49.184] [WARN] datelog - GET /restart
+[2014-06-25 11:14:49.235] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:14:49.237] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:14:49.239] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:14:49.243] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:14:49.244] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:14:49.246] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:14:49.250] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:14:53.143] [INFO] datelog - 5
+[2014-06-25 11:14:53.152] [ERROR] datelog - POST /restart
+[2014-06-25 11:15:11.334] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:15:11.354] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:15:11.436] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:15:11.466] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:15:24.216] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:15:24.523] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:15:24.648] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:15:24.803] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:18:47.900] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:18:47.981] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:18:47.987] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:18:47.992] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:21.133] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:21.143] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:21.227] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:21.227] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:28.183] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:28.275] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:28.376] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:28.386] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:54.971] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:55.015] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:55.042] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:19:55.049] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:20:08.920] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:20:08.968] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:20:09.043] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:20:09.068] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:04.228] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:04.289] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:04.370] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:04.427] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:45.069] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:45.114] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:45.150] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:21:45.153] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:25.385] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:25.536] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:25.545] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:25.636] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:53.120] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:53.192] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:53.208] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:23:53.231] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:24:55.278] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:24:55.303] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:24:55.305] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:24:55.350] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:25:11.494] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:25:11.558] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:25:11.578] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:25:11.626] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:26:09.676] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:26:09.732] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:26:09.750] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:26:09.811] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 11:27:48.974] [WARN] datelog - GET /restart
+[2014-06-25 11:27:49.376] [WARN] datelog - GET /login
+[2014-06-25 11:27:49.455] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:27:49.556] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:27:49.559] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 11:27:56.433] [WARN] datelog - GET /syslog
+[2014-06-25 11:27:56.568] [INFO] datelog - GET /log/log.log
+[2014-06-25 11:28:01.775] [WARN] datelog - GET /restart
+[2014-06-25 11:28:01.880] [WARN] datelog - GET /login
+[2014-06-25 11:28:01.936] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:28:01.936] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:28:01.938] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 11:28:22.779] [INFO] datelog - GET /log/log.log
+[2014-06-25 11:28:29.538] [WARN] datelog - GET /syslog
+[2014-06-25 11:28:29.582] [INFO] datelog - GET /log/log.log
+[2014-06-25 11:29:01.516] [WARN] datelog - GET /syslog
+[2014-06-25 11:29:01.560] [INFO] datelog - GET /log/log.log
+[2014-06-25 11:29:17.353] [INFO] datelog - datainfo.state  Wed Jun 25 2014 11:29:17 GMT+0800 (CST)
+[2014-06-25 11:29:17.355] [INFO] datelog - 更新状态成功：1
+[2014-06-25 11:29:17.573] [INFO] datelog - POST /sigin
+[2014-06-25 11:29:17.656] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:29:17.661] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:29:17.662] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:29:17.674] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:29:17.677] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:29:17.687] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:29:17.689] [WARN] datelog - GET /js/msg.js
+[2014-06-25 11:29:22.603] [INFO] datelog - GET /online
+[2014-06-25 11:29:22.668] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 11:29:22.677] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 11:29:22.678] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 11:29:22.680] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 11:29:22.683] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 11:29:22.694] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 11:29:22.698] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:06:56.208] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 16:06:56.389] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 16:06:56.529] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 16:06:56.584] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 16:07:03.088] [INFO] datelog - GET /login
+[2014-06-25 16:07:03.902] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:07:03.952] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 16:07:03.987] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:07:07.463] [INFO] datelog - datainfo.state  Wed Jun 25 2014 16:07:07 GMT+0800 (CST)
+[2014-06-25 16:07:07.465] [INFO] datelog - 更新状态成功：1
+[2014-06-25 16:07:07.789] [INFO] datelog - POST /sigin
+[2014-06-25 16:07:07.894] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:07:07.895] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:07:07.896] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:07:07.901] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:07:07.906] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:07:07.912] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:07:07.915] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:07:10.471] [ERROR] datelog - GET /restart
+[2014-06-25 16:09:22.957] [INFO] datelog - GET /restart
+[2014-06-25 16:09:23.029] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:09:23.032] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:09:23.036] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:09:23.038] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:09:23.044] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:09:23.078] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:09:23.078] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:09:49.848] [INFO] datelog - GET /restart
+[2014-06-25 16:09:49.900] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:09:49.901] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:09:49.903] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:09:49.924] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:09:49.929] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:09:49.930] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:09:49.930] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:09:51.187] [WARN] datelog - GET /restart
+[2014-06-25 16:09:51.252] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:09:51.257] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:09:51.259] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:09:51.260] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:09:51.269] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:09:51.270] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:09:51.268] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:10:43.832] [ERROR] datelog - GET /restart
+[2014-06-25 16:13:57.545] [INFO] datelog - GET /restart
+[2014-06-25 16:13:57.598] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:13:57.602] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:13:57.625] [ERROR] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:13:57.804] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:13:57.806] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:13:57.808] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:13:57.814] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:14:18.403] [ERROR] datelog - GET /restart
+[2014-06-25 16:14:33.526] [INFO] datelog - GET /restart
+[2014-06-25 16:14:33.592] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:14:33.595] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:14:33.599] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:14:33.662] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:14:33.666] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:14:33.667] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:14:33.669] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:15:08.304] [ERROR] datelog - GET /restart
+[2014-06-25 16:15:09.663] [ERROR] datelog - GET /restart
+[2014-06-25 16:15:19.899] [ERROR] datelog - GET /restart
+[2014-06-25 16:15:20.531] [ERROR] datelog - GET /restart
+[2014-06-25 16:18:46.074] [INFO] datelog - GET /restart
+[2014-06-25 16:18:46.127] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:18:46.128] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:18:46.130] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:18:46.132] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:18:46.136] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:18:46.152] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:18:46.152] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:19:22.216] [INFO] datelog - GET /restart
+[2014-06-25 16:19:22.270] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:19:22.276] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:19:22.284] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:19:22.284] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:19:22.290] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:19:22.290] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:19:22.291] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:19:23.580] [WARN] datelog - GET /restart
+[2014-06-25 16:19:23.645] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:19:23.646] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:19:23.646] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:19:23.647] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:19:23.650] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:19:23.653] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:19:23.653] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:20:02.206] [INFO] datelog - GET /restart
+[2014-06-25 16:20:02.259] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:20:02.261] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:20:02.261] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:20:02.262] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:20:02.269] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:20:02.270] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:20:02.276] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:20:21.314] [INFO] datelog - GET /restart
+[2014-06-25 16:20:21.359] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:20:21.359] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:20:21.365] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:20:21.366] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:20:21.371] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:20:21.381] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:20:21.383] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:21:39.390] [INFO] datelog - GET /restart
+[2014-06-25 16:21:39.444] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:21:39.446] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:21:39.471] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:21:39.471] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:21:39.476] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:21:39.478] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:21:39.479] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:22:02.105] [INFO] datelog - GET /restart
+[2014-06-25 16:22:02.166] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:22:02.168] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:22:02.169] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:22:02.169] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:22:02.173] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:22:02.176] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:22:02.176] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:24:38.177] [WARN] datelog - GET /restart
+[2014-06-25 16:24:38.258] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:24:38.258] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:24:38.259] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:24:38.259] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:24:38.263] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:24:38.264] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:24:38.267] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:09.798] [INFO] datelog - GET /restart
+[2014-06-25 16:28:09.886] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:09.889] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:09.893] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:09.896] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:09.902] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:09.905] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:09.905] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:14.811] [WARN] datelog - GET /restart
+[2014-06-25 16:28:14.866] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:14.869] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:14.870] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:14.875] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:14.878] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:14.880] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:14.884] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:17.469] [WARN] datelog - GET /restart
+[2014-06-25 16:28:17.533] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:17.533] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:17.537] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:17.536] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:17.545] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:17.545] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:17.546] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:18.198] [WARN] datelog - GET /restart
+[2014-06-25 16:28:18.265] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:18.265] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:18.266] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:18.267] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:18.272] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:18.273] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:18.273] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:18.541] [WARN] datelog - GET /restart
+[2014-06-25 16:28:18.601] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:18.604] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:18.605] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:18.606] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:18.613] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:18.612] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:18.615] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:38.392] [WARN] datelog - GET /restart
+[2014-06-25 16:28:38.439] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:38.440] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:38.440] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:38.441] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:38.465] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:38.465] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:38.466] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:39.316] [WARN] datelog - GET /restart
+[2014-06-25 16:28:39.369] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:39.389] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:39.390] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:39.416] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:39.417] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:39.418] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:39.418] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:39.680] [WARN] datelog - GET /restart
+[2014-06-25 16:28:39.731] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:39.731] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:39.732] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:39.734] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:39.737] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:39.743] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:39.744] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:39.960] [WARN] datelog - GET /restart
+[2014-06-25 16:28:40.112] [WARN] datelog - GET /restart
+[2014-06-25 16:28:40.155] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:40.156] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:40.158] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:40.159] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:40.163] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:40.164] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:40.170] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:28:40.351] [WARN] datelog - GET /restart
+[2014-06-25 16:28:40.400] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:28:40.401] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:28:40.401] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:28:40.423] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:28:40.429] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:28:40.430] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:28:40.433] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:29:12.820] [INFO] datelog - GET /restart
+[2014-06-25 16:29:12.888] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:29:12.889] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:29:12.889] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:29:12.893] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:29:12.897] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:29:12.898] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:29:12.900] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:29:38.998] [INFO] datelog - GET /restart
+[2014-06-25 16:29:39.087] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:29:39.087] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:29:39.087] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:29:39.089] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:29:39.092] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:29:39.093] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:29:39.094] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:30:15.202] [INFO] datelog - GET /restart
+[2014-06-25 16:30:15.268] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:30:15.268] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:30:15.268] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:30:15.270] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:30:15.272] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:30:15.273] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:30:15.273] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:30:23.524] [WARN] datelog - GET /restart
+[2014-06-25 16:30:23.656] [INFO] datelog - GET /login
+[2014-06-25 16:30:23.733] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:30:23.806] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:30:23.807] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 16:30:25.191] [INFO] datelog - datainfo.state  Wed Jun 25 2014 16:30:25 GMT+0800 (CST)
+[2014-06-25 16:30:25.193] [INFO] datelog - 更新状态成功：1
+[2014-06-25 16:30:25.339] [INFO] datelog - POST /sigin
+[2014-06-25 16:30:25.384] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:30:25.386] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:30:25.387] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:30:25.427] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:30:25.430] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:30:25.436] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:30:25.437] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:30:27.488] [INFO] datelog - GET /restart
+[2014-06-25 16:30:27.528] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:30:27.532] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:30:27.534] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:30:27.537] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:30:27.548] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:30:27.551] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:30:27.556] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:32:41.219] [INFO] datelog - GET /restart
+[2014-06-25 16:32:41.280] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:32:41.285] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:32:41.285] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:32:41.286] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:32:41.290] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:32:41.291] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:32:41.292] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:32:41.463] [INFO] datelog - GET /favicon.ico
+[2014-06-25 16:32:58.939] [INFO] datelog - GET /restart
+[2014-06-25 16:32:58.984] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:32:58.985] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:32:58.986] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:32:58.995] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:32:58.996] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:32:59.004] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:32:59.007] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:33:17.548] [INFO] datelog - GET /restart
+[2014-06-25 16:33:17.661] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:33:17.661] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:33:17.661] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:33:17.662] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:33:17.662] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:33:17.663] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:33:17.673] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:33:31.933] [INFO] datelog - GET /restart
+[2014-06-25 16:33:32.009] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:33:32.011] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:33:32.011] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:33:32.011] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:33:32.017] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:33:32.018] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:33:32.018] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:33:34.382] [WARN] datelog - GET /restart
+[2014-06-25 16:33:34.429] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:33:34.430] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:33:34.432] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:33:34.433] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:33:34.445] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:33:34.446] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:33:34.449] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:33:37.188] [WARN] datelog - GET /restart
+[2014-06-25 16:33:37.254] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:33:37.256] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:33:37.257] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:33:37.258] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:33:37.262] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:33:37.262] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:33:37.263] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:33:40.143] [WARN] datelog - GET /restart
+[2014-06-25 16:33:40.207] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:33:40.207] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:33:40.207] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:33:40.208] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:33:40.212] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:33:40.212] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:33:40.214] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:34:14.557] [WARN] datelog - GET /restart
+[2014-06-25 16:34:14.621] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:34:14.622] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:34:14.622] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:34:14.623] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:34:14.627] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:34:14.629] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:34:14.631] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:35:21.691] [INFO] datelog - GET /restart
+[2014-06-25 16:35:21.767] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:35:21.768] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:35:21.771] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:35:21.773] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:35:21.780] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:35:21.781] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:35:21.785] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:35:41.009] [INFO] datelog - GET /restart
+[2014-06-25 16:35:41.069] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:35:41.082] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:35:41.083] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:35:41.091] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:35:41.094] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:35:41.095] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:35:41.096] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:36:04.102] [INFO] datelog - GET /restart
+[2014-06-25 16:36:04.142] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:36:04.143] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:36:04.158] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:36:04.158] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:36:04.165] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:36:04.169] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:36:04.173] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:36:07.703] [INFO] datelog - GET /restart
+[2014-06-25 16:36:07.758] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:36:07.759] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:36:07.763] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:36:07.765] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:36:07.768] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:36:07.769] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:36:07.778] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:51:27.625] [WARN] datelog - GET /restart
+[2014-06-25 16:51:27.693] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:51:27.726] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:51:27.727] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:51:27.731] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:51:27.740] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:51:27.742] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:51:27.742] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:51:35.703] [WARN] datelog - GET /restart
+[2014-06-25 16:51:35.777] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:51:35.778] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:51:35.779] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:51:35.781] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:51:35.784] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:51:35.786] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:51:35.805] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:52:38.340] [INFO] datelog - 用户chunyu.zhao
+[2014-06-25 16:52:38.341] [INFO] datelog - datainfo.state  Wed Jun 25 2014 16:52:38 GMT+0800 (CST)
+[2014-06-25 16:52:38.345] [INFO] datelog - 用户推出成功！
+[2014-06-25 16:52:38.352] [WARN] datelog - GET /logout
+[2014-06-25 16:52:38.409] [INFO] datelog - GET /login
+[2014-06-25 16:52:38.458] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 16:52:38.459] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:52:38.473] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:54:55.394] [WARN] datelog - GET /restart
+[2014-06-25 16:54:55.459] [WARN] datelog - GET /login
+[2014-06-25 16:54:55.506] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:54:55.507] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:54:55.508] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 16:54:57.138] [INFO] datelog - datainfo.state  Wed Jun 25 2014 16:54:57 GMT+0800 (CST)
+[2014-06-25 16:54:57.141] [INFO] datelog - 更新状态成功：1
+[2014-06-25 16:54:57.300] [INFO] datelog - POST /sigin
+[2014-06-25 16:54:57.388] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:54:57.388] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:54:57.389] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:54:57.391] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:54:57.396] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:54:57.404] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:54:57.405] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:54:59.404] [INFO] datelog - GET /restart
+[2014-06-25 16:54:59.446] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:54:59.450] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:54:59.465] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:54:59.467] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:54:59.472] [WARN] datelog - GET /js/msg.js
+[2014-06-25 16:54:59.473] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:54:59.474] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:57:23.477] [INFO] datelog - GET /restart
+[2014-06-25 16:57:23.536] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 16:57:23.647] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 16:57:23.647] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 16:57:23.652] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 16:57:23.655] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 16:57:23.656] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 16:57:23.661] [WARN] datelog - GET /js/msg.js
+[2014-06-25 17:00:14.396] [INFO] datelog - GET /restart
+[2014-06-25 17:00:14.570] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 17:00:14.572] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 17:00:14.575] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 17:00:14.576] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 17:00:14.583] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 17:00:14.583] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 17:00:14.586] [WARN] datelog - GET /js/msg.js
+[2014-06-25 17:00:42.581] [INFO] datelog - 5
+[2014-06-25 17:00:42.586] [ERROR] datelog - POST /restart
+[2014-06-25 17:00:57.815] [INFO] datelog - GET /restart
+[2014-06-25 17:00:57.962] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 17:00:57.962] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 17:00:57.965] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 17:00:57.965] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 17:00:57.973] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 17:00:57.974] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 17:00:57.980] [WARN] datelog - GET /js/msg.js
+[2014-06-25 17:01:12.717] [INFO] datelog - datainfo.state  Wed Jun 25 2014 17:01:12 GMT+0800 (CST)
+[2014-06-25 17:01:12.720] [INFO] datelog - 更新状态成功：1
+[2014-06-25 17:01:12.899] [INFO] datelog - POST /sigin
+[2014-06-25 17:01:12.977] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 17:01:12.986] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 17:01:12.988] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 17:01:12.989] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 17:01:12.991] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 17:01:12.992] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 17:01:12.998] [WARN] datelog - GET /js/msg.js
+[2014-06-25 17:01:15.235] [INFO] datelog - GET /restart
+[2014-06-25 17:01:15.282] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 17:01:15.293] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 17:01:15.300] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 17:01:15.302] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 17:01:15.304] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 17:01:15.305] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 17:01:15.306] [WARN] datelog - GET /js/msg.js
+[2014-06-25 17:01:27.912] [INFO] datelog - 10
+[2014-06-25 17:01:27.918] [ERROR] datelog - POST /restart
+[2014-06-25 17:01:39.241] [WARN] datelog - GET /restart
+[2014-06-25 17:01:39.289] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 17:01:39.290] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 17:01:39.291] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 17:01:39.294] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 17:01:39.301] [WARN] datelog - GET /js/msg.js
+[2014-06-25 17:01:39.305] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 17:01:39.307] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 17:01:42.809] [INFO] datelog - 17
+[2014-06-25 17:01:42.813] [ERROR] datelog - POST /restart
+[2014-06-25 17:02:21.092] [INFO] datelog - GET /restart
+[2014-06-25 17:02:21.172] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 17:02:21.173] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 17:02:21.171] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 17:02:21.173] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 17:02:21.174] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 17:02:21.174] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 17:02:21.184] [WARN] datelog - GET /js/msg.js
+[2014-06-25 17:02:26.610] [INFO] datelog - 13
+[2014-06-25 17:02:26.614] [ERROR] datelog - POST /restart
+[2014-06-25 17:33:23.965] [WARN] datelog - GET /syslog
+[2014-06-25 17:33:24.126] [INFO] datelog - GET /log/log.log
+[2014-06-25 17:42:14.281] [WARN] datelog - GET /restart
+[2014-06-25 17:42:14.370] [INFO] datelog - GET /login
+[2014-06-25 17:42:14.436] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 17:42:14.439] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 17:42:14.441] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:03:52.968] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:03:52.976] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:03:52.983] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:03:52.997] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:05:30.711] [WARN] datelog - GET /restart
+[2014-06-25 18:05:31.119] [INFO] datelog - GET /login
+[2014-06-25 18:05:31.153] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:05:31.235] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:05:31.236] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 18:05:33.725] [INFO] datelog - datainfo.state  Wed Jun 25 2014 18:05:33 GMT+0800 (CST)
+[2014-06-25 18:05:33.727] [INFO] datelog - 更新状态成功：1
+[2014-06-25 18:05:33.946] [INFO] datelog - POST /sigin
+[2014-06-25 18:05:34.002] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:05:34.005] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:05:34.027] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:05:34.065] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:05:34.072] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:05:34.077] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:05:34.088] [INFO] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:05:34.089] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:05:36.128] [INFO] datelog - GET /restart
+[2014-06-25 18:05:36.179] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:05:36.184] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:05:36.185] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:05:36.206] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:05:36.206] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:05:36.208] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:05:36.212] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:05:36.212] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:05:36.216] [INFO] datelog - GET /images/0.gif
+[2014-06-25 18:06:24.505] [INFO] datelog - GET /restart
+[2014-06-25 18:06:24.634] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:06:24.634] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:06:24.636] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:06:24.639] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:06:24.642] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:06:24.645] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:06:24.645] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:06:24.647] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:06:24.648] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:07:10.319] [WARN] datelog - GET /restart
+[2014-06-25 18:07:10.462] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:07:10.465] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:07:10.466] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:07:10.466] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:07:10.469] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:07:10.472] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:07:10.476] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:07:10.496] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:07:10.496] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:10:25.996] [INFO] datelog - GET /restart
+[2014-06-25 18:10:26.129] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:10:26.132] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:10:26.135] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:10:26.138] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:10:26.138] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:10:26.143] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:10:26.144] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:10:26.147] [INFO] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:10:26.151] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:10:26.153] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:10:26.154] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:10:26.159] [INFO] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:10:54.793] [INFO] datelog - GET /login
+[2014-06-25 18:10:54.873] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:10:54.873] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:10:54.874] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 18:10:55.071] [WARN] datelog - GET /login
+[2014-06-25 18:10:55.148] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:10:55.153] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:10:55.156] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 18:10:56.532] [INFO] datelog - datainfo.state  Wed Jun 25 2014 18:10:56 GMT+0800 (CST)
+[2014-06-25 18:10:56.534] [INFO] datelog - 更新状态成功：1
+[2014-06-25 18:10:56.729] [INFO] datelog - POST /sigin
+[2014-06-25 18:10:56.782] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:10:56.794] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:10:56.795] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:10:56.798] [INFO] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:10:56.798] [INFO] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:10:56.805] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:10:56.805] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:10:56.811] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:10:56.821] [INFO] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:10:56.829] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:10:56.837] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:10:58.555] [INFO] datelog - GET /restart
+[2014-06-25 18:10:58.601] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:10:58.601] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:10:58.602] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:10:58.606] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:10:58.655] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:10:58.655] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:10:58.656] [INFO] datelog - GET /images/0.gif
+[2014-06-25 18:10:58.657] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:10:58.658] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:10:58.662] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:10:58.664] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:10:58.674] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:11:23.972] [WARN] datelog - GET /restart
+[2014-06-25 18:11:24.022] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:11:24.036] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:11:24.036] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:11:24.065] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:11:24.077] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:11:24.078] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:11:24.090] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:11:24.104] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:11:24.107] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:11:24.137] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:11:24.138] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:11:24.144] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:11:42.955] [WARN] datelog - GET /restart
+[2014-06-25 18:11:43.022] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:11:43.035] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:11:43.038] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:11:43.045] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:11:43.046] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:11:43.048] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:11:43.052] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:11:43.054] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:11:43.056] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:11:43.064] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:11:43.064] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:11:43.068] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:11:56.348] [INFO] datelog - GET /restart
+[2014-06-25 18:11:56.402] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:11:56.403] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:11:56.409] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:11:56.411] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:11:56.411] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:11:56.413] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:11:56.414] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:11:56.415] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:11:56.427] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:11:56.427] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:11:56.427] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:11:56.435] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:12:44.908] [INFO] datelog - GET /restart
+[2014-06-25 18:12:44.961] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:12:44.962] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:12:44.968] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:12:44.969] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:12:44.970] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:12:44.972] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:12:44.988] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:12:44.996] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:12:44.998] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:12:45.002] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:12:45.005] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:12:45.005] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:13:31.609] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:13:31.632] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:13:31.640] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:13:31.673] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:13:32.544] [WARN] datelog - GET /restart
+[2014-06-25 18:13:32.593] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:13:32.606] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:13:32.614] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:13:32.640] [ERROR] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:13:32.648] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:13:32.649] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:13:32.660] [ERROR] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:13:32.660] [ERROR] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:13:32.673] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:13:32.680] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:13:32.698] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:13:32.706] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:13:37.858] [WARN] datelog - GET /restart
+[2014-06-25 18:13:37.921] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:13:37.922] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:13:37.926] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:13:37.925] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:13:37.926] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:13:37.934] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:13:37.952] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:13:37.964] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:13:37.964] [INFO] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:13:37.965] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:13:37.966] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:13:37.986] [INFO] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:13:51.794] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:13:51.903] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:13:51.958] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:13:52.010] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:14:05.962] [WARN] datelog - GET /restart
+[2014-06-25 18:14:06.007] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:14:06.049] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:14:06.059] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:14:06.061] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:14:06.062] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:14:06.067] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:14:06.074] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:14:06.076] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:14:06.084] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:14:06.076] [INFO] datelog - uncaughtException [Error: Error setting TTL index on collection : sessions]
+Error: Error setting TTL index on collection : sessions
+    at /home/chunchun/opt/Auto/pretty_dev_2/node_modules/connect-mongo/lib/connect-mongo.js:161:23
+    at /home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/db.js:1404:28
+    at /home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/db.js:1542:30
+    at /home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/cursor.js:159:22
+    at /home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/cursor.js:685:39
+    at Cursor.close (/home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/cursor.js:959:5)
+    at commandHandler (/home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/cursor.js:685:21)
+    at /home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/db.js:1806:9
+    at Server.Base._callHandler (/home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/connection/base.js:442:41)
+    at /home/chunchun/opt/Auto/pretty_dev_2/node_modules/mongodb/lib/mongodb/connection/server.js:485:18
+[2014-06-25 18:14:06.109] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:14:06.118] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:14:33.139] [INFO] datelog - GET /images/0.gif
+[2014-06-25 18:14:33.304] [WARN] datelog - GET /restart
+[2014-06-25 18:14:33.367] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:14:33.370] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:14:33.385] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:14:33.388] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:14:33.392] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:14:33.394] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:14:33.400] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:14:33.417] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:14:33.418] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:14:33.422] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:14:33.423] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:14:33.484] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:14:50.922] [WARN] datelog - GET /restart
+[2014-06-25 18:14:50.988] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:14:51.002] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:14:51.002] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:14:51.004] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:14:51.006] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:14:51.008] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:14:51.018] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:14:51.018] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:14:51.023] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:14:51.028] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:14:51.030] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:14:51.033] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:14:55.349] [INFO] datelog - GET /restart
+[2014-06-25 18:14:55.437] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:14:55.440] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:14:55.444] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:14:55.442] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:14:55.445] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:14:55.446] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:14:55.454] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:14:55.454] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:14:55.457] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:14:55.459] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:14:55.461] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:14:55.461] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:14:56.285] [WARN] datelog - GET /restart
+[2014-06-25 18:14:56.378] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:14:56.379] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:14:56.380] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:14:56.382] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:14:56.384] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:14:56.387] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:14:56.393] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:14:56.398] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:14:56.399] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:14:56.403] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:14:56.403] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:14:56.404] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:15:02.955] [WARN] datelog - GET /restart
+[2014-06-25 18:15:03.039] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:15:03.040] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:15:03.043] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:15:03.044] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:15:03.045] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:15:03.051] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:15:03.053] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:15:03.057] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:15:03.059] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:15:03.061] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:15:03.065] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:15:03.067] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:19:01.606] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 18:19:01.606] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 18:19:12.241] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:19:58.286] [WARN] datelog - GET /restart
+[2014-06-25 18:19:58.370] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:19:58.371] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:19:58.378] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:19:58.379] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:19:58.384] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:19:58.394] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:19:58.399] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:19:58.406] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:19:58.408] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:19:58.419] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:19:58.422] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:19:58.425] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:20:22.202] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 18:20:22.204] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 18:22:47.515] [WARN] datelog - GET /restart
+[2014-06-25 18:22:47.586] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:22:47.587] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:22:47.608] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:22:47.608] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:22:47.609] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:22:47.610] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:22:47.613] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:22:47.637] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:22:47.640] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:22:47.644] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:22:47.646] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:22:47.659] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:23:13.004] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:23:37.407] [INFO] datelog - GET /restart
+[2014-06-25 18:23:37.476] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:23:37.478] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:23:37.479] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:23:37.482] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:23:37.485] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:23:37.489] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:23:37.489] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:23:37.490] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:23:37.505] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:23:37.519] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:23:37.519] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:23:37.520] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:24:00.870] [INFO] datelog - GET /restart
+[2014-06-25 18:24:00.930] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:24:00.931] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:24:00.934] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:24:00.934] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:24:00.935] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:24:00.936] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:24:00.949] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:24:00.952] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:24:00.951] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:24:00.952] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:24:00.957] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:24:00.971] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:28:54.869] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:31:01.940] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:31:01.944] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:31:01.977] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:31:02.107] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:31:10.633] [WARN] datelog - GET /restart
+[2014-06-25 18:31:10.733] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:31:10.757] [ERROR] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:31:10.772] [ERROR] datelog - GET /images/0.gif
+[2014-06-25 18:31:10.799] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:31:10.802] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:31:10.812] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:31:10.820] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:31:10.824] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:31:10.827] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:31:10.827] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:31:10.829] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:31:10.830] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:31:14.148] [INFO] datelog - GET /images/0.gif
+[2014-06-25 18:31:58.643] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:31:58.661] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:31:58.730] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:31:58.747] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:32:01.319] [WARN] datelog - GET /restart
+[2014-06-25 18:32:01.513] [ERROR] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:32:01.512] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:32:01.518] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:32:01.565] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:32:01.577] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:32:01.587] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:32:01.591] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:32:01.593] [INFO] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:32:01.596] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:32:01.600] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:32:01.602] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:32:01.603] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:33:41.526] [INFO] datelog - GET /restart
+[2014-06-25 18:33:41.641] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:33:41.648] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:33:41.654] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:33:41.655] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:33:41.655] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:33:41.658] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:33:41.661] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:33:41.666] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:33:41.666] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:33:41.666] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:33:41.667] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:33:41.668] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:33:47.019] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 18:33:47.022] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 18:34:09.803] [INFO] datelog - GET /restart
+[2014-06-25 18:34:09.870] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:34:09.876] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:34:09.879] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:34:09.885] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:34:09.891] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:34:09.893] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:34:09.895] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:34:09.907] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:34:09.908] [INFO] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:34:09.914] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:34:09.918] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:34:09.922] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:34:11.759] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 18:34:11.761] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 18:34:13.185] [INFO] datelog - 9
+[2014-06-25 18:34:13.196] [ERROR] datelog - POST /restart
+[2014-06-25 18:35:20.028] [INFO] datelog - GET /restart
+[2014-06-25 18:35:20.102] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:35:20.106] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:35:20.106] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:35:20.107] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:35:20.135] [WARN] datelog - GET /js/jquery-2.0.0.js
+[2014-06-25 18:35:20.136] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:35:20.136] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:35:20.137] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:35:20.137] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:35:20.138] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:35:20.153] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:35:20.155] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:35:26.421] [INFO] datelog - 用户chunyu.zhao
+[2014-06-25 18:35:26.422] [INFO] datelog - datainfo.state  Wed Jun 25 2014 18:35:26 GMT+0800 (CST)
+[2014-06-25 18:35:26.423] [INFO] datelog - 用户推出成功！
+[2014-06-25 18:35:26.428] [WARN] datelog - GET /logout
+[2014-06-25 18:35:26.518] [INFO] datelog - GET /login
+[2014-06-25 18:35:26.564] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:35:26.565] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:35:26.565] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 18:35:28.869] [WARN] datelog - GET /login
+[2014-06-25 18:35:28.922] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 18:35:28.923] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:35:28.925] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:35:33.164] [WARN] datelog - GET /restart
+[2014-06-25 18:35:33.247] [WARN] datelog - GET /login
+[2014-06-25 18:35:33.301] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:35:33.301] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:35:33.303] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 18:36:24.111] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:24.186] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:24.212] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:24.222] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:34.999] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:35.016] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:35.043] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:35.067] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:50.147] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:50.182] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:50.282] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:36:50.294] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:23.277] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:23.473] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:23.807] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:23.905] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:32.486] [ERROR] datelog - GET /restart
+[2014-06-25 18:37:47.453] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:47.566] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:47.681] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:47.699] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:37:49.302] [INFO] datelog - GET /restart
+[2014-06-25 18:37:49.407] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:37:49.418] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:37:49.419] [ERROR] datelog - GET /images/0.gif
+[2014-06-25 18:37:49.433] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:37:49.434] [ERROR] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:37:49.438] [ERROR] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:37:49.445] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:37:49.469] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:37:49.471] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:37:49.484] [ERROR] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:37:49.498] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:37:49.499] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:37:57.654] [WARN] datelog - GET /restart
+[2014-06-25 18:37:57.718] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:37:57.722] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:37:57.728] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:37:57.734] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:37:57.737] [INFO] datelog - GET /images/0.gif
+[2014-06-25 18:37:57.736] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:37:57.742] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:37:57.743] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:37:57.748] [INFO] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:37:57.752] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:37:57.756] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:37:57.770] [INFO] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:38:05.047] [INFO] datelog - 5
+[2014-06-25 18:38:05.060] [ERROR] datelog - POST /restart
+[2014-06-25 18:38:42.580] [WARN] datelog - GET /restart
+[2014-06-25 18:38:42.634] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:38:42.634] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:38:42.639] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:38:42.661] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:38:42.662] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:38:42.665] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:38:42.665] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:38:42.666] [WARN] datelog - GET /images/0.gif
+[2014-06-25 18:38:42.687] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:38:42.688] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:38:42.688] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:38:42.688] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:42:11.815] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:42:11.994] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:42:12.018] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:42:12.061] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 18:44:59.059] [INFO] datelog - GET /restart
+[2014-06-25 18:44:59.127] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:44:59.159] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:44:59.168] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:44:59.232] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:44:59.245] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:44:59.246] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:44:59.247] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:44:59.247] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:44:59.256] [INFO] datelog - GET /js/msg.js
+[2014-06-25 18:44:59.258] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:44:59.260] [INFO] datelog - GET /images/1.gif
+[2014-06-25 18:44:59.325] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:45:06.511] [INFO] datelog - 8
+[2014-06-25 18:45:06.521] [ERROR] datelog - POST /restart
+[2014-06-25 18:45:06.534] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 18:45:06.535] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 18:52:02.567] [INFO] datelog - GET /restart
+[2014-06-25 18:52:02.629] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:52:02.632] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:52:02.639] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:52:02.639] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:52:02.645] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:52:02.654] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:52:02.657] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:52:02.659] [WARN] datelog - GET /images/2.gif
+[2014-06-25 18:52:02.658] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:52:02.667] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:52:02.662] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:52:02.664] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:52:05.087] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 18:52:05.092] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 18:52:05.111] [INFO] datelog - 5
+[2014-06-25 18:52:05.118] [ERROR] datelog - POST /restart
+[2014-06-25 18:52:29.207] [INFO] datelog - GET /restart
+[2014-06-25 18:52:29.386] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 18:52:29.387] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 18:52:29.393] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 18:52:29.395] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 18:52:29.396] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 18:52:29.403] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 18:52:29.409] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 18:52:29.416] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 18:52:29.416] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 18:52:29.417] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 18:52:29.418] [WARN] datelog - GET /js/msg.js
+[2014-06-25 18:52:29.421] [INFO] datelog - GET /images/2.gif
+[2014-06-25 18:52:32.736] [INFO] datelog - 5
+[2014-06-25 18:52:32.749] [ERROR] datelog - POST /restart
+[2014-06-25 18:52:32.760] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 18:52:32.762] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 18:52:49.226] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:03:30.980] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:05:11.718] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:11.786] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:11.807] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:11.841] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:18.623] [WARN] datelog - GET /restart
+[2014-06-25 19:05:18.709] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:05:18.711] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:05:18.720] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:05:18.723] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:05:18.731] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:05:18.732] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:05:18.745] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:05:18.764] [INFO] datelog - GET /js/msg.js
+[2014-06-25 19:05:18.773] [ERROR] datelog - GET /images/2.gif
+[2014-06-25 19:05:18.826] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:05:18.830] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:05:18.831] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:05:23.913] [WARN] datelog - GET /restart
+[2014-06-25 19:05:23.983] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:05:23.983] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:05:23.984] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:05:23.984] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:05:23.984] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:05:23.992] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:05:24.004] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:05:24.005] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:05:24.006] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:05:24.006] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:05:24.011] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:05:24.016] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:05:42.584] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:42.642] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:42.661] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:42.698] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:44.471] [WARN] datelog - GET /restart
+[2014-06-25 19:05:44.528] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:05:44.540] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:05:44.552] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:05:44.571] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:05:44.574] [ERROR] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:05:44.586] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:05:44.582] [ERROR] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:05:44.585] [ERROR] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:05:44.591] [ERROR] datelog - GET /images/2.gif
+[2014-06-25 19:05:44.605] [INFO] datelog - GET /js/msg.js
+[2014-06-25 19:05:44.633] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:05:44.646] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:05:57.563] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:57.617] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:57.640] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:57.681] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:05:58.152] [WARN] datelog - GET /restart
+[2014-06-25 19:05:58.234] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:05:58.266] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:05:58.277] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:05:58.286] [ERROR] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:05:58.294] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:05:58.294] [ERROR] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:05:58.299] [ERROR] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:05:58.310] [ERROR] datelog - GET /js/msg.js
+[2014-06-25 19:05:58.319] [INFO] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:05:58.352] [INFO] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:05:58.360] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:05:58.370] [INFO] datelog - GET /images/2.gif
+[2014-06-25 19:06:11.230] [WARN] datelog - GET /restart
+[2014-06-25 19:06:11.280] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:06:11.283] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:06:11.296] [INFO] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:06:11.304] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:06:11.309] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:06:11.314] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:06:11.316] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:06:11.317] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:06:11.332] [INFO] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:06:11.333] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:06:11.334] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:06:11.340] [INFO] datelog - GET /js/msg.js
+[2014-06-25 19:06:15.469] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:06:15.472] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 19:06:15.495] [INFO] datelog - 4
+[2014-06-25 19:06:15.500] [ERROR] datelog - POST /restart
+[2014-06-25 19:07:23.817] [WARN] datelog - GET /restart
+[2014-06-25 19:07:23.918] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:07:23.919] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:07:23.919] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:07:23.944] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:07:23.945] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:07:23.947] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:07:23.963] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:07:23.964] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:07:23.970] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:07:23.980] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:07:23.981] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:07:23.982] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:07:27.816] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:07:27.823] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 19:07:27.850] [INFO] datelog - 9
+[2014-06-25 19:07:27.855] [ERROR] datelog - POST /restart
+[2014-06-25 19:08:06.030] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:08:29.206] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:09:50.328] [INFO] datelog - GET /restart
+[2014-06-25 19:09:50.448] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:09:50.458] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:09:50.459] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:09:50.462] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:09:50.464] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:09:50.466] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:09:50.471] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:09:50.473] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:09:50.475] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:09:50.475] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:09:50.480] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:09:50.480] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:09:55.638] [WARN] datelog - GET /restart
+[2014-06-25 19:09:55.773] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:09:55.775] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:09:55.777] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:09:55.776] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:09:55.777] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:09:55.781] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:09:55.786] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:09:55.788] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:09:55.787] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:09:55.788] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:09:55.792] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:09:55.796] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:10:02.914] [WARN] datelog - GET /restart
+[2014-06-25 19:10:03.035] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:10:03.037] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:10:03.039] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:10:03.038] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:10:03.041] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:10:03.044] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:10:03.052] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:10:03.054] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:10:03.059] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:10:03.059] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:10:03.060] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:10:03.060] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:10:03.774] [WARN] datelog - GET /restart
+[2014-06-25 19:10:04.140] [WARN] datelog - GET /restart
+[2014-06-25 19:10:04.270] [WARN] datelog - GET /restart
+[2014-06-25 19:10:04.714] [WARN] datelog - GET /restart
+[2014-06-25 19:10:04.839] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:10:04.841] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:10:04.848] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:10:04.849] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:10:04.849] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:10:04.851] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:10:04.857] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:10:04.857] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:10:04.864] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:10:04.865] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:10:04.868] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:10:04.866] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:10:17.641] [INFO] datelog - 6
+[2014-06-25 19:10:17.648] [ERROR] datelog - POST /restart
+[2014-06-25 19:10:17.663] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:10:17.665] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 19:10:41.022] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:10:42.834] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:11:33.959] [ERROR] datelog - GET /stylesheets/dist/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+[2014-06-25 19:12:02.344] [INFO] datelog - GET /restart
+[2014-06-25 19:12:02.467] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:12:02.474] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:12:02.476] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:12:02.476] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:12:02.481] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:12:02.482] [INFO] datelog - GET /stylesheets/style.css
+[2014-06-25 19:12:02.486] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:12:02.483] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:12:02.487] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:12:02.489] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:12:02.493] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:12:02.493] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:12:07.186] [WARN] datelog - GET /restart
+[2014-06-25 19:12:07.298] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:12:07.298] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:12:07.300] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:12:07.300] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:12:07.301] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:12:07.302] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:12:07.308] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:12:07.313] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:12:07.317] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:12:07.319] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:12:07.320] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:12:07.319] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:12:14.168] [INFO] datelog - 6
+[2014-06-25 19:12:14.170] [ERROR] datelog - POST /restart
+[2014-06-25 19:12:14.210] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 19:12:44.316] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:12:44.361] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:12:44.386] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:12:44.465] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:12:46.443] [INFO] datelog - GET /restart
+[2014-06-25 19:12:46.618] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:12:46.628] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:12:46.630] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:12:46.726] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:12:46.727] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:12:46.733] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:12:46.742] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:12:46.745] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:12:46.746] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:12:46.748] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:12:46.748] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:12:46.748] [INFO] datelog - GET /js/msg.js
+[2014-06-25 19:12:52.359] [INFO] datelog - 5
+[2014-06-25 19:12:52.367] [ERROR] datelog - POST /restart
+[2014-06-25 19:12:52.384] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 19:13:15.343] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:13:15.652] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:13:15.737] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:13:15.768] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:01.712] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:01.716] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:01.737] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:01.894] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:34.693] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:34.755] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:34.792] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:26:34.869] [INFO] datelog - Express.io server listening on port 1331
+[2014-06-25 19:32:16.209] [ERROR] datelog - GET /sigin
+[2014-06-25 19:32:18.921] [WARN] datelog - GET /
+[2014-06-25 19:32:19.314] [INFO] datelog - GET /login
+[2014-06-25 19:32:19.383] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:32:19.399] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:32:19.466] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 19:32:20.721] [INFO] datelog - datainfo.state  Wed Jun 25 2014 19:32:20 GMT+0800 (CST)
+[2014-06-25 19:32:20.723] [INFO] datelog - 更新状态成功：1
+[2014-06-25 19:32:21.276] [INFO] datelog - POST /sigin
+[2014-06-25 19:32:21.361] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:32:21.364] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:32:21.372] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:32:21.386] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:32:21.392] [INFO] datelog - GET /stylesheets/style.css
+[2014-06-25 19:32:21.399] [ERROR] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:32:21.414] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:32:21.417] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:32:21.422] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:32:21.428] [ERROR] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:32:21.431] [INFO] datelog - GET /js/msg.js
+[2014-06-25 19:32:21.463] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:32:22.128] [INFO] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:32:23.791] [ERROR] datelog - GET /sigin
+[2014-06-25 19:32:26.681] [INFO] datelog - datainfo.state  Wed Jun 25 2014 19:32:26 GMT+0800 (CST)
+[2014-06-25 19:32:26.684] [INFO] datelog - 更新状态成功：1
+[2014-06-25 19:32:26.895] [INFO] datelog - POST /sigin
+[2014-06-25 19:32:26.968] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:32:26.970] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:32:26.976] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:32:26.977] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:32:27.005] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:32:27.011] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:32:27.015] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:32:27.017] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:32:27.019] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:32:27.021] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:32:27.029] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:32:27.038] [INFO] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:32:27.046] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:32:33.168] [INFO] datelog - GET /restart
+[2014-06-25 19:32:33.236] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:32:33.239] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:32:33.240] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:32:33.242] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:32:33.243] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:32:33.255] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:32:33.261] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:32:33.263] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:32:33.265] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:32:33.266] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:32:33.278] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:32:33.281] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:32:33.285] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:32:54.470] [INFO] datelog - count: 54
+[2014-06-25 19:32:54.786] [INFO] datelog - GET /bigtable
+[2014-06-25 19:32:54.841] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:32:54.845] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:32:54.867] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:32:54.899] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:32:54.899] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:32:54.900] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:32:54.902] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:32:54.904] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:32:54.901] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:32:54.920] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:32:54.920] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:32:54.931] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:32:54.932] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:33:20.321] [INFO] datelog - GET /goback
+[2014-06-25 19:33:20.424] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:33:20.424] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:33:20.425] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:33:20.425] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:33:20.425] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:33:20.427] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:33:20.445] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:33:20.449] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:33:20.452] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:33:20.453] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:33:20.454] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:33:22.327] [INFO] datelog - count: 54
+[2014-06-25 19:33:22.615] [INFO] datelog - GET /bigtable
+[2014-06-25 19:33:22.670] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:33:22.673] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:33:22.675] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:33:22.675] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:33:22.698] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:33:22.698] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:33:22.699] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:33:22.700] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:33:22.701] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:33:22.701] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:33:22.711] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:33:22.712] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:33:29.992] [INFO] datelog - count: 54
+[2014-06-25 19:33:30.228] [WARN] datelog - GET /bigtable
+[2014-06-25 19:33:30.330] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:33:30.331] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:33:30.333] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:33:30.335] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:33:30.336] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:33:30.340] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:33:30.347] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:33:30.349] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:33:30.358] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:33:30.363] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:33:30.364] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:33:30.365] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:22.849] [INFO] datelog - count: 54
+[2014-06-25 19:34:23.130] [WARN] datelog - GET /bigtable
+[2014-06-25 19:34:23.203] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:23.217] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:23.236] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:23.236] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:23.237] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:23.238] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:23.238] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:23.239] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:23.251] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:23.253] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:34:23.255] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:23.257] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:28.031] [INFO] datelog - GET /restart
+[2014-06-25 19:34:28.091] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:28.093] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:28.094] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:28.099] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:28.115] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:28.121] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:28.121] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:28.124] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:34:28.125] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:28.125] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:28.127] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:28.136] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:29.937] [INFO] datelog - GET /online
+[2014-06-25 19:34:29.997] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:30.002] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:30.004] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:30.005] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:30.007] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:30.017] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:34:30.017] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:30.021] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:30.032] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:30.033] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:30.044] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:30.044] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:32.014] [WARN] datelog - GET /goback
+[2014-06-25 19:34:32.077] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:32.080] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:32.080] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:32.080] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:32.083] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:32.082] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:32.097] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:32.101] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:32.102] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:32.106] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:32.107] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:33.122] [INFO] datelog - count: 54
+[2014-06-25 19:34:33.431] [WARN] datelog - GET /bigtable
+[2014-06-25 19:34:33.491] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:33.493] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:33.494] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:33.514] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:33.515] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:33.515] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:33.517] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:33.524] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:33.526] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:33.528] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:33.530] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:33.533] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:34:48.193] [INFO] datelog - GET /restart
+[2014-06-25 19:34:48.300] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:48.301] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:48.301] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:48.302] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:48.303] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:34:48.319] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:48.320] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:48.320] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:48.321] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:48.322] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:48.323] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:48.332] [INFO] datelog - GET /js/msg.js
+[2014-06-25 19:34:49.530] [WARN] datelog - GET /bigtable
+[2014-06-25 19:34:49.638] [INFO] datelog - GET /login
+[2014-06-25 19:34:49.672] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:49.682] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 19:34:49.684] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:51.062] [INFO] datelog - datainfo.state  Wed Jun 25 2014 19:34:51 GMT+0800 (CST)
+[2014-06-25 19:34:51.064] [INFO] datelog - 更新状态成功：1
+[2014-06-25 19:34:51.223] [INFO] datelog - POST /sigin
+[2014-06-25 19:34:51.328] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:51.328] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:51.329] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:51.329] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:34:51.330] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:51.333] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:51.338] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:51.339] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:51.341] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:51.345] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:51.345] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:51.346] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:53.064] [INFO] datelog - count: 54
+[2014-06-25 19:34:53.371] [INFO] datelog - GET /bigtable
+[2014-06-25 19:34:53.473] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:34:53.473] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:34:53.476] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:34:53.479] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:34:53.481] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:34:53.487] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:34:53.491] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:34:53.491] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:34:53.492] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:34:53.493] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:34:53.495] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:34:53.526] [INFO] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:37:22.463] [INFO] datelog - count: 54
+[2014-06-25 19:37:22.715] [INFO] datelog - GET /bigtable
+[2014-06-25 19:37:22.794] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:37:22.805] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:37:22.818] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:37:22.822] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:37:22.826] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:37:22.828] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:37:22.838] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:37:22.838] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:37:22.861] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:37:22.861] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:37:22.862] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:37:29.453] [INFO] datelog - GET /restart
+[2014-06-25 19:37:29.497] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:37:29.509] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:37:29.538] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:37:29.538] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:37:29.539] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:37:29.539] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:37:29.539] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:37:29.541] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:37:29.551] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:37:29.551] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:37:29.554] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:37:34.935] [WARN] datelog - GET /restart
+[2014-06-25 19:37:35.013] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:37:35.014] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:37:35.013] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:37:35.015] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:37:35.022] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:37:35.023] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:37:35.037] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:37:35.039] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:37:35.040] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:37:35.049] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:37:35.049] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:37:38.524] [WARN] datelog - GET /restart
+[2014-06-25 19:37:38.596] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:37:38.597] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:37:38.598] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:37:38.598] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:37:38.599] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:37:38.599] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:37:38.613] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:37:38.615] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:37:38.616] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:37:38.622] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:37:38.626] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:37:40.378] [WARN] datelog - GET /restart
+[2014-06-25 19:37:40.478] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:37:40.479] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:37:40.479] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:37:40.479] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:37:40.481] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:37:40.481] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:37:40.490] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:37:40.492] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:37:40.493] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:37:40.494] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:37:40.494] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:37:53.555] [INFO] datelog - count: 54
+[2014-06-25 19:37:53.839] [INFO] datelog - GET /bigtable
+[2014-06-25 19:37:53.967] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:37:53.967] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:37:53.968] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:37:53.968] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:37:53.968] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:37:53.975] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:37:53.980] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:37:53.980] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:37:53.980] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:37:53.981] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:37:53.983] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:38:18.580] [INFO] datelog - GET /online
+[2014-06-25 19:38:18.695] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:38:18.695] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:38:18.697] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:38:18.698] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:38:18.701] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:38:18.704] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:38:18.705] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:38:18.709] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:38:18.711] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:38:18.712] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:38:18.714] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:39:11.793] [INFO] datelog - GET /restart
+[2014-06-25 19:39:11.847] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:39:11.848] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:39:11.850] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:39:11.850] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:39:11.853] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:39:11.944] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:39:11.944] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:39:11.944] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:39:11.945] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:39:11.945] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:39:11.946] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:41:06.050] [INFO] datelog - GET /restart
+[2014-06-25 19:41:06.120] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:41:06.120] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:41:06.122] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:41:06.125] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:41:06.139] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:41:06.139] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:41:06.142] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:41:06.142] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:41:06.147] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:41:06.154] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:41:06.156] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:41:06.157] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:41:08.787] [INFO] datelog - count: 54
+[2014-06-25 19:41:09.055] [INFO] datelog - GET /bigtable
+[2014-06-25 19:41:09.104] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:41:09.104] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:41:09.108] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:41:09.109] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:41:09.115] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:41:09.128] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:41:09.130] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:41:09.131] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:41:09.134] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:41:09.136] [WARN] datelog - GET /stylesheets/dist/js/bootstrap-datetimepicker.js
+[2014-06-25 19:41:12.183] [INFO] datelog - GET /readlog
+[2014-06-25 19:41:12.242] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:41:12.243] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:41:12.245] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:41:12.258] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:41:12.259] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:41:12.259] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:41:12.261] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:41:12.260] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:41:12.263] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:41:14.220] [ERROR] datelog - POST /readlog
+[2014-06-25 19:41:18.780] [WARN] datelog - GET /restart
+[2014-06-25 19:41:18.832] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:41:18.833] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:41:18.837] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:41:18.838] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:41:18.838] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:41:18.840] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:41:18.844] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:41:18.847] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:41:18.857] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:41:18.858] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:41:18.861] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:41:18.863] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:41:26.457] [INFO] datelog - GET /online
+[2014-06-25 19:41:26.581] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:41:26.581] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:41:26.581] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:41:26.582] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:41:26.582] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:41:26.583] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:41:26.602] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:41:26.603] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:41:26.604] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:41:26.604] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:42:03.336] [WARN] datelog - GET /online
+[2014-06-25 19:42:03.412] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:42:03.416] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:42:03.441] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:42:03.441] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:42:03.442] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:42:03.442] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:42:03.442] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:42:03.443] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:42:03.452] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:42:03.457] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:42:53.018] [INFO] datelog - GET /online
+[2014-06-25 19:42:53.098] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:42:53.108] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:42:53.109] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:42:53.109] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:42:53.110] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:42:53.112] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:42:53.114] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:42:53.124] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:42:53.128] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:42:53.131] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:42:53.132] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:42:55.171] [INFO] datelog - GET /restart
+[2014-06-25 19:42:55.221] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:42:55.222] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:42:55.224] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:42:55.223] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:42:55.225] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:42:55.250] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:42:55.250] [WARN] datelog - GET /js/msg.js
+[2014-06-25 19:42:55.250] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:42:55.251] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:42:55.251] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:42:55.253] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:42:55.266] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-06-25 19:42:55.266] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-06-25 19:42:58.772] [ERROR] datelog - GET /stylesheets/dist/images/ui-icons_ffffff_256x240.png
+[2014-06-25 19:42:58.794] [INFO] datelog - 4
+[2014-06-25 19:42:58.803] [ERROR] datelog - POST /restart
+[2014-06-25 19:43:05.623] [WARN] datelog - GET /online
+[2014-06-25 19:43:05.670] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 19:43:05.672] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 19:43:05.672] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 19:43:05.675] [WARN] datelog - GET /images/2.gif
+[2014-06-25 19:43:05.678] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 19:43:05.682] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 19:43:05.699] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 19:43:05.708] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 19:43:05.709] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 19:43:05.715] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 19:43:05.716] [WARN] datelog - GET /js/msg.js
+[2014-06-25 20:11:54.131] [WARN] datelog - GET /online
+[2014-06-25 20:11:54.216] [WARN] datelog - GET /images/2.gif
+[2014-06-25 20:11:54.217] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 20:11:54.218] [WARN] datelog - GET /stylesheets/style.css
+[2014-06-25 20:11:54.219] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-06-25 20:11:54.220] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 20:11:54.220] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-06-25 20:11:54.245] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-06-25 20:11:54.246] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-06-25 20:11:54.248] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-06-25 20:11:54.250] [WARN] datelog - GET /js/msg.js
+[2014-06-25 20:11:54.251] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-06-25 20:11:55.913] [INFO] datelog - 用户chunyu.zhao
+[2014-06-25 20:11:55.914] [INFO] datelog - datainfo.state  Wed Jun 25 2014 20:11:55 GMT+0800 (CST)
+[2014-06-25 20:11:55.916] [INFO] datelog - 用户推出成功！
+[2014-06-25 20:11:55.921] [WARN] datelog - GET /logout
+[2014-06-25 20:11:55.968] [INFO] datelog - GET /login
+[2014-06-25 20:11:56.016] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 20:11:56.027] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 20:11:56.033] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-06-25 20:11:58.497] [WARN] datelog - GET /login
+[2014-06-25 20:11:58.551] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-06-25 20:11:58.555] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-06-25 20:11:58.560] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css

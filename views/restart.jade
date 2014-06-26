@@ -1,0 +1,23 @@
+extends header
+block content
+            div.page-header
+                     h1#pheader #{pheader}
+                     button.btn.btn-danger#restart(type='button') 重启服务器
+            div.container                  
+                div.row
+                  form(action='/restart',method='post')
+                   - var item
+                   - var items = [['4','60.1.1.4'], ['5','60.1.1.5'],[ '6','60.1.1.6'],['7','60.1.1.7'], ['8','60.1.1.8'],[ '9','60.1.1.9'],['10','60.1.1.10'], ['11','60.1.1.11'], ['17','172.17.103.110'],['18','172.17.103.111'],[ '13','172.17.103.113'],['14','172.17.103.114'],[ '15','172.17.103.115'],[ '16','172.17.103.116']]
+                   - each item in items
+                     div.col-md-3                         
+                             h4.panel-title( style="padding-bottom: 12px;")
+                                  input(type="radio", style="zoom:180%",value=item[0],name="host", id="host"+item[0]) 
+                                  label(for="host"+item[0], style="padding-left: 12px;" )  服务器：#{item[1]}
+            div#tipblock(style="display:none")
+                     img(src="/images/2.gif")                                
+                                        
+block extjs
+          script(type='text/javascript',src="/js/msg.js")
+          script(type='text/javascript',src="/js/jquery-1.4.4.min.js")
+          script(type='text/javascript',src="/js/jquery-ui-1.8.13.min.js")
+          script(type='text/javascript',src="/js/jquery-ui-i18n.min.js")

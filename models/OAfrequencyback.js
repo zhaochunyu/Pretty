@@ -9,11 +9,11 @@ function OAfrequency() {
 module.exports = OAfrequency;
 
 OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
-	var text = '', dev, srclist = '暂时不显示了', updatesrclist = '', oaid = '', updateInfo = '',srclistname='',alldev='';
+	var text = '', dev, srclist = '', updatesrclist = '', oaid = '', updateInfo = '',srclistname='',alldev='';
 	var filepath = new Array();
 	var filepath = serverIP.data_1011.split('&&');
 	var newfilepath = '/export/home/qarelease/antbuild/' + oa_id + '.txt';// 新生成的文件清单
-	var newfilepathutf = '/export/home/qarelease/antbuild/' + oa_id + '.t';// 新生成的文件清单
+	
 	var j=0;
 	
 	if(filepath.length!=oa_id.length){
@@ -24,11 +24,6 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 				null);
 	}
 	else{
-		//rm -f newfilepath
-		if( fs.existsSync(newfilepath) ) {
-		fs.unlinkSync(newfilepath);	
-		fs.unlinkSync(newfilepathutf);	
-		 }
 			
 	oa_id.forEach(function(id_oa) {
 		j++;
@@ -44,9 +39,8 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 				i++;
 				var operateFile = oaname.substring(0, oaname.lastIndexOf('-'))
 						+ '文件清单/';// cvs预期操作文件夹
-				var cvspath = "#!/bin/sh \n java -jar ./readtxt.jar /home/zhaowj/cvscommit/trunk/YeePay2G/1.doc/14.test/QA文件发布清单/上线工作单2014文件清单/"
-						+ operateFile + oaname+" "+newfilepath +" "+newfilepathutf;
-				
+				var cvspath = "#!/bin/sh \n cat /home/zhaowj/cvscommit/trunk/YeePay2G/1.doc/14.test/QA文件发布清单/上线工作单2014文件清单/"
+						+ operateFile + oaname;
 				logger.info('更新文件路径 :' + cvspath);
 				var buf = iconv.encode(cvspath, 'GBK');// return GBK encoded
 														// bytes from unicode
@@ -67,16 +61,25 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 										null,
 										null);
 							}
-							if(stdout.indexOf('error')>-1)
-							{
-								logger.error('readtxt出现异常error：' + err);
-								return callback(
-										null,
-										null,
-										null);
-							}
-							if (stdout.indexOf('writeisok')>-1) {	
-								if (i == oa_id.length) {
+							if (stdout) {
+								text = iconv.decode(stdout, 'GBK');
+								text = text.toString();
+								text=text.replace(/\t/g,"");
+								srclist = srclist + ' \n ' + text;
+								updateInfo = updateInfo	+ ' \n'+ text.substring((text.lastIndexOf('#update')),text.length);
+								logger.info("将更新代码 ：" + updateInfo);
+								var regex = new RegExp(
+										"#/YP2G_Test/webapps/app-test.war", "g");
+								updateInfo = updateInfo.replace(regex,
+										"/YP2G_Test/webapps/app-test.war");
+								var regex2 = new RegExp(
+										"/YP2G_CommonUtility/src/java/springContext/systemCfg.properties", "g");
+								updateInfo = updateInfo.replace(regex2,
+										"#/YP2G_CommonUtility/src/java/springContext/systemCfg.properties");					
+								
+								fs.writeFile(newfilepath,updateInfo,'utf-8',function(err) {
+													if (err)throw err;
+													logger.info("上线清单写入："+ newfilepath);
 													exec('cp -f /export/home/qarelease/antbuild/'
 																	+ oa_id
 																	+ '.txt  /export/home/qarelease/antbuild/chunyu.txt && sed /^[[:space:]]*$/d /export/home/qarelease/antbuild/chunyu.txt >| /export/home/qarelease/antbuild/'
@@ -84,13 +87,16 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 																	+ '.txt',
 															function(err,stdout,stderr) {
 																if (err)throw err;
-																logger.info('去掉空行完成');												
-																fs.readFile(newfilepathutf,
+																logger.info('去掉空行完成');
+																fs.readFile('/export/home/qarelease/antbuild/'
+																						+ oa_id
+																						+ '.txt',
 																				'utf-8',
 																				function(err,data) {
 																					if (err)throw err;
-																					updatesrclist =data;
-																					logger.info('本次更新:'+updatesrclist);
+																					updatesrclist = data;
+																					
+																					if (i == oa_id.length) {
 																						// 写入数据库
 																						Online.get(oaid,function(
 																												err,
@@ -167,7 +173,6 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 																													'project':serverIP.data_599,
 																													'tester':serverIP.data_691,
 																													'own':serverIP.data_699.split("20")[0],
-																													'sql':serverIP.data_631,
 																													'core':serverIP.data_1037,
 																													'incidence':serverIP.data_1036,
 																													'ifback':serverIP.data_633,
@@ -211,13 +216,12 @@ OAfrequency.SeleOnline = function(oa_id, serverIP, callback) {
 																											}
 
 																										}); // Online.get
-																				
+																					}// i==oa_id.length
 																				});// fs.readFile(
 															});// exec
 
-								}// i==oa_id.length
-							}//if
-						
+												});// fs.writeFile
+							}
 						});// exec
 			});// forEach
 	
