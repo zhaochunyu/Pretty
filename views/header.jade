@@ -7,6 +7,7 @@ head(lang="zh-cn")
      link(href='/stylesheets/style.css', type='text/css', rel="stylesheet")
      link(href='/stylesheets/dist/css/bootstrap.css', type='text/css', rel="stylesheet")
      link(href='/stylesheets/dist/css/sticky-footer-navbar.css',type='text/css', rel="stylesheet")
+     link(href='/stylesheets/dist/css/jquery-common-dist.css',type='text/css', rel="stylesheet")
      <link href="/stylesheets/dist/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 body
     div#wrap
@@ -22,25 +23,30 @@ body
                        li: a(href="/goback",target="_blank") 回 滚                       
                        li: a(href="/bigtable",target="_blank") 大 表
                        li: a(href="/bigtable2",target="_blank") 更新记录
-                       li: a(href="/log/log.log",target="_blank") 系统日志
+                       li: a(href="/syslog",target="_blank") 系统日志
                        li: a(href="/readlog",target="_blank") 终端日志
                        li.dropdown: a.dropdown-toggle(data-toggle="dropdown",href="") 帮 助
                                       b.caret
                                       ul.dropdown-menu
-                                         li: a(href="/log/help.txt",target="_blank") 使用说明                                         
+                                         li: a(href="/restart",target="_blank") 重启服务器                                        
                                          li: a(href="/log/nohup.log",target="_blank") nohup日志
-                                         li: a(href="/log/about.txt") 关于
+                                         li.divider(role="presentation")
+                                         li: a(href="/log/help.html",target="_blank") 使用说明
+                                         li: a(href="/log/about.html") 关于                                         
+                                         
                     ui.nav.navbar-nav.navbar-right
                        li: a #{user.name}
                        li: a(href='/logout') 退 出
-                       li: a 倒计时：30：00
+                       li: a(href="mailto:chunyu.zhao@yeepay.com") 求助
         block content
 
     div#footer
-        div.container
-            p.text-muted          易宝支付测试环境更新平台  chunyu.zhao
+        div.container(align="center")
+            p.text-muted          易宝支付测试环境更新平台  
+               a(href="mailto:chunyu.zhao@yeepay.com") chunyu.zhao 
 
-    script(type='text/javascript',src="/js/jquery-2.0.0.js")
+    script(type='text/javascript',src="/js/jquery-2.0.0.min.js")
+    script(type='text/javascript',src="/js/jquery.messagebox.min.js")
     script(type='text/javascript',src="/stylesheets/dist/js/bootstrap.min.js")
 
     block extjs
