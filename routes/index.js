@@ -16,9 +16,10 @@ var logger = require('../log4js').logger;
 var Bigtable = require('../models/bigtable.js');
 var Goback = require('../models/goback.js');
 var Readlog = require('../models/readlog.js');
-var ReStart= require('../models/restart.js');
+var ReStart = require('../models/restart.js');
 var Moment = require('moment');
 var nodeExcel = require('excel-export');
+var db2 = require('../models/db2.js');
 
 module.exports = function(app) {
 
@@ -60,7 +61,7 @@ module.exports = function(app) {
 																	state,
 																	massage) {
 
-																if (massage) {// 有返回则执行
+																if (state) {// 有返回则执行
 
 																	// 判断流程是否结束
 																	SelectOAinfo
@@ -113,18 +114,16 @@ module.exports = function(app) {
 																																		.json(dataInfo);
 																															}
 																														}
-																													}
-																													else{																														
+																													} else {
 																														logger
-																														.info('亲！应该有文件为空或者找不到编译文件，请确认格式是否合法!');
+																																.info('亲！应该有文件为空或者找不到编译文件，请确认格式是否合法!');
 																														dataInfo = {
-																																'message' : '亲，有文件为空或找不到文件，请确认路径是否合法!',
-																																'name' : 'no body！'																																	
-																															};
-																															res
-																																	.json(dataInfo);
-																														}
-																												
+																															'message' : '亲，有文件为空或找不到文件，请确认路径是否合法!',
+																															'name' : 'no body！'
+																														};
+																														res
+																																.json(dataInfo);
+																													}
 
 																												});// //
 																								// 判断是不是pretty内第一次更新
@@ -152,6 +151,16 @@ module.exports = function(app) {
 																									.json(dataInfo);
 																						}
 																					});
+																} else {
+																	logger
+																			.error(massage);
+																	dataInfo = {
+
+																		'message' : massage,
+																		'name' : massage
+																	}
+																	res
+																			.json(dataInfo);
 																}
 															});
 
@@ -325,7 +334,6 @@ module.exports = function(app) {
 																																		'data_614' : serverIP.data_614,
 																																		'data_615' : serverIP.data_615,
 																																		'data_616' : serverIP.data_616,
-																																		'data_617' : serverIP.data_617,
 																																		'data_618' : serverIP.data_618,
 																																		'data_619' : serverIP.data_619,
 																																		'data_620' : serverIP.data_620,
@@ -353,12 +361,14 @@ module.exports = function(app) {
 																																		'confServer' : confServer,
 																																		'special' : serverIP.data_673,
 																																		'auto' : serverIP.data_1039,
-																																		'sql':serverIP.data_631,
+																																		'sql' : serverIP.data_631,
+																																		'sqlfile' : serverIP.data_636,
 																																		'project' : serverIP.data_599,
 																																		'tester' : serverIP.data_691,
-																																		'own' : serverIP.data_699.split("20")[0],
+																																		'own' : serverIP.data_699
+																																				.split("20")[0],
 																																		'core' : serverIP.data_1037,
-																																		'incidence':serverIP.data_1036,
+																																		'incidence' : serverIP.data_1036,
 																																		'ifback' : serverIP.data_633,
 																																		'db' : serverIP.data_683
 																																	}
@@ -426,72 +436,76 @@ module.exports = function(app) {
 	});
 	// 登录操作，验证是否成功
 	// app.post('/sigin', checkNotLogin);
+	app.get('/sigin', function(req, res) {
+		res.redirect('/login');
+	});
+
 	app.post('/sigin', function(req, res) {
 		var i = 0;
-		var user=req.body.user;
+		var user = req.body.user;
 		User.get_all(function(items) {
 			var massage = '', userName = 'Pretty';
 			var state = false;
-			items.forEach(function(item) {		
-				
-				if (item.state) {					
-					if(item.name==user){
-						//可以登录
+			items.forEach(function(item) {
+
+				if (item.state) {
+					if (item.name == user) {
+						// 可以登录
 						var datainfo = {
-								'name' : req.body.user,
-								'state' : true,
-								'logindate' : new Date()
+							'name' : req.body.user,
+							'state' : true,
+							'logindate' : new Date()
+						}
+						Login.sign(req.body.user, req.body.pass, function(str,
+								user) {
+							if (str == 'nouser') {
+								logger.info('str' + str);
+								res.render('login', {
+									massage : '',
+									user : '亲！我不认识你。'
+								});
 							}
-							Login.sign(req.body.user, req.body.pass, function(str,
-									user) {
-								if (str == 'nouser') {
-									logger.info('str' + str);
-									res.render('login', {
-										massage : '',
-										user : '亲！我不认识你。'
-									});
-								}
-								;
-								if (str == 'fiedpass') {
-									logger.info('str ' + str);
-									res.render('login', {
-										massage : '密码错！',
-										user : ''
-									});
-								}
-								;
-								if (str == 'success') {
-									User.update(datainfo,
-											function(err, updateUser) {
-												if (updateUser) {
-													logger.info('更新状态成功：'
-															+ updateUser);
-													req.session.user = user;
-													req.flash('success', '登入成功');
-													res.render('online', {
-														massage : massage,
-														user : req.session.user
-													});
-												}
-												if (updateUser == 0) {
-													logger.info('updateUser：'
-															+ updateUser);
-													res.render('login', {
-														massage : '',
-														user : '亲！我不认识你。'
-													});
-												}
-												;
-											});
-								}// if (str == 'success')
-							})// Login.sign
-					}
-					else{
+							;
+							if (str == 'fiedpass') {
+								logger.info('str ' + str);
+								res.render('login', {
+									massage : '密码错！',
+									user : ''
+								});
+							}
+							;
+							if (str == 'success') {
+								User.update(datainfo,
+										function(err, updateUser) {
+											if (updateUser) {
+												logger.info('更新状态成功：'
+														+ updateUser);
+												req.session.user = user;
+												req.flash('success', '登入成功');
+												res.render('online', {
+													pheader : 'Pretty',
+													massage : massage,
+													user : req.session.user
+												});
+											}
+											if (updateUser == 0) {
+												logger.info('updateUser：'
+														+ updateUser);
+												res.render('login', {
+													massage : '',
+													user : '亲！我不认识你。'
+												});
+											}
+											;
+										});
+							}// if (str == 'success')
+						})// Login.sign
+					} else {
 						i++;
-						massage = '正在使用，请稍等！', userName = item.name, state = true;
+						massage = '正在使用，请稍等！', userName = item.name,
+								state = true;
 					}
-				}
-				else{
+				} else {
 					i++;
 				}
 				if (i == items.length) {
@@ -536,6 +550,7 @@ module.exports = function(app) {
 												req.session.user = user;
 												req.flash('success', '登入成功');
 												res.render('online', {
+													pheader : 'Pretty',
 													massage : massage,
 													user : req.session.user
 												});
@@ -564,32 +579,49 @@ module.exports = function(app) {
 
 	});
 	// 注册
-/*	app.get('/reg', checkNotLogin);
-	app.get('/reg', function(req, res) {
-		res.render('reg', {
-			title : 'Pretty'
+	/*
+	 * app.get('/reg', checkNotLogin); app.get('/reg', function(req, res) {
+	 * res.render('reg', { title : 'Pretty' }); });
+	 *  // 注册操作 app.post('/reg', checkNotLogin); app .post( '/reg',
+	 * function(req, res) { req.session.user = null; var name = req.body.user,
+	 * password = req.body.pass, repassword = req.body.repass Login.reg(name,
+	 * password, repassword, function(str, user) { if (str == '/login') {
+	 * logger.info('注册成功'); res.redirect('/login'); } else {
+	 * res.redirect('/reg'); } })
+	 * 
+	 * });
+	 */
+
+	// 忘记密码
+	app.get('/forget', checkNotLogin);
+	app.get('/forget', function(req, res) {
+		res.render('forget', {
+			title : '忘记密码'
 		});
 	});
 
-	// 注册操作
-	app.post('/reg', checkNotLogin);
+	// 忘记密码和注册操作
+	app.post('/forget', checkNotLogin);
 	app
 			.post(
-					'/reg',
+					'/forget',
 					function(req, res) {
 						req.session.user = null;
-						var name = req.body.user, password = req.body.pass, repassword = req.body.repass
-						Login.reg(name, password, repassword, function(str,
-								user) {
-							if (str == '/login') {
-								logger.info('注册成功');
-								res.redirect('/login');
-							} else {
-								res.redirect('/reg');
-							}
-						})
+						var name = req.body.user, password = req.body.pass, repassword = req.body.repass, superkey = req.body.superkey
+						Login.forget(name, password, repassword, superkey,
+								function(err, msg) {
+									if (err) {
+										logger.info('修改失败' + err);
+										res.render('forget', {
+											title : msg
+										});
+									} else {
+										res.redirect('/login');
+									}
+								})
 
-					});*/
+					});
+
 	// 退出
 	app.get('/logout', checkLogin);
 	app.get('/logout', function(req, res) {
@@ -779,7 +811,6 @@ module.exports = function(app) {
 																																							'data_614' : serverIP.data_614,
 																																							'data_615' : serverIP.data_615,
 																																							'data_616' : serverIP.data_616,
-																																							'data_617' : serverIP.data_617,
 																																							'data_618' : serverIP.data_618,
 																																							'data_619' : serverIP.data_619,
 																																							'data_620' : serverIP.data_620,
@@ -805,18 +836,20 @@ module.exports = function(app) {
 																																							'goback' : 0,
 																																							'update' : 1,
 																																							'confServer' : confServer,
-																																							'department':serverIP.data_1040,
+																																							'department' : serverIP.data_1040,
 																																							'special' : serverIP.data_673,
 																																							'auto' : serverIP.data_1039,
-																																							'sql':serverIP.data_631,
+																																							'sql' : serverIP.data_631,
+																																							'sqlfile' : serverIP.data_636,
 																																							'project' : serverIP.data_599,
 																																							'tester' : serverIP.data_691,
-																																							'own' : serverIP.data_699.split("20")[0],
+																																							'own' : serverIP.data_699
+																																									.split("20")[0],
 																																							'core' : serverIP.data_1037,
-																																							'incidence':serverIP.data_1036,
+																																							'incidence' : serverIP.data_1036,
 																																							'ifback' : serverIP.data_633,
 																																							'db' : serverIP.data_683,
-																																							'ispretty':'pretty'
+																																							'ispretty' : 'pretty'
 																																						}
 																																						var newline = new Online(
 																																								{
@@ -882,17 +915,17 @@ module.exports = function(app) {
 					});
 
 	// 清单大表
-	 app.get('/bigtable', checkLogin);
+	app.get('/bigtable', checkLogin);
 	app.get('/bigtable', function(req, res) {
-		var scm='xin.zhao-1&meili.wu&lihong.wei&chunyu.zhao';
-		if( scm.indexOf(req.session.user.name)+1){	
+		var scm = 'xin.zhao-1&meili.wu&lihong.wei&chunyu.zhao';
+		if (scm.indexOf(req.session.user.name) + 1) {
 			Bigtable.oalist(function(items) {
 				console.info('' + items);
-				items.forEach(function(it,index){
-					it.onliedate= Moment(it.onliedate).format('YYYY-MM-DD');
-					it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-					items[index]=it;
-					if(index==items.length-1){
+				items.forEach(function(it, index) {
+					it.onliedate = Moment(it.onliedate).format('YYYY-MM-DD');
+					it.info.date = Moment(it.info.date).format('YYYY-MM-DD');
+					items[index] = it;
+					if (index == items.length - 1) {
 						res.render('bigtable', {
 							pheader : '清单大表',
 							items : items,
@@ -900,42 +933,40 @@ module.exports = function(app) {
 							user : req.session.user
 						});
 					}
-				})
+				});
 			});
-		}
-		else{
+		} else {
 			res.render('logtxt', {
 				pheader : '亲！你无权访问大表 ',
-				data:'椿椿提示：只有配置管理员有权访问，请与管理员联系。'
+				data : '椿椿提示：只有配置管理员有权访问，请与管理员联系。'
 			});
 		}
 	});
 
 	// 清单大表
-	 app.get('/bigtable2', checkLogin);
+	app.get('/bigtable2', checkLogin);
 	app.get('/bigtable2', function(req, res) {
-			Bigtable.oalist(function(items) {
-				console.info('' + items);
-				items.forEach(function(it,index){
-					it.onliedate= Moment(it.onliedate).format('YYYY-MM-DD');
-					it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-					items[index]=it;
-					if(index==items.length-1){
-						res.render('bigtable2', {
-							pheader : '清单大表',
-							items : items,
-							itemsStr : JSON.stringify(items),
-							user : req.session.user
-						});
-					}
-				})
-			});
+		Bigtable.oalist(function(items) {
+			console.info('' + items);
+			items.forEach(function(it, index) {
+				it.onliedate = Moment(it.onliedate).format('YYYY-MM-DD');
+				it.info.date = Moment(it.info.date).format('YYYY-MM-DD');
+				items[index] = it;
+				if (index == items.length - 1) {
+					res.render('bigtable2', {
+						pheader : '清单大表',
+						items : items,
+						itemsStr : JSON.stringify(items),
+						user : req.session.user
+					});
+				}
+			})
+		});
 	});
 
 	// 清单登录状态
 	app.get('/bigboss', function(req, res) {
-
-		res.render('killall')
+		res.render('killall');
 	});
 
 	app.post('/killall', function(req, res) {
@@ -948,9 +979,9 @@ module.exports = function(app) {
 			if (updateUser) {
 				res.redirect('/login');
 			} else {
-				res.render('killall')
+				res.render('killall');
 			}
-		})
+		});
 
 	});
 
@@ -988,7 +1019,7 @@ module.exports = function(app) {
 
 	}
 	// *************************************************
-	//查询按条件
+	// 查询按条件
 	app.post('/bigtableSelect', function(req, res) {
 		var updataId = req.body.updataId;
 		var updataIdr = req.body.updataId;
@@ -997,17 +1028,18 @@ module.exports = function(app) {
 		var enddataQA = req.body.enddataQA;
 		var begindata = req.body.begindata;
 		var enddata = req.body.enddata;
-		
+
 		logger.info('updataId: ' + updataId);
 		logger.info('online' + isonline);
-		var selectInfo={
-				'begindataQA' :begindataQA,
-				'enddataQA':enddataQA,
-				'begindata':begindata,
-				'enddata':enddata,
-				'isonline':isonline
+		var selectInfo = {
+			'begindataQA' : begindataQA,
+			'enddataQA' : enddataQA,
+			'begindata' : begindata,
+			'enddata' : enddata,
+			'isonline' : isonline
 		};
-		logger.info('begindataQA: ' + begindataQA+" enddataQA: "+enddataQA+" begindata: "+begindata+" enddata: "+enddata);
+		logger.info('begindataQA: ' + begindataQA + " enddataQA: " + enddataQA
+				+ " begindata: " + begindata + " enddata: " + enddata);
 		var myID = new Array();
 		updataId = updataId.replace(/;/g, ' ');
 		updataId = updataId.trim();
@@ -1016,89 +1048,21 @@ module.exports = function(app) {
 			var oaid = '_' + id_oa;
 			myID[index] = oaid;
 		})
-		logger.info('updataIdr ' + updataIdr);		
-		//每次在oa数据库查询，并存入pretty数据库
-		Bigtable.save(myID, function(err,state) {
-if(state){
-	//在pretty中查询	
-	Bigtable.oalistSelect(myID, selectInfo, function(err,items) {
-		
-		if(items.length>0){	
-		items.forEach(function(it,index){				
-			it.onliedate=Moment(it.onliedate).format('YYYY-MM-DD');
-			 it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-			items[index]=it;
-			if(index==items.length-1){
-				res.render('bigtable', {
-					pheader : '清单大表',
-					updataId : updataIdr.trim(),
-					items : items,
-					itemsStr : JSON.stringify(items),
-					user : req.session.user
-				});
-					}
-		})
-		
-		}
-		else{
-			res.render('bigtable', {
-				pheader : '出错了！',
-				updataId : updataIdr.trim(),
-				items : 0,
-				user : req.session.user
-			});			
-		}	
-	});
-	
-}
-else{
-	res.render('bigtable', {
-		pheader : '出错了！',
-		updataId : updataIdr.trim(),
-		items : 0,
-		user : req.session.user
-	});
-}
-		})
-	});
-//设置为上线
-	app.post('/setOnile', function(req, res) {
-		var updataId = req.body.updataId;
-		var updataIdr = req.body.updataId;
-		var selectInfo;
-		updataId=	updataId.trim();
-		if(!updataId.match('^[0-9]*[0-9;]+$')){
-			res.render('bigtable', {
-				pheader : '出错了！',
-				updataId :  updataIdr.trim(),
-				items : 0,
-				user : req.session.user
-			});
-		}
-		else{
-		var myID =[];
-		updataId = updataId.replace(/;/g, ' ');
-		updataId = updataId.trim();
-		logger.info("setOnile：" + updataId);
-		myID = updataId.split(' ');
-		myID.forEach(function(id_oa, index, array1) {
-			var oaid = '_' + id_oa;
-			myID[index] = oaid;
-		});
-		var datainfo = {
-			"onliedate" : new Date(),
-			"online" : '是',
-			"nocount" : false
-		};
-		Online.update_bigtable(myID, datainfo, function(err, online) {
-			if (online) {
-				Bigtable.oalistSelect(myID, selectInfo, function(err,items) {
-					if (items) {
-						items.forEach(function(it,index){
-							it.onliedate=Moment(it.onliedate).format('YYYY-MM-DD');
-							 it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-							items[index]=it;
-							if(index===items.length-1){
+		logger.info('updataIdr ' + updataIdr);
+		// 每次在oa数据库查询，并存入pretty数据库
+		Bigtable.save(myID, function(err, state) {
+			if (state) {
+				// 在pretty中查询
+				Bigtable.oalistSelect(myID, selectInfo, function(err, items) {
+
+					if (items.length > 0) {
+						items.forEach(function(it, index) {
+							it.onliedate = Moment(it.onliedate).format(
+									'YYYY-MM-DD');
+							it.info.date = Moment(it.info.date).format(
+									'YYYY-MM-DD');
+							items[index] = it;
+							if (index == items.length - 1) {
 								res.render('bigtable', {
 									pheader : '清单大表',
 									updataId : updataIdr.trim(),
@@ -1107,17 +1071,88 @@ else{
 									user : req.session.user
 								});
 							}
-						});
+						})
+
 					} else {
 						res.render('bigtable', {
 							pheader : '出错了！',
 							updataId : updataIdr.trim(),
+							items : 0,
 							user : req.session.user
 						});
 					}
 				});
-			}//if
+
+			} else {
+				res.render('bigtable', {
+					pheader : '出错了！',
+					updataId : updataIdr.trim(),
+					items : 0,
+					user : req.session.user
+				});
+			}
 		});
+	});
+	// 设置为上线
+	app.post('/setOnile', function(req, res) {
+		var updataId = req.body.updataId;
+		var updataIdr = req.body.updataId;
+		var selectInfo;
+		updataId = updataId.trim();
+		if (!updataId.match('^[0-9]*[0-9;]+$')) {
+			res.render('bigtable', {
+				pheader : '出错了！',
+				updataId : updataIdr.trim(),
+				items : 0,
+				user : req.session.user
+			});
+		} else {
+			var myID = [];
+			updataId = updataId.replace(/;/g, ' ');
+			updataId = updataId.trim();
+			logger.info("setOnile：" + updataId);
+			myID = updataId.split(' ');
+			myID.forEach(function(id_oa, index, array1) {
+				var oaid = '_' + id_oa;
+				myID[index] = oaid;
+			});
+			var datainfo = {
+				"onliedate" : new Date(),
+				"online" : '是',
+				"nocount" : false
+			};
+			Online.update_bigtable(myID, datainfo, function(err, online) {
+				if (online) {
+					Bigtable.oalistSelect(myID, selectInfo,
+							function(err, items) {
+								if (items) {
+									items.forEach(function(it, index) {
+										it.onliedate = Moment(it.onliedate)
+												.format('YYYY-MM-DD');
+										it.info.date = Moment(it.info.date)
+												.format('YYYY-MM-DD');
+										items[index] = it;
+										if (index === items.length - 1) {
+											res.render('bigtable', {
+												pheader : '清单大表',
+												updataId : updataIdr.trim(),
+												items : items,
+												itemsStr : JSON
+														.stringify(items),
+												user : req.session.user
+											});
+										}
+									});
+								} else {
+									res.render('bigtable', {
+										pheader : '出错了！',
+										updataId : updataIdr.trim(),
+										user : req.session.user
+									});
+								}
+							});
+				}// if
+			});
 		}
 	});
 
@@ -1126,119 +1161,124 @@ else{
 		var updataIdr = req.body.updataId;
 		var selectInfo;
 		logger.info('setGoback: ' + updataId);
-		updataId=	updataId.trim();
+		updataId = updataId.trim();
 		logger.info('setGoback ' + updataIdr);
-		if(!(updataId.match('^[0-9]*[0-9;]+$'))){
+		if (!(updataId.match('^[0-9]*[0-9;]+$'))) {
 			res.render('bigtable', {
 				pheader : '出错了！',
 				updataId : updataIdr.trim(),
 				items : 0,
 				user : req.session.user
 			});
-		}
-		else{
-		var myID = new Array();
-		updataId = updataId.replace(/;/g, ' ');
-		updataId = updataId.trim();
-		myID = updataId.split(' ');
-		myID.forEach(function(id_oa, index, array1) {
-			var oaid = '_' + id_oa;
-			myID[index] = oaid;
-		});
-		var datainfo = {
-			'online' : '否',
-			'nocount' : true
-		};
-		Online.update_bigtable(myID, datainfo, function(err, online) {
+		} else {
+			var myID = new Array();
+			updataId = updataId.replace(/;/g, ' ');
+			updataId = updataId.trim();
+			myID = updataId.split(' ');
+			myID.forEach(function(id_oa, index, array1) {
+				var oaid = '_' + id_oa;
+				myID[index] = oaid;
+			});
+			var datainfo = {
+				'online' : '否',
+				'nocount' : true
+			};
+			Online.update_bigtable(myID, datainfo, function(err, online) {
 				if (online) {
-					Bigtable.oalistSelect(myID, selectInfo, 
-							function(err,items) {
-						if (items) {
-							items.forEach(function(it,index){				
-								it.onliedate=Moment(it.onliedate).format('YYYY-MM-DD');
-								 it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-								items[index]=it;
-								if(index==items.length-1){
+					Bigtable.oalistSelect(myID, selectInfo,
+							function(err, items) {
+								if (items) {
+									items.forEach(function(it, index) {
+										it.onliedate = Moment(it.onliedate)
+												.format('YYYY-MM-DD');
+										it.info.date = Moment(it.info.date)
+												.format('YYYY-MM-DD');
+										items[index] = it;
+										if (index == items.length - 1) {
+											res.render('bigtable', {
+												pheader : '清单大表',
+												updataId : updataIdr.trim(),
+												items : items,
+												itemsStr : JSON
+														.stringify(items),
+												user : req.session.user
+											});
+										}
+									});
+								} else {
 									res.render('bigtable', {
-										pheader : '清单大表',
+										pheader : '出错了！',
 										updataId : updataIdr.trim(),
-										items : items,
-										itemsStr : JSON.stringify(items),
+										items : 0,
 										user : req.session.user
 									});
 								}
 							});
-				} else {
-					res.render('bigtable', {
-						pheader : '出错了！',
-						updataId : updataIdr.trim(),
-						items : 0,
-						user : req.session.user
-					});
-				}
-					});
-				}//if
-			});}
-		});
+				}// if
+			});
+		}
+	});
 
 	app.post('/setSecond', function(req, res) {
 		var updataId = req.body.updataId;
 		var updataIdr = req.body.updataId;
 		var selectInfo;
-		updataId=	updataId.trim();
+		updataId = updataId.trim();
 		logger.info('setSecond: ' + updataIdr);
-			if(!updataId.match('^[0-9]*[0-9;]+$')){
+		if (!updataId.match('^[0-9]*[0-9;]+$')) {
 			res.render('bigtable', {
 				pheader : '出错了！',
 				updataId : updataIdr.trim(),
 				items : 0,
 				user : req.session.user
 			});
-		}
-		else{
-		var myID ;
-		updataId = updataId.replace(/;/g, ' ');
-		updataId = updataId.trim();
-		myID = updataId.split(' ');
-		myID.forEach(function(id_oa, index, array1) {
-			var oaid = '_' + id_oa;
-			myID[index] = oaid;
-		});
-		var datainfo = {
-			'onliedate' : new Date(),
-			'online' : '是',
-			'nocount' : false
-		};
-		Online.update_bigtable(myID, datainfo, function(err, online) {
-			if (online) {
-						Bigtable.oalistSelect(myID, selectInfo, function(
-								err,items) {
-							if (items) {
-								items.forEach(function(it,index){
-									it.onliedate= Moment(it.onliedate).format('YYYY-MM-DD');
-				                    it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-									items[index]=it;
-									if(index==items.length-1){
-										res.render('bigtable', {
-											pheader : '清单大表',
-											updataId : updataIdr.trim(),
-											items : items,
-											itemsStr : JSON.stringify(items),
-											user : req.session.user
-										});
-									}
-								})
-					} else {
-						res.render('bigtable', {
-							pheader : '出错了！',
-							updataId : updataIdr.trim(),
-							items : 0,
-							user : req.session.user
-						});
-					}
-				});
-			}//if
-		});
+		} else {
+			var myID;
+			updataId = updataId.replace(/;/g, ' ');
+			updataId = updataId.trim();
+			myID = updataId.split(' ');
+			myID.forEach(function(id_oa, index, array1) {
+				var oaid = '_' + id_oa;
+				myID[index] = oaid;
+			});
+			var datainfo = {
+				'onliedate' : new Date(),
+				'online' : '是',
+				'nocount' : false
+			};
+			Online.update_bigtable(myID, datainfo, function(err, online) {
+				if (online) {
+					Bigtable.oalistSelect(myID, selectInfo,
+							function(err, items) {
+								if (items) {
+									items.forEach(function(it, index) {
+										it.onliedate = Moment(it.onliedate)
+												.format('YYYY-MM-DD');
+										it.info.date = Moment(it.info.date)
+												.format('YYYY-MM-DD');
+										items[index] = it;
+										if (index == items.length - 1) {
+											res.render('bigtable', {
+												pheader : '清单大表',
+												updataId : updataIdr.trim(),
+												items : items,
+												itemsStr : JSON
+														.stringify(items),
+												user : req.session.user
+											});
+										}
+									})
+								} else {
+									res.render('bigtable', {
+										pheader : '出错了！',
+										updataId : updataIdr.trim(),
+										items : 0,
+										user : req.session.user
+									});
+								}
+							});
+				}// if
+			});
 		}
 	});
 
@@ -1246,298 +1286,412 @@ else{
 		var updataId = req.body.updataId;
 		var updataIdr = req.body.updataId;
 		var selectInfo;
-		updataId=	updataId.trim();
+		updataId = updataId.trim();
 		logger.info('setCancel: ' + updataId);
-		if(!updataId.match('^[0-9]*[0-9;]+$')){
+		if (!updataId.match('^[0-9]*[0-9;]+$')) {
 			res.render('bigtable', {
 				pheader : '出错了！',
 				updataId : updataIdr.trim(),
 				items : 0,
 				user : req.session.user
 			});
-		}
-		else{
-		var myID = new Array();
-		updataId = updataId.replace(/;/g, ' ');
-		updataId = updataId.trim();
-		myID = updataId.split(' ');
-		myID.forEach(function(id_oa, index, array1) {
-			var oaid = '_' + id_oa;
-			myID[index] = oaid;
-		});
-		var datainfo = {
-			'onliedate' : new Date(),
-			'online' : '撤销',
-			'nocount' : true
-		};
-		Online.update_bigtable(myID, datainfo, function(err, online) {
-			if (online) {
-					
-						Bigtable.oalistSelect(myID, selectInfo, function(
-							err,	items) {
-							if (items) {
-								items.forEach(function(it,index){				
-									it.onliedate= Moment(it.onliedate).format('YYYY-MM-DD');
-			                    	it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-									items[index]=it;
-									if(index==items.length-1){
-										res.render('bigtable', {
-											pheader : '清单大表',
-											updataId : updataIdr.trim(),
-											items : items,
-											itemsStr : JSON.stringify(items),
-											user : req.session.user
-										});
-									}
-								})
-					} else {
-						res.render('bigtable', {
-							pheader : '出错了！',
-							updataId : updataIdr.trim(),
-							items : 0,
-							user : req.session.user
-						});
-					}
-				});
-			}
-		});}
-	});
+		} else {
+			var myID = new Array();
+			updataId = updataId.replace(/;/g, ' ');
+			updataId = updataId.trim();
+			myID = updataId.split(' ');
+			myID.forEach(function(id_oa, index, array1) {
+				var oaid = '_' + id_oa;
+				myID[index] = oaid;
+			});
+			var datainfo = {
+				'onliedate' : new Date(),
+				'online' : '撤销',
+				'nocount' : true
+			};
+			Online.update_bigtable(myID, datainfo, function(err, online) {
+				if (online) {
 
-	
+					Bigtable.oalistSelect(myID, selectInfo,
+							function(err, items) {
+								if (items) {
+									items.forEach(function(it, index) {
+										it.onliedate = Moment(it.onliedate)
+												.format('YYYY-MM-DD');
+										it.info.date = Moment(it.info.date)
+												.format('YYYY-MM-DD');
+										items[index] = it;
+										if (index == items.length - 1) {
+											res.render('bigtable', {
+												pheader : '清单大表',
+												updataId : updataIdr.trim(),
+												items : items,
+												itemsStr : JSON
+														.stringify(items),
+												user : req.session.user
+											});
+										}
+									})
+								} else {
+									res.render('bigtable', {
+										pheader : '出错了！',
+										updataId : updataIdr.trim(),
+										items : 0,
+										user : req.session.user
+									});
+								}
+							});
+				}
+			});
+		}
+	});
 
 	app.post('/addupdate', function(req, res) {
 		var updataId = req.body.updataId;
 		var updataIdr = req.body.updataId;
 		var selectInfo;
-		updataId=	updataId.trim();
+		updataId = updataId.trim();
 		logger.info('addupdate: ' + updataId);
-		if(!updataId.match('^[0-9]*[0-9;]+$')){
+		if (!updataId.match('^[0-9]*[0-9;]+$')) {
 			res.render('bigtable', {
 				pheader : '出错了！',
 				updataId : updataIdr.trim(),
 				items : 0,
 				user : req.session.user
 			});
+		} else {
+			var myID = new Array();
+			updataId = updataId.replace(/;/g, ' ');
+			updataId = updataId.trim();
+			myID = updataId.split(' ');
+			myID.forEach(function(id_oa, index, array1) {
+				var oaid = '_' + id_oa;
+				myID[index] = oaid;
+			});
+			var datainfo = {
+				'infoupdate' : true,
+				'nocount' : true
+			};
+			Online.update_bigtable(myID, datainfo, function(err, online) {
+				if (online) {
+					Bigtable.oalistSelect(myID, selectInfo,
+							function(err, items) {
+								if (items) {
+									items.forEach(function(it, index) {
+										it.onliedate = Moment(it.onliedate)
+												.format('YYYY-MM-DD');
+										it.info.date = Moment(it.info.date)
+												.format('YYYY-MM-DD');
+										items[index] = it;
+										if (index == items.length - 1) {
+											res.render('bigtable', {
+												pheader : '清单大表',
+												updataId : updataIdr.trim(),
+												items : items,
+												itemsStr : JSON
+														.stringify(items),
+												user : req.session.user
+											});
+										}
+									})
+								} else {
+									res.render('bigtable', {
+										pheader : '出错了！',
+										updataId : updataIdr.trim(),
+										items : 0,
+										user : req.session.user
+									});
+								}
+							});
+				}
+			});
 		}
-		else{
-		var myID = new Array();
-		updataId = updataId.replace(/;/g, ' ');
-		updataId = updataId.trim();
-		myID = updataId.split(' ');
-		myID.forEach(function(id_oa, index, array1) {
-			var oaid = '_' + id_oa;
-			myID[index] = oaid;
-		});
-		var datainfo = {
-			'infoupdate' : true,
-			'nocount' : true			
-		};
-		Online.update_bigtable(myID, datainfo, function(err, online) {
-			if (online) {
-						Bigtable.oalistSelect(myID, selectInfo, function(
-							err,	items) {
-							if (items) {
-								items.forEach(function(it,index){				
-									it.onliedate= Moment(it.onliedate).format('YYYY-MM-DD');
-			                    	it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-									items[index]=it;
-									if(index==items.length-1){
-										res.render('bigtable', {
-											pheader : '清单大表',
-											updataId : updataIdr.trim(),
-											items : items,
-											itemsStr : JSON.stringify(items),
-											user : req.session.user
-										});
-									}
-								})
-					} else {
-						res.render('bigtable', {
-							pheader : '出错了！',
-							updataId : updataIdr.trim(),
-							items : 0,
-							user : req.session.user
-						});
-					}
-				});
-			}
-		});}
 	});
-	
-	
+
 	app.post('/setTxt', function(req, res) {
 		var updataId = req.body.updataId;
 		var updataIdr = req.body.updataId;
 		var selectInfo;
-		var notes=req.body.notes;
-		updataId=	updataId.trim();
+		var notes = req.body.notes;
+		updataId = updataId.trim();
 		logger.info('setTxt: ' + updataId);
 		logger.info('notes: ' + notes);
-		if(!updataId.match('^[0-9]*[0-9;]+$')){
+		if (!updataId.match('^[0-9]*[0-9;]+$')) {
 			res.render('bigtable', {
 				pheader : '出错了！',
 				updataId : updataIdr.trim(),
 				items : 0,
 				user : req.session.user
 			});
+		} else {
+			var myID = new Array();
+			updataId = updataId.replace(/;/g, ' ');
+			updataId = updataId.trim();
+			myID = updataId.split(' ');
+			myID.forEach(function(id_oa, index, array1) {
+				var oaid = '_' + id_oa;
+				myID[index] = oaid;
+			});
+			var datainfo = {
+				'onliedate' : new Date(),
+				'notes' : notes,
+				'nocount' : true
+			};
+			Online.update_bigtable(myID, datainfo, function(err, online) {
+				if (online) {
+					Bigtable.oalistSelect(myID, selectInfo,
+							function(err, items) {
+								if (items) {
+									items.forEach(function(it, index) {
+										it.onliedate = Moment(it.onliedate)
+												.format('YYYY-MM-DD');
+										it.info.date = Moment(it.info.date)
+												.format('YYYY-MM-DD');
+										items[index] = it;
+										if (index == items.length - 1) {
+											res.render('bigtable', {
+												pheader : '清单大表',
+												updataId : updataIdr.trim(),
+												items : items,
+												itemsStr : JSON
+														.stringify(items),
+												user : req.session.user
+											});
+										}
+									})
+								} else {
+									res.render('bigtable', {
+										pheader : '出错了！',
+										updataId : updataIdr.trim(),
+										items : 0,
+										user : req.session.user
+									});
+								}
+							});
+				}
+			});
 		}
-		else{
-		var myID = new Array();
-		updataId = updataId.replace(/;/g, ' ');
-		updataId = updataId.trim();
-		myID = updataId.split(' ');
-		myID.forEach(function(id_oa, index, array1) {
-			var oaid = '_' + id_oa;
-			myID[index] = oaid;
-		});
-		var datainfo = {
-			'onliedate' : new Date(),
-			'notes':notes,
-			'nocount' : true
-		};
-		Online.update_bigtable(myID, datainfo, function(err, online) {
-			if (online) {
-						Bigtable.oalistSelect(myID, selectInfo,  function(
-							err,	items) {
-							if (items) {
-								items.forEach(function(it,index){				
-									it.onliedate=Moment(it.onliedate).format('YYYY-MM-DD');
-									 it.info.date= Moment(it.info.date).format('YYYY-MM-DD');
-									items[index]=it;
-									if(index==items.length-1){
-										res.render('bigtable', {
-											pheader : '清单大表',
-											updataId : updataIdr.trim(),
-											items : items,
-											itemsStr : JSON.stringify(items),
-											user : req.session.user
-										});
-									}
-								})
-					} else {
-						res.render('bigtable', {
-							pheader : '出错了！',
-							updataId : updataIdr.trim(),
-							items : 0,
-							user : req.session.user
-						});
-					}
-				});
-			}
-		});}
 	});
-	
+
 	app.post('/doExport', function(req, res) {
 		var items = JSON.parse(req.body.items);
-		var conf ={};					
-	      conf.cols = [
-	                   {caption:'序号', type:'string'},
-	                   {caption:'流水号', type:'string'  },
-	                   { caption:'部门',  type:'string'  }, 
-	                   { caption:'所属项目',  type:'string'  },
-	                   { caption:'上线内容',  type:'string'  },
-	                   { caption:'是否有核心代码',  type:'string'  },
-	                   { caption:'是否有数据库',  type:'string'  },
-	                   { caption:'影响范围',  type:'string'  },
-	                   { caption:'项目负责人',  type:'string'  },
-	                   { caption:'测试人',  type:'string'  },
-	                   { caption:'是否使用自动化',  type:'string'  },
-	                   { caption:'是否有sql评审',  type:'string'  },
-	                   { caption:'QA更新次数',  type:'string'  },
-	                   { caption:'上QA日期',  type:'string'  },
-	                   { caption:'上线状态',  type:'string'  },
-	                   { caption:'上线时间',  type:'string'  },
-	                   { caption:'生产上线次数',  type:'string'  },
-	                   { caption:'是否支持回滚',  type:'string'  },
-	                   { caption:'备注',  type:'string'  }
-	                   ];
-	      var m_data = [];
-	      var i=0;
-	  	items.forEach(function(it,index){	
-	  		 if ((it._id.split(/\_/)).length<3){
-	  			 i++;
-	  			  var arry = [i,
-	  			              it._id.replace(/\_/,''), 
-	  			              it.info.department, 
-	  			              it.info.project, 
-	  			              it.info.filename, 
-	  			              it.info.core, 
-	  			              it.info.db, 
-	  			            it.info.incidence, 
-	  		            	  it.info.own, 
-	  		                 it.info.tester, 
-	  			              it.info.auto,
-	  			             it.info.sql,
-	  			it.info.update, 
-	  			it.info.date, 
-	  			it.online, 
-	  			it.onliedate, 
-	  			it.onlinecount, 
-	  			it.info.ifback, 	  			
-	  			it.notes 
-	  			              ];
-	  		  	  m_data[i-1] = arry;
-	  		 } 		
-	  	});
-	      conf.rows = m_data;
-	      var result = nodeExcel.execute(conf);
-	      res.setHeader('Content-Type', 'application/vnd.openxmlformats');
-	      res.setHeader("Content-Disposition", "attachment; filename=" + "bigtable.xlsx");
-	      res.end(result, 'binary');
+		var conf = {};
+		conf.cols = [ {
+			caption : '序号',
+			type : 'string'
+		}, {
+			caption : '流水号',
+			type : 'string'
+		}, {
+			caption : '部门',
+			type : 'string'
+		}, {
+			caption : '所属项目',
+			type : 'string'
+		}, {
+			caption : '上线内容',
+			type : 'string'
+		}, {
+			caption : '是否有核心代码',
+			type : 'string'
+		}, {
+			caption : '是否有数据库',
+			type : 'string'
+		}, {
+			caption : '影响范围',
+			type : 'string'
+		}, {
+			caption : '项目负责人',
+			type : 'string'
+		}, {
+			caption : '测试人',
+			type : 'string'
+		}, {
+			caption : '是否使用自动化',
+			type : 'string'
+		}, {
+			caption : '是否有sql评审',
+			type : 'string'
+		}, {
+			caption : 'QA更新次数',
+			type : 'string'
+		}, {
+			caption : '上QA日期',
+			type : 'string'
+		}, {
+			caption : '上线状态',
+			type : 'string'
+		}, {
+			caption : '上线时间',
+			type : 'string'
+		}, {
+			caption : '生产上线次数',
+			type : 'string'
+		}, {
+			caption : '是否支持回滚',
+			type : 'string'
+		}, {
+			caption : '备注',
+			type : 'string'
+		} ];
+		var m_data = [];
+		var i = 0;
+		items.forEach(function(it, index) {
+			if ((it._id.split(/\_/)).length < 3) {
+				i++;
+				var arry = [ i, it._id.replace(/\_/, ''), it.info.department,
+						it.info.project, it.info.filename, it.info.core,
+						it.info.db, it.info.incidence, it.info.own,
+						it.info.tester, it.info.auto, it.info.sql,
+						it.info.update, it.info.date, it.online, it.onliedate,
+						it.onlinecount, it.info.ifback, it.notes ];
+				m_data[i - 1] = arry;
+			}
+		});
+		conf.rows = m_data;
+		var result = nodeExcel.execute(conf);
+		res.setHeader('Content-Type', 'application/vnd.openxmlformats');
+		res.setHeader("Content-Disposition", "attachment; filename="
+				+ "bigtable.xlsx");
+		res.end(result, 'binary');
 	});
 
 	// 清单登录状态
 	app.get('/readlog', function(req, res) {
-		res.render('readlog',{
+		res.render('readlog', {
 			pheader : '各服务器日志:',
-				user :'你好'
+			user : '你好'
 		})
 	});
 	app.post('/readlog', function(req, res) {
-		var loghost = req.body.loghost;		
-		loghost=loghost+'log.txt';
-		Readlog.read(loghost,function(err,data){
+		var loghost = req.body.loghost;
+		loghost = loghost + 'log.txt';
+		Readlog.read(loghost, function(err, data) {
 			res.render('logtxt', {
-				pheader : loghost+'日志如下:',
+				pheader : loghost + '日志如下:',
 				data : data
 			});
 		})
 
 	});
-	
-	//重启服务器
-    app.get('/restart', checkLogin);
+
+	// 重启服务器
+	app.get('/restart', checkLogin);
 	app.get('/restart', function(req, res) {
-		res.render('restart',{
+		res.render('restart', {
 			pheader : '服务器列表:',
 			user : req.session.user
 		})
 	});
-	
+
 	app.post('/restart', function(req, res) {
-		var host = req.body.host;	
+		var host = req.body.host;
 		logger.info(host);
-		ReStart.host(host,function(err,data){
+		ReStart.host(host, function(err, data) {
 			logger.info(data);
 			res.end(data);
-			
-		/*	res.render('restart', {
-				pheader : '操作结束',
-				data : data,
-				user : req.session.user
-			});*/
-			
-			
+
+			/*
+			 * res.render('restart', { pheader : '操作结束', data : data, user :
+			 * req.session.user });
+			 */
+
 		})
 
-	});	
-	
+	});
+
 	app.get('/syslog', function(req, res) {
-		res.render('syslog',{
+		res.render('syslog', {
 			pheader : '服务器列表:',
-				user : 'req.session.user'
+			user : 'req.session.user'
 		})
-	});	
+	});
+
+	// 更新数据库清单查询
+	app.get('/godb2', function(req, res) {
+		res.render('godb2', {
+			pheader : '数据库上线单操作:',
+			user : 'req.session.user'
+		})
+	});
+
+	app.post('/godb2', function(req, res) {
+		var updataId = req.body.updataId;
+		logger.info(updataId);
+		oaid = '_' + updataId;
+		var dataInfo;
+		Online.get(oaid, function(err, online) {
+			if (online) {
+				opercvs.upCVS(function(state, massage) {
+					if (state) {
+						logger.info(massage);
+						OAfrequency.dbSeleOnline(updataId, online, function(
+								err, sqlfile, dbsql) {
+							if (err) {
+								dataInfo = {
+
+									'dbsql' : err,
+									'sqlfile' : "执行出错！"
+								}
+								res.json(dataInfo);
+							} else {
+								dataInfo = {
+
+									'dbsql' : dbsql,
+									'sqlfile' : sqlfile
+								}
+								res.json(dataInfo);
+							}
+						})
+					} else {
+						logger.error(massage);
+						dataInfo = {
+
+							'dbsql' : massage,
+							'sqlfile' : massage
+						}
+						res.json(dataInfo);
+					}
+				});
+			} else {
+				logger.error("pretty无次上线单；");
+				dataInfo = {
+
+					'dbsql' : 'Pretty无次上线单；',
+					'sqlfile' : '数据库清单操作需先在“代码更新”中查询，便于有效性校验，否认pretty中查询无此流水号。'
+				}
+				res.json(dataInfo);
+			}
+
+		});
+
+	});
+
+	// 执行sql语句
+	app.post('/exsql', function(req, res) {
+		var sqlfile = req.body.sqlfile;
+		var aoid = req.body.updataId;
+		var dataInfo;
+		db2.exsql(aoid, sqlfile, function(err, mes) {
+			if (err) {
+				dataInfo = {
+					'result' : '亲 麻烦大了，数据库执行失败',
+					'mes' : mes
+				}
+				res.json(dataInfo);
+			} else {
+				dataInfo = {
+					'result' : '恭喜你，数据库执行成功！',
+					'mes' : mes
+				}
+				res.json(dataInfo);
+
+			}
+
+		})
+
+	});
+
 	// **************************************************************************************&&&&&&&&&&&&&&&&&&&&&&&&
 
 };

@@ -2,7 +2,8 @@
 doctype html
 
 head(lang="zh-cn")
-     mate( charset="utf-8" )
+     meta( charset="utf-8" )
+     meta(http-equiv="X-UA-Compatible" ,content="IE=edge")
      title 'pretty_online'
      link(href='/stylesheets/style.css', type='text/css', rel="stylesheet")
      link(href='/stylesheets/dist/css/bootstrap.css', type='text/css', rel="stylesheet")
@@ -19,7 +20,8 @@ body
                     a.navbar-brand(href="/online") Pretty
                 div.collapse.navbar-collapse
                     ui.nav.navbar-nav
-                       li: a(href="/online") 更 新
+                       li: a(href="/online") 代码更新
+                       li: a(href="/godb2",target="_blank") 数据库更新
                        li: a(href="/goback",target="_blank") 回 滚                       
                        li: a(href="/bigtable",target="_blank") 大 表
                        li: a(href="/bigtable2",target="_blank") 更新记录

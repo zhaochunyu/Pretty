@@ -9,13 +9,12 @@ var dlist={"data_603" : "yptxp", "data_604" : "portal", "data_605" : "ypboss",
 		 "data_606" : "3g-ypboss", "data_607" : "ypepos", "data_608" : "ypcheckaccount",
 		 "data_609" : "bear", "data_610" : "hunter", "data_611" : "wolf","data_612" : "daemon01",
 		 "data_613" : "dorado", "data_614" : "mctnotify", "data_615" : "yypbps01",
-		 "data_616" : "racoon", "data_617" : "anole", "data_618" : "cfb", "data_619" : "icc_txp",
+		 "data_616" : "racoon", "data_618" : "cfb", "data_619" : "icc_txp",
 		 "data_620" : "icc_web", "data_621" : "icc_bps01", "data_622" : "无线 93、94",
 		 "data_623" : "无线 91、92", "data_624" : "bizfor3g", "data_625" : "txp-service"};
 var slist={"yptxp":"4,5","txp-service":"4,5", "portal": "6,7","ypboss":"8,9","3g-ypboss":"8,9","ypepos":"10,11","ypcheckaccount":"10,11",
-		"bear":"17","hunter":"17", "wolf":"17","dorado":"17","daemon01":"18","mctnotify":"18","ypbps":"18"
-		,"racoon" :"13","anole":"13","cfb":"13","bizfor3g":"13","icc_txp":"14","icc_web":"14","icc_bps01":"14"
-};
+		"bear":"12","hunter":"12", "wolf":"12","dorado":"12","daemon01":"13","mctnotify":"13","ypbps":"13","racoon" :"14","cfb":"14",
+		"bizfor3g":"14","icc_txp":"15","icc_web":"15","icc_bps01":"15"};
 
 
 function filterRepeatStr(str){ 

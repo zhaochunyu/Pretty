@@ -1,15 +1,15 @@
 doctype html
 
 head(lang="zh-cn")
-     mate( charset="utf-8" )
+     meta( charset="utf-8" )
+     meta(http-equiv="X-UA-Compatible" ,content="IE=edge")
      title 'pretty'
-     link(href='/stylesheets/dist/css/bootstrap.css', type='text/css', rel="stylesheet")
+     link(href='/stylesheets/dist/css/bootstrap.min.css', type='text/css', rel="stylesheet")
      link(href='/stylesheets/dist/css/signin.css',type='text/css', rel="stylesheet")
      link(href='/stylesheets/dist/css/sticky-footer-navbar.css',type='text/css', rel="stylesheet")
 body
    div#wrap
           div.container(style="padding-top: 10px; height: 489px;")
-                h1 "QA系统升级切换，如需更新，请联系配置组,未经过允许，请勿操作……“
                 form.form-signin(action='/sigin',method='post')    
                        .form-signin-heading
                            h3(style="height: 48px; width: 300px;" align="center") #{user} #{massage}
@@ -17,8 +17,10 @@ body
                               input.form-control(type='text',placeholder="用户名",name="user",required autofocus)
                               p
                               input.form-control(type='password',placeholder="密码",name="pass",required)
-                              lable.checkbox  记住我
-                                   input(type="checkbox", value="remember-me")         
+                              lable.checkbox( style="padding-left: 20px;")
+                                      input( type="checkbox" ,value="remember-me") 
+                                      | 记住我
+                                      a(href="/forget",target="_blank",style="padding-left: 179px;") 忘记密码
                               button.btn.btn-lg.btn-primary.btn-block(type='submit') 登  录
     div#footer
         div.container(align="center")

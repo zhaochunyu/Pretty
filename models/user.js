@@ -44,6 +44,38 @@ User.prototype.save = function(callback) {
     });
   });
 };
+//修改密码
+User.updatepassword= function(datainfo, callback) {
+	// 打开数据库
+		pool.acquire(function(err, db) {
+		if (err) {
+			return callback(err);// 错误，返回 err 信息
+		}
+		// 读取 online 集合
+		db.collection('users', function(err, collection) {
+			if (err) {
+				pool.release(db);
+				return callback(err);// 错误，返回 err 信息
+			}
+			collection.update({
+				name : datainfo.name
+			}, {
+				$set : {
+					'password': datainfo.password,
+					'state': datainfo.state
+				}
+			}, function(err, user) {
+				pool.release(db);
+				if (err) {
+					logger.info(err);
+					return callback(err);// 错误，返回 err 信息
+				}
+				callback(null, user);// 成功！err 为 null
+			});
+		});
+	});
+};
+
 
 //读取用户信息
 User.get = function(name,callback) {

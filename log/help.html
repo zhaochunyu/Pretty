@@ -60,6 +60,46 @@
 	<hr />	
 	H、如遇特殊操作先找配置人员进行操作。
 	<hr />
+	<h2>清单规范</h2> 
+	 <li> 1、清单命名规则：YYYY-MM-DD_姓名_需求描述.txt</li>
+	
+ <p>例如：2014-01-07_刘春雷_EPOS商户短信模板.txt</p>
+
+  <li>2、QA更新时，清单里面要有“#update”的标签，此时只会更新该标签以下的文件哦 </li>
+
+<p>例如：</p>
+<code>
+<p>#update</p>
+
+<p>/YP2G_Core/src/java/com/yeepay/core/service/sms/SmsSendPayThread.java</p>
+</code>
+  <li>3、凡是YP2G_Test的文件清单里都要注释掉，前面加#</li>
+
+<p>例如：#/YP2G_Test/webapps/app-test.war/nocardpay/debitnocardXmlSinglePay.htm</p>
+
+ <li>4、systemCfg.properties为特殊操作，上qa和生产都是手动操作，但不能注释掉，将修改内容写到清单中，书写格式如下：</li>
+<code>
+<p>/YP2G_CommonUtility/src/java/springContext/systemCfg.properties</p>
+
+<p>#QA</p>
+
+<p>#hotelhost=http://172.17.106.62</p>
+
+<p>#WWW</p>
+
+<p>#hotelhost=https://hotel.yeepay.com</p>
+
+ </code>
+
+ <li>说明几点：</li>
+
+<p>1、如遇特殊操作还是找部署管理组进行；</p>
+
+<p>2、QA更新次数自动进行统计累加；</p>
+
+<p>3、已经同意上线的不允许进行更新；</p>
+
+
 	
 
 	<hr />

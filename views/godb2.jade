@@ -1,0 +1,60 @@
+extends header
+block content
+            div.page-header
+                    h1#pheader #{pheader}
+            div.container(style="padding-top: 20px;")
+                div#tipblock(style="display:none")
+                     img(src="/images/2.gif") 
+                div.row.show-grid
+                    form(action='',method='post')
+                      div.col-lg-3
+                         textarea.form-control(rows="1",id='updataId',name='updataId',placeholder='请输入更新单号，只允许一个。')
+                      div.col-lg-1   
+                         button.btn.btn-primary#godb2(type='button') 查 询
+                      div.col-lg-8
+                         p#sqlfile(style="display: none" )
+                         p#sqlfile1                  
+                br                            
+                div.row.show-grid
+                    div.col-lg-5
+                         textarea.form-control(rows="10",id='dbsql',placeholder='清单sql语句。',readonly)
+                         
+                    div.col-lg-1
+                         div.row
+                              br  
+                              div.col-lg-12
+                                     button.btn.btn-success(id='sqlinfo',data-toggle='modal', data-target='.sqlfilemodal',disabled) SQL详情                                     
+                                     .modal.fade.sqlfilemodal(tabindex='-1', role='dialog', aria-labelledby='mysqlmodal', aria-hidden='true')
+                                                 .modal-dialog.modal-lg
+                                                   .modal-content
+                                                     .modal-header
+                                                       button.close(type='button', data-dismiss='modal')
+                                                         span(aria-hidden='true') ×
+                                                         span.sr-only Close
+                                                       h4#mysqlmodal.modal-title 清单详情
+                                                     .modal-body(id='dbsql2')
+                                                     |#{dbsql2}
+                                                     .modal-footer
+                                                        | 清单结束
+
+                         br           
+                         div.row
+                              div.col-lg-12
+                                   button.btn.btn-danger#exsql(type='button',disabled,align="center") 执  行
+                         
+                    div.col-lg-5
+                        textarea.form-control(rows="10",id='dbresult',placeholder='执行后返回。',readonly)
+                br              
+                div.row.show-grid
+                   div.col-lg-11
+                        div.alert.alert-danger
+                             h4
+                               | 警告!
+                             strong SQL执行有风险，请确认后执行。
+                             a.alert-link(class="lead",href="/log/SQLrule.html",target="_blank")  点击查看：《SQL执行规则》
+block extjs
+    script(type='text/javascript',src="/js/jquery-1.4.4.min.js")
+    script(type='text/javascript',src="/js/jquery-ui-1.8.13.min.js")
+    script(type='text/javascript',src="/js/jquery-ui-i18n.min.js")
+    script(type='text/javascript',src="/js/msg.js")   
+   

@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<title>Pretty更新数据库规则</title>
+</head>
+
+<body bgcolor="Ivory">
+	<h1>QA数据库操作规则</h1>
+	<p style="color: RoyalBlue   ">在使用过程中，如遇无法处理的问题， 请及时与 配置管理员 或 赵椿玉 联系。也可提交BUG到<a href="http://a.yeepay.com/jforum/posts/list/250.page" style="text-decoration: none">论坛</a>。 </p>
+	
+  <h2>不允许</h2> 
+	<ol>
+		<li>不允许 单独执行查询 语句（通过查询返回的语句）。</li>
+		<li>不允许执行修改表字段类型，加字段。</li>		
+		<li>不允许创建表。</li>
+		<li>不允许更新已经结束测试活动的清单。</li>
+	</ol>
+
+	<hr />
+	<h2>过滤规则</h2> 
+	<ol>
+		<li>sql语句将过滤：【drop】 【alter修改字段和删除字段】 【create】关键字，凡是包含该关键字的语句均无法执行。</li>
+		<li  style="font-size:16px; font-family:'宋体';  color:#FF0000;">sql语句必须以分号（；）结束，语句中不允许有分号。否则执行异常。</li>
+		<li>sql语句中多个空格将合并成一个空格。</li>
+		<li>sql语句注释使用【--】或【#】进行。</li>
+	</ol>
+	<h2>执行规则</h2> 
+	<ol>
+		<li>第一次更新数据库需在 【代码更新】 功能中对oa流水号进行【查询】（不需编译）。</li>		
+		<li>一次只允许操作一个清单。</li>
+		<li>数据库清单操作不记录更新次数。</li>
+		<li>执行前请测试人员再次确认，较少失误。</li>
+		
+	</ol>
+	<hr />
+
+	<p style="font-size:18px; font-family:'宋体';  color:#FF0000; font-weight:bold;">注意：需要【 修改表】 或【 创建表】 都均需要找DBA操作。</p>		
+
+	<hr />
+</body>
+<hr />
+<footer class="footer">
+	<div class="container" align="center">
+		<p class="text-muted">
+			易宝支付测试环境更新平台 <a href="mailto:chunyu.zhao@yeepay.com">chunyu.zhao
+			</a>
+		</p>
+	</div>
+</footer>
+</html>
+

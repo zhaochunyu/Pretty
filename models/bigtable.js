@@ -70,7 +70,6 @@ Bigtable.save =  function(myIDs ,callback){
 									'data_614' : serverIP.data_614,
 									'data_615' : serverIP.data_615,
 									'data_616' : serverIP.data_616,
-									'data_617' : serverIP.data_617,
 									'data_618' : serverIP.data_618,
 									'data_619' : serverIP.data_619,
 									'data_620' : serverIP.data_620,

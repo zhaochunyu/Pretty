@@ -1,0 +1,27 @@
+doctype html
+
+head(lang="zh-cn")
+     meta( charset="utf-8" )
+     title 'pretty'
+     link(href='/stylesheets/dist/css/bootstrap.css', type='text/css', rel="stylesheet")
+     link(href='/stylesheets/dist/css/signin.css',type='text/css', rel="stylesheet")
+     link(href='/stylesheets/dist/css/sticky-footer-navbar.css',type='text/css', rel="stylesheet")
+body
+    div.container
+        form.form-signin(action='/forget',method='post')    
+             .form-signin-heading
+                 h2 #{title}
+             input.form-control(type='text',placeholder="用户名",name="user",required autofocus)
+             p
+             input.form-control(type='password',placeholder="密码",name="pass",required)
+             p
+             input.form-control(type='password',placeholder="确认输入密码",name="repass",required)
+             p
+             input.form-control(type='password',placeholder="重置码：管理员输入",name="superkey",required)
+                  
+             button.btn.btn-lg.btn-primary.btn-block(type='submit') 重置密码
+   div#footer
+        div.container(align="center")
+            p.text-muted          易宝支付测试环境更新平台  
+               a(href="mailto:chunyu.zhao@yeepay.com") chunyu.zhao
+               p 二〇一四年五月十一日 

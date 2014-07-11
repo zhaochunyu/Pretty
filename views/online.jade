@@ -4,7 +4,7 @@ block content
                     h1#pheader #{pheader}    
                     p#endtime
                     p#state(style="display: none")
-            div.container
+            div.container(style="padding-top: 20px;")
                 div#tipblock(style="display:none")
                      img(src="/images/2.gif")                  
                 div.row
@@ -24,13 +24,6 @@ block content
                                     div.panel-collapse.collapse.in#collapseList
                                         div.panel-body
                                             p#updatainfo #{updatainfo}
-                              div.panel.panel-default
-                                div.panel-heading
-                                    h4.panel-title
-                                       a(data-toggle="collapse",data-parent="#accordion",href="#collapseListsrc") 清单内容
-                                    div.panel-collapse.collapse.collapse#collapseListsrc
-                                        div.panel-body
-                                            p #{srclist}
                               div.panel.panel-default
                                 div.panel-heading
                                     h4.panel-title
