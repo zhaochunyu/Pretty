@@ -20,6 +20,7 @@ var ReStart = require('../models/restart.js');
 var Moment = require('moment');
 var nodeExcel = require('excel-export');
 var db2 = require('../models/db2.js');
+var ccap = require('ccap');
 
 module.exports = function(app) {
 
@@ -443,6 +444,8 @@ module.exports = function(app) {
 	app.post('/sigin', function(req, res) {
 		var i = 0;
 		var user = req.body.user;
+		if(req.body.ccap.toUpperCase()==req.session.ccap){
+		logger.info('req.session.ccap：' + req.session.ccap); 
 		User.get_all(function(items) {
 			var massage = '', userName = 'Pretty';
 			var state = false;
@@ -576,6 +579,13 @@ module.exports = function(app) {
 
 			});// items.forEach
 		})// User.get_all
+		}
+		else{
+			res.render('login', {
+				massage : '',
+				user : '验证码错误！'
+			});
+		}
 
 	});
 	// 注册
@@ -634,7 +644,7 @@ module.exports = function(app) {
 		User.update(datainfo, function(err, updateUser) {
 			if (updateUser) {
 				req.session.user = null;
-				logger.info('用户推出成功！');
+				logger.info('用户退出成功！');
 				req.flash('success', '登出成功');
 				res.redirect('/login');
 			}
@@ -667,17 +677,41 @@ module.exports = function(app) {
 				if (item.state) {
 					massage = '正在使用，请稍等！', userName = item.name
 				}
-				if (i == items.length) {
+				if (i == items.length) {					
 					res.render('login', {
 						massage : massage,
-						user : userName
+						user : userName						
 					});
 				}
 
 			});
 		}
-
 		)
+	});
+	
+	app.get('/ccap', function(req, res) {
+		// 查询全部，是否有人登录。
+		var ccapico = ccap({
+
+		    width:166,//set width,default is 256
+
+		    height:60,//set height,default is 60
+
+		    offset:40,//set text spacing,default is 40
+
+		    quality:100,//set pic quality,default is 50
+
+		    fontsize:57,//set font size,default is 57
+
+		});
+		
+	    var ary = ccapico.get();
+	    var txt = ary[0];
+	    var buf = ary[1];
+	    req.session.ccap =txt;
+//		logger.info('txt：' + txt); 
+		res.send(buf);
+				
 	});
 	// 终端页面
 	app.get('/terminal', checkLogin);
@@ -920,7 +954,6 @@ module.exports = function(app) {
 		var scm = 'xin.zhao-1&meili.wu&lihong.wei&chunyu.zhao';
 		if (scm.indexOf(req.session.user.name) + 1) {
 			Bigtable.oalist(function(items) {
-				console.info('' + items);
 				items.forEach(function(it, index) {
 					it.onliedate = Moment(it.onliedate).format('YYYY-MM-DD');
 					it.info.date = Moment(it.info.date).format('YYYY-MM-DD');
@@ -947,7 +980,6 @@ module.exports = function(app) {
 	app.get('/bigtable2', checkLogin);
 	app.get('/bigtable2', function(req, res) {
 		Bigtable.oalist(function(items) {
-			console.info('' + items);
 			items.forEach(function(it, index) {
 				it.onliedate = Moment(it.onliedate).format('YYYY-MM-DD');
 				it.info.date = Moment(it.info.date).format('YYYY-MM-DD');
@@ -965,7 +997,7 @@ module.exports = function(app) {
 	});
 
 	// 清单登录状态
-	app.get('/bigboss', function(req, res) {
+	app.get('/breda', function(req, res) {
 		res.render('killall');
 	});
 

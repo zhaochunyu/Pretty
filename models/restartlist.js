@@ -13,8 +13,8 @@ var dlist={"data_603" : "yptxp", "data_604" : "portal", "data_605" : "ypboss",
 		 "data_620" : "icc_web", "data_621" : "icc_bps01", "data_622" : "无线 93、94",
 		 "data_623" : "无线 91、92", "data_624" : "bizfor3g", "data_625" : "txp-service"};
 var slist={"yptxp":"4,5","txp-service":"4,5", "portal": "6,7","ypboss":"8,9","3g-ypboss":"8,9","ypepos":"10,11","ypcheckaccount":"10,11",
-		"bear":"12","hunter":"12", "wolf":"12","dorado":"12","daemon01":"13","mctnotify":"13","ypbps":"13","racoon" :"14","cfb":"14",
-		"bizfor3g":"14","icc_txp":"15","icc_web":"15","icc_bps01":"15"};
+		"bear":"12","hunter":"12", "wolf":"12","dorado":"12","daemon01":"13","mctnotify":"13","ypbps":"13","racoon" :"14,15","cfb":"14,15",
+		"bizfor3g":"14,15","icc_txp":"18","icc_web":"18","icc_bps01":"18"};
 
 
 function filterRepeatStr(str){ 
@@ -73,7 +73,6 @@ Restart.restartS = function(data,oaid,callback) {
 	for (var i in b) {
 		c[i] = b[i].split('60.1.1.')[1];
 		c[i]=parseInt(c[i]);
-//		c[i]=c[i]-100
 		restartS=restartS+' '+c[i];
 		restartS=restartS.replace("NaN","");
 		restartS=restartS.trim();
@@ -84,12 +83,15 @@ Restart.restartS = function(data,oaid,callback) {
 		
 		restart=filterRepeatStr(restart);	
 		restart=restart_restartS(restart,restartS)
-		logger.info('测试重启服务器: '+restart);
 		callback(restart);
 	});	
 	 
 	}
 	
+};
+function sortNumber(a,b)
+{
+return a - b
 };
 
 function restart_restartS(restart,restartS){
@@ -99,20 +101,24 @@ function restart_restartS(restart,restartS){
 	logger.info(' 预计需要重启的机器: '+restart+' 对外双机: '+restartS);
 	var str='';
 	for(var ite  in arr0){
-		for(var it in arr1){
+				for(var it in arr1){
 			if(arr0[ite]==arr1[it])
 				{
 				arr0[ite]=' ';
 				}
-		}
-			}
-			for(var bb in arr0){
+		}		
+		if(ite==arr0.length-1){
+			arr0.sort(sortNumber);		
+			for(var bb in arr0){				
 				str=str+" "+arr0[bb];
 				str=str.trim();
-
+				if(bb==arr0.length-1){
+					logger.info('需要重启的机器: '+str.trim());
+					return str.trim();
+				}
+			}	
+		}
 			}
-			logger.info('需要重启的机器: '+str.trim());
-			return str.trim();
 }
 
 

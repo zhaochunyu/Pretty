@@ -7,6 +7,8 @@ head(lang="zh-cn")
      link(href='/stylesheets/dist/css/bootstrap.min.css', type='text/css', rel="stylesheet")
      link(href='/stylesheets/dist/css/signin.css',type='text/css', rel="stylesheet")
      link(href='/stylesheets/dist/css/sticky-footer-navbar.css',type='text/css', rel="stylesheet")
+     script.
+              function refresh(obj) { obj.src = "./ccap?&t=" + Math.random(); }
 body
    div#wrap
           div.container(style="padding-top: 10px; height: 489px;")
@@ -17,6 +19,12 @@ body
                               input.form-control(type='text',placeholder="用户名",name="user",required autofocus)
                               p
                               input.form-control(type='password',placeholder="密码",name="pass",required)
+                              p
+                              div.row
+                                   div.col-lg-8                                 
+                                        input.form-control(type='text',placeholder="验证码",name="ccap",required, style="width: 190px;")
+                                   div.col-lg-4    
+                                        img(style="height: 43px; width: 80px;",class="decoded",src='./ccap', name="ccapbuf" ,onclick="javascript:refresh(this);" )     
                               lable.checkbox( style="padding-left: 20px;")
                                       input( type="checkbox" ,value="remember-me") 
                                       | 记住我

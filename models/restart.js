@@ -1,6 +1,7 @@
 var Connection = require('ssh2');
 var iconv = require('iconv-lite');
 var logger = require('../log4js').logger;
+var spawn = require('child_process').spawn;
 
 function ReStart() {
 }
@@ -9,6 +10,98 @@ module.exports = ReStart;
 // 查看各服务器启动日志
 ReStart.host = function(rhost,callback) {
 	var datastring='';
+	restjboss = spawn('/root/shng/2gjboss/restjboss.sh');
+	restjboss.stdout.on('data', function (data) {		
+		datar = iconv.decode(data, 'GBK');
+		logger.info(datar);
+		datastring=datastring+datar.toString();
+		datastring=datastring.toString();
+		
+//判断双机	
+		var server='IP Server ID: ';
+		if (datar.toString().slice(-server.length)==server) {					
+	    use = datastring.split('现对外情况...')[1];
+		use=use.split('QA测试服务器JBOSS平台系统:')[0];
+		use=use.split('-')[0].trim();	
+		//判断双机
+	if(parseInt(rhost)<16){					
+		logger.info("重启服务器为双机："+rhost);	
+		b='60.1.1.'+rhost.trim();
+	if(use.indexOf(b)>-1){
+		logger.warn("重启服务器异常………………………………");	
+		logger.info(b+"已经对外，不允许重启");		
+//		restjboss.stdin.end();
+		return callback(null,"双机对外服务器，不允许重启！");
+	    }
+	else{
+					logger.info("独立双机重启："+rhost);
+					restjboss.stdin.write(rhost.trim()+'\n');
+	}
+	}
+	else{
+		logger.info("重启单机服务器： "+rhost);
+		restjboss.stdin.write(rhost.trim()+'\n');
+		
+		
+	}
+	
+		}//		if (datar.toString().slice(-server.length)==server)	
+		
+		var yes='是否继续运行(y/n): ';
+		
+			if (datar.toString().slice(-yes.length)==yes) {
+				logger.info("datar.toString().slice(-yes.length)==yes： "+(datar.toString().slice(-yes.length)==yes));
+				//判断是否重启成功
+				var isok=restIsOk(datastring);
+				if(isok){
+					restjboss.stdin.write('yes\n');
+					logger.info("是否继续运行(y/n): Y");	
+					datastring=datar.toString();
+				}
+				else{
+					restjboss.stdin.write('n\n');
+					logger.info("是否继续运行(y/n): N");		
+					logger.warn("重启服务器异常………………………………");		
+					restjboss.stdin.end();// 结束终端
+					return callback(null, "重启失败，服务器启动有报错！");
+				}
+					
+			};//是否继续运行(y/n)	
+				if((datastring.indexOf('monitor:over')>-1)&&(datastring.indexOf('重启NGINX完成')>-1)){
+					var state=test(datastring);
+					if(state) {
+							logger.info("重启NGINX完成,发布完成");
+							restjboss.stdin.end();// 结束终端
+							return callback(null, "重启对外成功！");
+					}
+							
+						if(!state) {
+							   logger.warn("自动化测试验证异常………………………………");
+								logger.info("更新发布异常");
+								restjboss.stdin.end();// 结束终端
+								return callback(null, "重启导致冒烟测试异常。请看日志！");
+							}
+				};//==============
+			
+				 if(datar.toString().indexOf('接口不正常，脚本退出！！')>-1) {
+					logger.warn("更新异常，请联系管理员……");
+					restjboss.stdin.end();// 结束终端
+					return callback(null, "重启导致冒烟测试异常。请看日志！未对外");
+				};
+		
+	});
+
+	restjboss.stderr.on('data', function (data) {
+		logger.info('stderr: ' + data);
+	});
+	restjboss.on('close', function (code) {
+		logger.info('child process exited with code ' + code);
+		});
+	
+/*	
+	
+	
+	
 	var c = new Connection();
 	c.connect({
 		host : '172.17.103.6',
@@ -41,7 +134,7 @@ ReStart.host = function(rhost,callback) {
 				use=use.split('QA测试服务器JBOSS平台系统:')[0];
 				use=use.split('-')[0].trim();	
 				//判断双机
-			if(parseInt(rhost)<12){					
+			if(parseInt(rhost)<16){					
 				logger.info("重启服务器为双机："+rhost);	
 				b='60.1.1.'+rhost.trim();
 			if(use.indexOf(b)>-1){
@@ -112,7 +205,7 @@ ReStart.host = function(rhost,callback) {
 
 	});
 });//c.on
-}
+*/}
 
 
 //判断重启结果

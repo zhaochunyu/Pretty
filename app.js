@@ -52,7 +52,7 @@ app.use(express.session({
 		db : settings.db,
 		port : 27017,
 	   username:settings.username,
-    	  password:settings.password
+       password:settings.password
 	})
 }));
 

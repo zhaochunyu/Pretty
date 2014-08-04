@@ -5,6 +5,7 @@ var iconv = require('iconv-lite');
 var Online = require('./online.js');
 var SelectOAinfo = require('./selectOAinfo.js');
 var logger = require('../log4js').logger;
+var spawn = require('child_process').spawn;
 function Updata() {
 }
 module.exports = Updata;
@@ -15,46 +16,30 @@ Updata.run = function(myID,callback) {
 	
 
 			logger.info('Updata.run replace……');
-			$p('./replace.sh ',{cwd : '/export/home/qarelease/bin'}).data(function(err, stdout, stderr) {
-					if (err) {
-						logger.error('执行失败：'+stderr);
-						return callback('null');
-					}
-				 var datar = iconv.decode(stdout, 'GBK');//return GBK encoded bytes from unicode string
+			replace = spawn('./replace.sh',{cwd:'/export/home/qarelease/bin/'});				
+			replace.stdout.on('data', function (data) {
+				 var datar = iconv.decode(data, 'GBK');//return GBK encoded bytes from unicode string
 					 datar= datar.toString();
 				     logger.info(datar); 
+				     if((datar.indexOf('Replace war in jboss-4.0.3SP1 End') > -1))
 						// 结束终端
 					return callback(null, datar);
-					});
-
+				     
+					});		
+			replace.stderr.on('data', function (data) {
+				logger.error('执行失败：'+data);
+			return callback('null');
+		});
 	
 };
 // 重启jboss和执行切换
 Updata.restjboss = function(oaid,callback) {
 	var datastring='';
-	var c = new Connection();
-	c.connect({
-		host : '172.17.103.6',
-		port : 22,
-		username : 'root',
-		password : '9o3kzlQA',
-		publicKey: require('fs').readFileSync('/root/.ssh/id_dsa.pub')
-	});
-	c.on('ready', function() {		
-		// 执行编译过程
-		c.exec('cd /root/shng/2gjboss && ./restjboss.sh',{pty:true,evn:{PATH:'/export/home/apache2/bin:/opt/jdk1.5.0_14/bin:/export/home/apache-ant-1.7.0/bin:/sbin:/usr/sbin:/usr/local/sbin:/root/bin:/usr/local/bin:/usr/bin:/usr/X11R6/bin:/bin:/usr/games:/opt/kde3/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin'}}, function(err, stream) {
-			if (err) {
-				socket.emit('nohup', {
-					host : host.host,
-					log : err
-				});
-				return callback(err,null);
-			}
-			stream.on('data', function(data, extended) {
-				datar = iconv.decode(data, 'GBK');
-				logger.info(datar);
-				datastring=datastring+datar.toString();
-				
+	restjboss = spawn('/root/shng/2gjboss/restjboss.sh');
+	restjboss.stdout.on('data', function (data) {		
+		datar = iconv.decode(data, 'GBK');
+		logger.info(datar);
+		datastring=datastring+datar.toString();
 //				修改接收信息
 //				datastring=datar.toString();
 				var server='IP Server ID: ';
@@ -62,7 +47,7 @@ Updata.restjboss = function(oaid,callback) {
 					logger.info('查询oa流水号：'+oaid);	
 					restartlist.restartS(datastring.toString(),oaid,function(restartS) {
 					logger.info("重启清单："+restartS);
-				  	stream.write(restartS.trim()+'\n');
+				  	restjboss.stdin.write(restartS.trim()+'\n');
 					});
 				};//IP Server ID:
 
@@ -73,11 +58,12 @@ Updata.restjboss = function(oaid,callback) {
 				
 					var isok=restIsOk(datastring.toString());
 					if(isok){
-						stream.write('yes\n');
+						restjboss.stdin.write('yes\n');
+						logger.info("是否继续运行(y/n): Y");	
 						datastring=data.toString();
 					}
 					else{
-						stream.write('n\n');
+						restjboss.stdin.write('n\n');
 						logger.info("是否继续运行(y/n): N");		
 						logger.warn("重启服务器异常………………………………");						
 						return callback(null, false);
@@ -88,35 +74,30 @@ Updata.restjboss = function(oaid,callback) {
 						var state=test(datastring.toString());
 						if(state) {
 								logger.info("重启NGINX完成,发布完成");
-								stream.emit('end');// 结束终端
+								restjboss.stdin.end();// 结束终端
 								return callback(null, true);
 						}
 								
 							if(!state) {
 								   logger.warn("自动化测试验证异常………………………………");
 									logger.info("更新发布异常");
-									stream.emit('end');// 结束终端
+									restjboss.stdin.end();// 结束终端
 									return callback(null, false);
 								}
 					};//==============
 				
 					 if(datar.toString().indexOf('接口不正常，脚本退出！！')>-1) {
 						logger.warn("更新异常，请联系管理员……");
-						stream.emit('end');// 结束终端
+						restjboss.stdin.end();// 结束终端
 						return callback(null, false);
-					};
-				
-				
+					};								
 			});
-			stream.on('end', function() {
-			});
-			stream.on('close', function() {
-			});
-			stream.on('exit', function(code, signal) {
-				c.end();
-			});
+	restjboss.stderr.on('data', function (data) {
+		logger.info('stderr: ' + data);
 	});
-});
+	restjboss.on('close', function (code) {
+		logger.info('child process exited with code ' + code);
+		});		
 }	
 //判断重启结果
 function restIsOk(data){

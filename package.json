@@ -23,6 +23,7 @@
     "tail": "*",
     "date-format": "*",
     "log4js": "*",
+    "ccap": "*",
     "moment": "~2.6.0",
     "excel-export":"*"
   },

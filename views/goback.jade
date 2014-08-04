@@ -5,7 +5,8 @@ block content
             div.page-header
                      h1#pheader #{pheader}
                     button.btn.btn-default#goback(type='button') 回   滚
-            div.container  
+            div.container(style="padding-top: 10px;") 
+                                      p(style="color: RoyalBlue") 系统备份只备份 应用jar包 ，其他文件 用 更新方式 回滚。 
                         - if (gobackfile.length)
                             -  gobackfile.forEach(function(items , index){                                 
                                  - if(items.text)                                
@@ -20,6 +21,7 @@ block content
                                                                     div.panel-body
                                                                            p #{items.text}                                        
                             - })
+                            
                             
 block extjs
     script(type='text/javascript',src="/js/jquery-1.4.4.min.js")

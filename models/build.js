@@ -96,7 +96,6 @@ Build.run = function(file, callback) {
 						}
 						return callback(null, start, '编译成功,全部一致', '无', filetxt,goal)
 					} else {
-						start = false;
 						return callback(null, start, '编译完成,文件可能不一致,提交：'+len+'个 ，更新：'+number+'个', nofile, filetxt,goal)
 					}
 					
