@@ -2,7 +2,6 @@
  * GET home page.
  */
 var Login = require('../models/login.js');
-var Online = require('./online.js');
 var Build = require('../models/build.js');
 var Updata = require('../models/updata.js');
 var crypto = require('crypto');
