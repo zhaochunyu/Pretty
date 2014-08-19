@@ -25,7 +25,6 @@ block content
                           - if (items.length)
                                - var i=0                            
                             - items.forEach(function(items){ 
-                              - if ((items._id.split(/\_/)).length<3)
                                  - i++
                                  tr
                                   td #{items._id.replace(/\_/,'')}
@@ -43,7 +42,15 @@ block content
                                   td #{items.info.date}
                             - })
                  a 共 #{i} 条记录                           
-             
+              div
+                       - if(page-1)
+                            span( class="lastpage")
+                                   a( title="上一页" href="?p=#{page-1}") 上一页  
+                            span( class="lastpage")
+                                   当前第 #{page} 页        
+                       - if(items.length==10)
+                             span( class="nextpage")
+                                    a( title="上一页" href="?p=#{page+1}") 下一页                        
  block extjs
           script(type='text/javascript',src="/stylesheets/dist/js/bootstrap-datetimepicker.js",charset="UTF-8")
           script(type='text/javascript',src="/js/msg.js")

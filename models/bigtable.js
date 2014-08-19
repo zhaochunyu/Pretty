@@ -7,16 +7,29 @@ function Bigtable() {
 }
 module.exports = Bigtable;
 
-Bigtable.oalist = function(callback) {
-	Online.get_all(function(err, online) {
+Bigtable.oalist = function(page,callback) {
+	Online.get_all(page,function(err, online) {
 		if (err) {
 			console.log(err)
+			return callback(null);
 		}
 		;
 		return callback(online);
 	});
 
 };
+
+Bigtable.oalistSelectS = function(page,updataId, selectInfo, callback) {
+	Online.get_bigtableS(page,updataId, selectInfo, function(err, online) {
+		if (err) {
+			console.log(err)
+			return callback(err);
+		}
+		;
+		return callback(null, online);
+	});
+}
+
 
 Bigtable.oalistSelect = function(updataId, selectInfo, callback) {
 	Online.get_bigtable(updataId, selectInfo, function(err, online) {
@@ -28,12 +41,12 @@ Bigtable.oalistSelect = function(updataId, selectInfo, callback) {
 		return callback(null, online);
 	});
 }
+
 // 查询保存数据
 
 Bigtable.save = function(myIDs, callback) {
 	var j = 0;
-	myIDs
-			.forEach(function(myID, index) {
+	myIDs.forEach(function(myID, index) {
 				if (myID == "_") {
 					logger.info('无须查询oa数据库!');
 					j++;

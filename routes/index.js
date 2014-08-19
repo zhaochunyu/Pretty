@@ -2,6 +2,7 @@
  * GET home page.
  */
 var Login = require('../models/login.js');
+var Online = require('./online.js');
 var Build = require('../models/build.js');
 var Updata = require('../models/updata.js');
 var crypto = require('crypto');
@@ -19,7 +20,6 @@ var ReStart = require('../models/restart.js');
 var Moment = require('moment');
 var nodeExcel = require('excel-export');
 var db2 = require('../models/db2.js');
-var ccap = require('ccap');
 
 module.exports = function(app) {
 
@@ -443,8 +443,6 @@ module.exports = function(app) {
 	app.post('/sigin', function(req, res) {
 		var i = 0;
 		var user = req.body.user;
-		if(req.body.ccap.toUpperCase()==req.session.ccap){
-		logger.info('req.session.ccap：' + req.session.ccap); 
 		User.get_all(function(items) {
 			var massage = '', userName = 'Pretty';
 			var state = false;
@@ -578,13 +576,6 @@ module.exports = function(app) {
 
 			});// items.forEach
 		})// User.get_all
-		}
-		else{
-			res.render('login', {
-				massage : '',
-				user : '验证码错误！'
-			});
-		}
 
 	});
 	// 注册
@@ -643,7 +634,7 @@ module.exports = function(app) {
 		User.update(datainfo, function(err, updateUser) {
 			if (updateUser) {
 				req.session.user = null;
-				logger.info('用户退出成功！');
+				logger.info('用户推出成功！');
 				req.flash('success', '登出成功');
 				res.redirect('/login');
 			}
@@ -676,41 +667,17 @@ module.exports = function(app) {
 				if (item.state) {
 					massage = '正在使用，请稍等！', userName = item.name
 				}
-				if (i == items.length) {					
+				if (i == items.length) {
 					res.render('login', {
 						massage : massage,
-						user : userName						
+						user : userName
 					});
 				}
 
 			});
 		}
+
 		)
-	});
-	
-	app.get('/ccap', function(req, res) {
-		// 查询全部，是否有人登录。
-		var ccapico = ccap({
-
-		    width:166,//set width,default is 256
-
-		    height:60,//set height,default is 60
-
-		    offset:40,//set text spacing,default is 40
-
-		    quality:100,//set pic quality,default is 50
-
-		    fontsize:57,//set font size,default is 57
-
-		});
-		
-	    var ary = ccapico.get();
-	    var txt = ary[0];
-	    var buf = ary[1];
-	    req.session.ccap =txt;
-//		logger.info('txt：' + txt); 
-		res.send(buf);
-				
 	});
 	// 终端页面
 	app.get('/terminal', checkLogin);
@@ -732,6 +699,7 @@ module.exports = function(app) {
 		})
 
 	});
+	
 	app.post('/goback', checkLogin);
 	app
 			.post(
@@ -951,18 +919,20 @@ module.exports = function(app) {
 	app.get('/bigtable', checkLogin);
 	app.get('/bigtable', function(req, res) {
 		var scm = 'xin.zhao-1&meili.wu&lihong.wei&chunyu.zhao';
+		 var page = req.query.p?parseInt(req.query.p):1;
 		if (scm.indexOf(req.session.user.name) + 1) {
-			Bigtable.oalist(function(items) {
-				items.forEach(function(it, index) {
+			Bigtable.oalist(page,function(items) {
+				items.forEach(function(it, index) {									
 					it.onliedate = Moment(it.onliedate).format('YYYY-MM-DD');
-					it.info.date = Moment(it.info.date).format('YYYY-MM-DD');
+					it.info.date = Moment(it.info.date).format('YYYY-MM-DD');					
 					items[index] = it;
 					if (index == items.length - 1) {
 						res.render('bigtable', {
 							pheader : '清单大表',
 							items : items,
 							itemsStr : JSON.stringify(items),
-							user : req.session.user
+							user : req.session.user,
+							page: page							
 						});
 					}
 				});
@@ -978,7 +948,8 @@ module.exports = function(app) {
 	// 清单大表
 	app.get('/bigtable2', checkLogin);
 	app.get('/bigtable2', function(req, res) {
-		Bigtable.oalist(function(items) {
+		var page = req.query.p?parseInt(req.query.p):1;
+		Bigtable.oalist(page,function(items) {
 			items.forEach(function(it, index) {
 				it.onliedate = Moment(it.onliedate).format('YYYY-MM-DD');
 				it.info.date = Moment(it.info.date).format('YYYY-MM-DD');
@@ -988,6 +959,7 @@ module.exports = function(app) {
 						pheader : '清单大表',
 						items : items,
 						itemsStr : JSON.stringify(items),
+						page: page,
 						user : req.session.user
 					});
 				}
@@ -1050,6 +1022,85 @@ module.exports = function(app) {
 
 	}
 	// *************************************************
+	// 查询按条件
+	app.post('/bigtableSelectS', function(req, res) {
+		var updataId = req.body.updataId;
+		var updataIdr = req.body.updataId;
+		var isonline = req.body.isonline;
+		var begindataQA = req.body.begindataQA;
+		var enddataQA = req.body.enddataQA;
+		var begindata = req.body.begindata;
+		var enddata = req.body.enddata;
+		var page = req.query.p?parseInt(req.query.p):1;
+		logger.info('updataId: ' + updataId);
+		logger.info('online' + isonline);
+		var selectInfo = {
+			'begindataQA' : begindataQA,
+			'enddataQA' : enddataQA,
+			'begindata' : begindata,
+			'enddata' : enddata,
+			'isonline' : isonline
+		};
+		logger.info('begindataQA: ' + begindataQA + " enddataQA: " + enddataQA+ " begindata: " + begindata + " enddata: " + enddata);
+		var myID = new Array();
+		updataId = updataId.replace(/;/g, ' ');
+		updataId = updataId.trim();
+		myID = updataId.split(' ');
+		myID.forEach(function(id_oa, index, array1) {
+			var oaid = '_' + id_oa;
+			myID[index] = oaid;
+		})
+		logger.info('myID ' + myID);
+		logger.info('updataIdr ' + updataIdr);
+		// 每次在oa数据库查询，并存入pretty数据库
+		Bigtable.save(myID, function(err, state) {
+			if (state) {
+				// 在pretty中查询
+				Bigtable.oalistSelectS(page,myID, selectInfo, function(err, items) {
+					logger.info('page: '+page);
+					if (items.length > 0) {
+						items.forEach(function(it, index) {
+							it.onliedate = Moment(it.onliedate).format(
+									'YYYY-MM-DD');
+							it.info.date = Moment(it.info.date).format(
+									'YYYY-MM-DD');
+							items[index] = it;
+							if (index == items.length - 1) {
+								res.render('bigtable', {
+									pheader : '清单大表',
+									updataId : updataIdr.trim(),
+									items : items,
+									itemsStr : JSON.stringify(items),
+									page: page,
+									user : req.session.user
+									
+								});
+							}
+						})
+
+					} else {
+						res.render('bigtable', {
+							pheader : '出错了！',
+							updataId : updataIdr.trim(),
+							items : 0,
+							page: page,
+							user : req.session.user
+						});
+					}
+				});
+
+			} else {
+				res.render('bigtable', {
+					pheader : '出错了！',
+					updataId : updataIdr.trim(),
+					items : 0,
+					page: page,
+					user : req.session.user
+				});
+			}
+		});
+	});
+
 	// 查询按条件
 	app.post('/bigtableSelect', function(req, res) {
 		var updataId = req.body.updataId;
@@ -1124,6 +1175,8 @@ module.exports = function(app) {
 			}
 		});
 	});
+	
+	
 	// 设置为上线
 	app.post('/setOnile', function(req, res) {
 		var updataId = req.body.updataId;

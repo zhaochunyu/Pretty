@@ -50,33 +50,41 @@ block content
                             th 上线次数
                             th 是否可回滚
                             th QA时间
-                            th special                                         
+                            th special                                  
                      tbody
                           - if (items.length)
                                - var i=0                            
-                            - items.forEach(function(items){ 
-                              - if ((items._id.split(/\_/)).length<3)
+                            - items.forEach(function(item){ 
                                  - i++
                                  tr
-                                  td #{items._id.replace(/\_/,'')}
-                                  td  #{items.info.department}
-                                  td  #{items.info.project}                                 
-                                  td  #{items.info.filename.replace('.txt','')}
-                                  td  #{items.info.core}
-                                  td  #{items.info.db}
-                                  td  #{items.info.own} 
-                                  td #{items.info.tester}
-                                  td #{items.info.auto}
-                                  td #{items.info.sql}                          
-                                  td #{items.info.update}
-                                  td #{items.online}
-                                  td #{items.onliedate.replace('Invalid date','待定')}
-                                  td #{items.onlinecount}
-                                  td #{items.info.ifback}
-                                  td #{items.info.date}
-                                  td #{items.info.special}       
+                                  td #{item._id.replace(/\_/,'')}
+                                  td  #{item.info.department}
+                                  td  #{item.info.project}                                 
+                                  td  #{item.info.filename.replace('.txt','')}
+                                  td  #{item.info.core}
+                                  td  #{item.info.db}
+                                  td  #{item.info.own} 
+                                  td #{item.info.tester}
+                                  td #{item.info.auto}
+                                  td #{item.info.sql}                          
+                                  td #{item.info.update}
+                                  td #{item.online}
+                                  td #{item.onliedate.replace('Invalid date','待定')}
+                                  td #{item.onlinecount}
+                                  td #{item.info.ifback}
+                                  td #{item.info.date}
+                                  td #{item.info.special}       
                             - })
-                  a 共 #{i} 条记录             
+                  a 共 #{i} 条记录 
+             div
+                       - if(page-1)
+                            span( class="lastpage")
+                                   a( title="上一页" href="?p=#{page-1}") 上一页  
+                            span( class="lastpage")
+                                   当前第 #{page} 页        
+                       - if(items.length==10)
+                             span( class="nextpage")
+                                    a( title="上一页" href="?p=#{page+1}") 下一页            
                table
                         form(action='/setOnile',method='post')
                                          textarea.form-control#updataId(rows="1",name="updataId",value='#{updataId}',style="display: none" ) #{updataId}

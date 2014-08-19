@@ -13,3 +13,453 @@
 [2014-08-04 10:17:34.467] [WARN] datelog - GET /stylesheets/dist/css/signin.css
 [2014-08-04 10:17:34.492] [ERROR] datelog - GET /ccap
 [2014-08-04 10:29:03.808] [INFO] datelog - GET /favicon.ico
+[2014-08-06 12:36:30.900] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:36:30.904] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:36:30.908] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:36:30.925] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:39:06.148] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:39:06.205] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:39:06.279] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:39:06.311] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:39:09.000] [WARN] datelog - GET /
+[2014-08-06 12:39:09.441] [INFO] datelog - GET /login
+[2014-08-06 12:39:09.556] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:39:09.566] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:39:09.575] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:39:09.687] [INFO] datelog - GET /ccap
+[2014-08-06 12:39:09.833] [INFO] datelog - GET /favicon.ico
+[2014-08-06 12:39:17.818] [INFO] datelog - POST /sigin
+[2014-08-06 12:39:17.865] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:39:17.922] [ERROR] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:39:17.966] [INFO] datelog - GET /ccap
+[2014-08-06 12:39:17.969] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:39:37.094] [INFO] datelog - POST /sigin
+[2014-08-06 12:39:37.163] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:39:37.183] [INFO] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:39:37.248] [INFO] datelog - GET /ccap
+[2014-08-06 12:39:37.249] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:41:05.192] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:41:05.193] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:41:05.254] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:41:05.355] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:41:10.994] [INFO] datelog - req.session.ccap：R0ZBBB
+[2014-08-06 12:41:10.995] [INFO] datelog - req.session.ccap：NXWE
+[2014-08-06 12:41:11.357] [INFO] datelog - POST /sigin
+[2014-08-06 12:41:11.434] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:41:11.523] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:41:11.531] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:41:11.666] [INFO] datelog - GET /ccap
+[2014-08-06 12:41:20.051] [INFO] datelog - req.session.ccap：TEX0GU
+[2014-08-06 12:41:20.052] [INFO] datelog - req.session.ccap：TEX0
+[2014-08-06 12:41:20.408] [INFO] datelog - POST /sigin
+[2014-08-06 12:41:20.458] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:41:20.462] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:41:20.468] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:41:20.580] [INFO] datelog - GET /ccap
+[2014-08-06 12:42:21.529] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:21.715] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:21.728] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:21.745] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:29.093] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:29.129] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:29.146] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:29.157] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 12:42:31.983] [INFO] datelog - req.session.ccap：7CRBY3
+[2014-08-06 12:42:31.984] [INFO] datelog - req.session.ccap：TEX0
+[2014-08-06 12:42:32.357] [INFO] datelog - POST /sigin
+[2014-08-06 12:42:32.424] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:42:32.468] [ERROR] datelog - GET /ccap
+[2014-08-06 12:42:32.520] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:42:32.527] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:42:32.635] [INFO] datelog - GET /ccap
+[2014-08-06 12:42:47.373] [INFO] datelog - req.session.ccap：X07I
+[2014-08-06 12:42:47.374] [INFO] datelog - req.session.ccap：X07I
+[2014-08-06 12:42:47.375] [INFO] datelog - req.session.ccap：X07I
+[2014-08-06 12:42:47.431] [INFO] datelog - datainfo.state  Wed Aug 06 2014 12:42:47 GMT+0800 (CST)
+[2014-08-06 12:42:47.435] [INFO] datelog - 更新状态成功：1
+[2014-08-06 12:42:47.989] [INFO] datelog - POST /sigin
+[2014-08-06 12:42:48.059] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-06 12:42:48.059] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:42:48.061] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-06 12:42:48.062] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-06 12:42:48.063] [WARN] datelog - GET /images/2.gif
+[2014-08-06 12:42:48.066] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-06 12:42:48.079] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-06 12:42:48.078] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-06 12:42:48.082] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-06 12:42:48.089] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-06 12:42:48.090] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-06 12:42:48.092] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-06 12:42:48.134] [INFO] datelog - GET /js/msg.js
+[2014-08-06 12:42:50.454] [INFO] datelog - 用户chunyu.zhao
+[2014-08-06 12:42:50.455] [INFO] datelog - datainfo.state  Wed Aug 06 2014 12:42:50 GMT+0800 (CST)
+[2014-08-06 12:42:50.460] [INFO] datelog - 用户退出成功！
+[2014-08-06 12:42:50.473] [WARN] datelog - GET /logout
+[2014-08-06 12:42:50.833] [WARN] datelog - GET /login
+[2014-08-06 12:42:50.879] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:42:50.976] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:42:50.976] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:42:50.978] [INFO] datelog - GET /ccap
+[2014-08-06 12:42:55.244] [INFO] datelog - req.session.ccap：6DFM
+[2014-08-06 12:42:55.244] [INFO] datelog - req.session.ccap：SDFD
+[2014-08-06 12:42:55.312] [INFO] datelog - POST /sigin
+[2014-08-06 12:42:55.365] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:42:55.368] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:42:55.371] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:42:55.447] [INFO] datelog - GET /ccap
+[2014-08-06 12:43:04.258] [INFO] datelog - req.session.ccap：JS7Q
+[2014-08-06 12:43:04.259] [INFO] datelog - req.session.ccap：JS7Q
+[2014-08-06 12:43:04.260] [INFO] datelog - req.session.ccap：JS7Q
+[2014-08-06 12:43:04.268] [INFO] datelog - datainfo.state  Wed Aug 06 2014 12:43:04 GMT+0800 (CST)
+[2014-08-06 12:43:04.270] [INFO] datelog - 更新状态成功：1
+[2014-08-06 12:43:04.447] [INFO] datelog - POST /sigin
+[2014-08-06 12:43:04.494] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-06 12:43:04.498] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-06 12:43:04.505] [WARN] datelog - GET /images/2.gif
+[2014-08-06 12:43:04.506] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:43:04.512] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-06 12:43:04.507] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-06 12:43:04.526] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-06 12:43:04.533] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-06 12:43:04.534] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-06 12:43:04.534] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-06 12:43:04.542] [WARN] datelog - GET /js/msg.js
+[2014-08-06 12:43:04.546] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-06 12:43:04.553] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-06 12:57:19.530] [INFO] datelog - 用户chunyu.zhao
+[2014-08-06 12:57:19.531] [INFO] datelog - datainfo.state  Wed Aug 06 2014 12:57:19 GMT+0800 (CST)
+[2014-08-06 12:57:19.534] [INFO] datelog - 用户退出成功！
+[2014-08-06 12:57:19.540] [WARN] datelog - GET /logout
+[2014-08-06 12:57:19.616] [WARN] datelog - GET /login
+[2014-08-06 12:57:19.684] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:57:19.767] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:57:19.768] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:57:19.774] [INFO] datelog - GET /ccap
+[2014-08-06 12:57:22.480] [WARN] datelog - GET /login
+[2014-08-06 12:57:22.535] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:57:22.538] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:57:22.539] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:57:22.654] [INFO] datelog - GET /ccap
+[2014-08-06 12:57:22.916] [WARN] datelog - GET /login
+[2014-08-06 12:57:22.976] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:57:23.036] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:57:23.037] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:57:23.038] [INFO] datelog - GET /ccap
+[2014-08-06 12:57:23.318] [WARN] datelog - GET /login
+[2014-08-06 12:57:23.364] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:57:23.365] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:57:23.366] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:57:23.462] [INFO] datelog - GET /ccap
+[2014-08-06 12:57:31.931] [INFO] datelog - req.session.ccap：JMHU
+[2014-08-06 12:57:31.932] [INFO] datelog - req.session.ccap：JMHU
+[2014-08-06 12:57:31.932] [INFO] datelog - req.session.ccap：JMHU
+[2014-08-06 12:57:31.939] [INFO] datelog - datainfo.state  Wed Aug 06 2014 12:57:31 GMT+0800 (CST)
+[2014-08-06 12:57:31.941] [INFO] datelog - 更新状态成功：1
+[2014-08-06 12:57:32.121] [INFO] datelog - POST /sigin
+[2014-08-06 12:57:32.180] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-06 12:57:32.186] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-06 12:57:32.183] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-06 12:57:32.185] [WARN] datelog - GET /images/2.gif
+[2014-08-06 12:57:32.187] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 12:57:32.188] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-06 12:57:32.197] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-06 12:57:32.209] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-06 12:57:32.212] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-06 12:57:32.213] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-06 12:57:32.213] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-06 12:57:32.214] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-06 12:57:32.217] [WARN] datelog - GET /js/msg.js
+[2014-08-06 12:57:35.622] [INFO] datelog - 用户chunyu.zhao
+[2014-08-06 12:57:35.623] [INFO] datelog - datainfo.state  Wed Aug 06 2014 12:57:35 GMT+0800 (CST)
+[2014-08-06 12:57:35.625] [INFO] datelog - 用户退出成功！
+[2014-08-06 12:57:35.628] [WARN] datelog - GET /logout
+[2014-08-06 12:57:35.685] [WARN] datelog - GET /login
+[2014-08-06 12:57:35.729] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 12:57:35.731] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 12:57:35.828] [INFO] datelog - GET /ccap
+[2014-08-06 12:57:35.829] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:03:40.770] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:03:40.780] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:03:40.785] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:03:40.849] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:04:03.550] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:04:03.561] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:04:03.622] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:04:03.779] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:55:10.819] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:55:10.919] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:55:11.026] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:55:11.068] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:56:40.911] [WARN] datelog - GET /
+[2014-08-06 13:56:41.316] [INFO] datelog - GET /login
+[2014-08-06 13:56:41.382] [INFO] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 13:56:41.436] [INFO] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:56:41.503] [INFO] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 13:56:41.583] [INFO] datelog - GET /ccap
+[2014-08-06 13:56:41.605] [INFO] datelog - GET /favicon.ico
+[2014-08-06 13:58:12.667] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:58:12.750] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:58:12.922] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:58:12.957] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 13:58:41.818] [INFO] datelog - req.session.ccap：13OI
+[2014-08-06 13:58:41.818] [INFO] datelog - req.body.ccap.toUpperCase()：130I
+[2014-08-06 13:58:42.172] [INFO] datelog - POST /sigin
+[2014-08-06 13:58:42.232] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 13:58:42.318] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 13:58:42.327] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:58:42.446] [INFO] datelog - GET /ccap
+[2014-08-06 13:58:49.828] [WARN] datelog - GET /sigin
+[2014-08-06 13:58:49.979] [WARN] datelog - GET /login
+[2014-08-06 13:58:50.011] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 13:58:50.012] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 13:58:50.013] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:58:50.123] [INFO] datelog - GET /ccap
+[2014-08-06 13:59:01.451] [INFO] datelog - req.session.ccap：8DNV
+[2014-08-06 13:59:01.452] [INFO] datelog - req.body.ccap.toUpperCase()：8DNV
+[2014-08-06 13:59:01.452] [INFO] datelog - req.session.ccap：8DNV
+[2014-08-06 13:59:01.462] [INFO] datelog - datainfo.state  Wed Aug 06 2014 13:59:01 GMT+0800 (CST)
+[2014-08-06 13:59:01.468] [INFO] datelog - 更新状态成功：1
+[2014-08-06 13:59:01.675] [INFO] datelog - POST /sigin
+[2014-08-06 13:59:01.711] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:59:01.734] [INFO] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-06 13:59:01.742] [INFO] datelog - GET /stylesheets/style.css
+[2014-08-06 13:59:01.763] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-06 13:59:01.843] [INFO] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-06 13:59:01.855] [INFO] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-06 13:59:01.869] [INFO] datelog - GET /js/msg.js
+[2014-08-06 13:59:01.869] [INFO] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-06 13:59:01.890] [INFO] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-06 13:59:01.893] [INFO] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-06 13:59:01.897] [INFO] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-06 13:59:01.909] [INFO] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-06 13:59:01.917] [INFO] datelog - GET /images/2.gif
+[2014-08-06 13:59:05.635] [INFO] datelog - 用户chunyu.zhao
+[2014-08-06 13:59:05.637] [INFO] datelog - datainfo.state  Wed Aug 06 2014 13:59:05 GMT+0800 (CST)
+[2014-08-06 13:59:05.641] [INFO] datelog - 用户退出成功！
+[2014-08-06 13:59:05.649] [WARN] datelog - GET /logout
+[2014-08-06 13:59:06.051] [WARN] datelog - GET /login
+[2014-08-06 13:59:06.092] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:59:06.093] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 13:59:06.094] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 13:59:06.214] [INFO] datelog - GET /ccap
+[2014-08-06 13:59:25.336] [INFO] datelog - req.session.ccap：D7H5
+[2014-08-06 13:59:25.336] [INFO] datelog - req.body.ccap.toUpperCase()：D7H5
+[2014-08-06 13:59:25.337] [INFO] datelog - req.session.ccap：D7H5
+[2014-08-06 13:59:25.343] [INFO] datelog - datainfo.state  Wed Aug 06 2014 13:59:25 GMT+0800 (CST)
+[2014-08-06 13:59:25.345] [INFO] datelog - 更新状态成功：1
+[2014-08-06 13:59:25.587] [INFO] datelog - POST /sigin
+[2014-08-06 13:59:25.637] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-06 13:59:25.636] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:59:25.637] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-06 13:59:25.640] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-06 13:59:25.640] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-06 13:59:25.647] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-06 13:59:25.648] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-06 13:59:25.649] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-06 13:59:25.650] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-06 13:59:25.655] [WARN] datelog - GET /js/msg.js
+[2014-08-06 13:59:25.655] [WARN] datelog - GET /images/2.gif
+[2014-08-06 13:59:25.657] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-06 13:59:25.658] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-06 13:59:28.772] [INFO] datelog - 用户chunyu.zhao
+[2014-08-06 13:59:28.772] [INFO] datelog - datainfo.state  Wed Aug 06 2014 13:59:28 GMT+0800 (CST)
+[2014-08-06 13:59:28.781] [INFO] datelog - 用户退出成功！
+[2014-08-06 13:59:28.785] [WARN] datelog - GET /logout
+[2014-08-06 13:59:28.845] [WARN] datelog - GET /login
+[2014-08-06 13:59:28.871] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 13:59:28.875] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:59:28.879] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 13:59:29.000] [INFO] datelog - GET /ccap
+[2014-08-06 13:59:40.382] [INFO] datelog - req.session.ccap：IDWL
+[2014-08-06 13:59:40.383] [INFO] datelog - req.body.ccap.toUpperCase()：DDDD
+[2014-08-06 13:59:40.432] [INFO] datelog - POST /sigin
+[2014-08-06 13:59:40.492] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-06 13:59:40.494] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 13:59:40.497] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 13:59:40.593] [INFO] datelog - GET /ccap
+[2014-08-06 14:00:25.940] [INFO] datelog - req.session.ccap：465D
+[2014-08-06 14:00:25.940] [INFO] datelog - req.body.ccap.toUpperCase()：465D
+[2014-08-06 14:00:25.941] [INFO] datelog - req.session.ccap：465D
+[2014-08-06 14:00:25.960] [INFO] datelog - datainfo.state  Wed Aug 06 2014 14:00:25 GMT+0800 (CST)
+[2014-08-06 14:00:25.963] [INFO] datelog - 更新状态成功：1
+[2014-08-06 14:00:26.106] [INFO] datelog - POST /sigin
+[2014-08-06 14:00:26.152] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-06 14:00:26.156] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-06 14:00:26.157] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 14:00:26.157] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-06 14:00:26.159] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-06 14:00:26.166] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-06 14:00:26.169] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-06 14:00:26.173] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-06 14:00:26.174] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-06 14:00:26.172] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-06 14:00:26.178] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-06 14:00:26.181] [WARN] datelog - GET /js/msg.js
+[2014-08-06 14:00:26.183] [WARN] datelog - GET /images/2.gif
+[2014-08-06 15:11:34.350] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 15:11:34.381] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 15:11:34.454] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 15:11:34.544] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-06 15:43:32.140] [WARN] datelog - GET /bigtable
+[2014-08-06 15:43:32.512] [WARN] datelog - GET /login
+[2014-08-06 15:43:32.621] [ERROR] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-06 15:43:32.664] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-06 15:43:32.675] [INFO] datelog - GET /ccap
+[2014-08-06 15:43:32.677] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:36:37.557] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-14 16:36:37.578] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-14 16:36:37.595] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-14 16:36:37.609] [INFO] datelog - Express.io server listening on port 1331
+[2014-08-14 16:36:48.638] [WARN] datelog - GET /online
+[2014-08-14 16:36:49.788] [INFO] datelog - GET /login
+[2014-08-14 16:36:49.916] [INFO] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:36:49.924] [INFO] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:36:49.958] [INFO] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:36:50.077] [INFO] datelog - GET /ccap
+[2014-08-14 16:36:50.184] [INFO] datelog - GET /favicon.ico
+[2014-08-14 16:37:00.624] [INFO] datelog - req.session.ccap：S4DC
+[2014-08-14 16:37:00.626] [INFO] datelog - req.body.ccap.toUpperCase()：S4DC
+[2014-08-14 16:37:00.626] [INFO] datelog - req.session.ccap：S4DC
+[2014-08-14 16:37:00.633] [INFO] datelog - datainfo.state  Thu Aug 14 2014 16:37:00 GMT+0800 (CST)
+[2014-08-14 16:37:00.636] [INFO] datelog - 更新状态成功：1
+[2014-08-14 16:37:00.930] [INFO] datelog - POST /sigin
+[2014-08-14 16:37:01.110] [INFO] datelog - GET /stylesheets/style.css
+[2014-08-14 16:37:01.135] [INFO] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-14 16:37:01.144] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:01.149] [INFO] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-14 16:37:01.151] [INFO] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-14 16:37:01.154] [INFO] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-14 16:37:01.161] [INFO] datelog - GET /images/2.gif
+[2014-08-14 16:37:01.162] [INFO] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-14 16:37:01.163] [INFO] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-14 16:37:01.174] [INFO] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-14 16:37:01.180] [INFO] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-14 16:37:01.191] [INFO] datelog - GET /js/msg.js
+[2014-08-14 16:37:01.258] [INFO] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-14 16:37:03.031] [INFO] datelog - GET /godb2
+[2014-08-14 16:37:03.075] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-14 16:37:03.079] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-14 16:37:03.083] [WARN] datelog - GET /images/2.gif
+[2014-08-14 16:37:03.093] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:03.123] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-14 16:37:03.124] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-14 16:37:03.127] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-14 16:37:03.126] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-14 16:37:03.128] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-14 16:37:03.129] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-14 16:37:03.135] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-14 16:37:03.139] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-14 16:37:03.142] [WARN] datelog - GET /js/msg.js
+[2014-08-14 16:37:07.036] [INFO] datelog - GET /online
+[2014-08-14 16:37:07.084] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-14 16:37:07.083] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-14 16:37:07.088] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:07.092] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-14 16:37:07.093] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-14 16:37:07.093] [WARN] datelog - GET /images/2.gif
+[2014-08-14 16:37:07.109] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-14 16:37:07.109] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-14 16:37:07.116] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-14 16:37:07.117] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-14 16:37:07.119] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-14 16:37:07.122] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-14 16:37:07.144] [WARN] datelog - GET /js/msg.js
+[2014-08-14 16:37:10.739] [INFO] datelog - 本次更新清单号为：123
+[2014-08-14 16:37:10.740] [INFO] datelog - 上线单号:123
+[2014-08-14 16:37:10.744] [INFO] datelog - SELECT end_time 
+[2014-08-14 16:37:11.107] [INFO] datelog - selectSQL: select end_time,run_name from flow_run  where flow_id = 790 and run_id  in (123)
+[2014-08-14 16:37:11.134] [INFO] datelog - 无此上线单: 0
+[2014-08-14 16:37:11.135] [INFO] datelog - 查询上线单故障!
+[2014-08-14 16:37:11.141] [INFO] datelog - POST /updataid
+[2014-08-14 16:37:19.636] [INFO] datelog - GET /log/help.html
+[2014-08-14 16:37:23.708] [INFO] datelog - 用户chunyu.zhao
+[2014-08-14 16:37:23.711] [INFO] datelog - datainfo.state  Thu Aug 14 2014 16:37:23 GMT+0800 (CST)
+[2014-08-14 16:37:23.716] [INFO] datelog - 用户退出成功！
+[2014-08-14 16:37:23.723] [WARN] datelog - GET /logout
+[2014-08-14 16:37:24.077] [WARN] datelog - GET /login
+[2014-08-14 16:37:24.126] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:37:24.127] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:24.195] [INFO] datelog - GET /ccap
+[2014-08-14 16:37:24.196] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:37:26.608] [INFO] datelog - req.session.ccap：S4DC
+[2014-08-14 16:37:26.608] [INFO] datelog - req.body.ccap.toUpperCase()：SDF
+[2014-08-14 16:37:26.676] [INFO] datelog - POST /sigin
+[2014-08-14 16:37:26.726] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:37:26.727] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:37:26.812] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:26.813] [INFO] datelog - GET /ccap
+[2014-08-14 16:37:35.009] [INFO] datelog - req.session.ccap：K2LR
+[2014-08-14 16:37:35.010] [INFO] datelog - req.body.ccap.toUpperCase()：K2LR
+[2014-08-14 16:37:35.010] [INFO] datelog - req.session.ccap：K2LR
+[2014-08-14 16:37:35.015] [INFO] datelog - datainfo.state  Thu Aug 14 2014 16:37:35 GMT+0800 (CST)
+[2014-08-14 16:37:35.017] [INFO] datelog - 更新状态成功：1
+[2014-08-14 16:37:35.184] [INFO] datelog - POST /sigin
+[2014-08-14 16:37:35.234] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:35.239] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-14 16:37:35.239] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-14 16:37:35.241] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-14 16:37:35.260] [WARN] datelog - GET /images/2.gif
+[2014-08-14 16:37:35.262] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-14 16:37:35.266] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-14 16:37:35.272] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-14 16:37:35.273] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-14 16:37:35.275] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-14 16:37:35.275] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-14 16:37:35.277] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-14 16:37:35.284] [WARN] datelog - GET /js/msg.js
+[2014-08-14 16:37:43.119] [INFO] datelog - 用户chunyu.zhao
+[2014-08-14 16:37:43.121] [INFO] datelog - datainfo.state  Thu Aug 14 2014 16:37:43 GMT+0800 (CST)
+[2014-08-14 16:37:43.126] [INFO] datelog - 用户退出成功！
+[2014-08-14 16:37:43.134] [WARN] datelog - GET /logout
+[2014-08-14 16:37:43.233] [WARN] datelog - GET /login
+[2014-08-14 16:37:43.285] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:37:43.286] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:43.351] [INFO] datelog - GET /ccap
+[2014-08-14 16:37:43.352] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:37:46.413] [WARN] datelog - GET /login
+[2014-08-14 16:37:46.451] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:37:46.452] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:37:46.534] [INFO] datelog - GET /ccap
+[2014-08-14 16:37:46.538] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:50.637] [INFO] datelog - req.session.ccap：K2LR
+[2014-08-14 16:37:50.638] [INFO] datelog - req.body.ccap.toUpperCase()：HNWH
+[2014-08-14 16:37:50.684] [INFO] datelog - POST /sigin
+[2014-08-14 16:37:50.727] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:37:50.729] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:37:50.798] [INFO] datelog - GET /ccap
+[2014-08-14 16:37:50.800] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:37:56.749] [INFO] datelog - req.session.ccap：K2LR
+[2014-08-14 16:37:56.750] [INFO] datelog - req.body.ccap.toUpperCase()：LOBO
+[2014-08-14 16:37:56.791] [INFO] datelog - POST /sigin
+[2014-08-14 16:37:56.830] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:37:56.831] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:37:56.902] [INFO] datelog - GET /ccap
+[2014-08-14 16:37:56.903] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:38:01.029] [INFO] datelog - req.session.ccap：K2LR
+[2014-08-14 16:38:01.029] [INFO] datelog - req.body.ccap.toUpperCase()：OMK4
+[2014-08-14 16:38:01.078] [INFO] datelog - POST /sigin
+[2014-08-14 16:38:01.127] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.min.css
+[2014-08-14 16:38:01.128] [WARN] datelog - GET /stylesheets/dist/css/signin.css
+[2014-08-14 16:38:01.192] [INFO] datelog - GET /ccap
+[2014-08-14 16:38:01.192] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:38:03.469] [INFO] datelog - GET /ccap?&t=0.24219220713712275
+[2014-08-14 16:38:04.929] [INFO] datelog - GET /ccap?&t=0.5560141878668219
+[2014-08-14 16:38:08.180] [INFO] datelog - req.session.ccap：UQMY
+[2014-08-14 16:38:08.180] [INFO] datelog - req.body.ccap.toUpperCase()：UQMY
+[2014-08-14 16:38:08.180] [INFO] datelog - req.session.ccap：UQMY
+[2014-08-14 16:38:08.184] [INFO] datelog - datainfo.state  Thu Aug 14 2014 16:38:08 GMT+0800 (CST)
+[2014-08-14 16:38:08.185] [INFO] datelog - 更新状态成功：1
+[2014-08-14 16:38:08.338] [INFO] datelog - POST /sigin
+[2014-08-14 16:38:08.394] [WARN] datelog - GET /stylesheets/style.css
+[2014-08-14 16:38:08.395] [WARN] datelog - GET /stylesheets/dist/css/bootstrap.css
+[2014-08-14 16:38:08.400] [WARN] datelog - GET /js/jquery-2.0.0.min.js
+[2014-08-14 16:38:08.401] [WARN] datelog - GET /js/jquery.messagebox.min.js
+[2014-08-14 16:38:08.404] [WARN] datelog - GET /stylesheets/dist/css/sticky-footer-navbar.css
+[2014-08-14 16:38:08.406] [WARN] datelog - GET /stylesheets/dist/css/jquery-common-dist.css
+[2014-08-14 16:38:08.407] [WARN] datelog - GET /stylesheets/dist/css/bootstrap-datetimepicker.min.css
+[2014-08-14 16:38:08.408] [WARN] datelog - GET /images/2.gif
+[2014-08-14 16:38:08.420] [WARN] datelog - GET /stylesheets/dist/js/bootstrap.min.js
+[2014-08-14 16:38:08.422] [WARN] datelog - GET /js/jquery-1.4.4.min.js
+[2014-08-14 16:38:08.428] [WARN] datelog - GET /js/jquery-ui-i18n.min.js
+[2014-08-14 16:38:08.428] [WARN] datelog - GET /js/jquery-ui-1.8.13.min.js
+[2014-08-14 16:38:08.431] [WARN] datelog - GET /js/msg.js

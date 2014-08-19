@@ -83,7 +83,7 @@ Online.get = function(oa_id, callback) {
 	});
 };
 //读取信息
-Online.get_all = function(callback) {
+Online.get_all = function(page,callback) {
 	// 打开数据库
 	pool.acquire(function(err, db) {
 		if (err) {
@@ -94,23 +94,127 @@ Online.get_all = function(callback) {
 				pool.release(db);
 				return callback(err);// 错误，返回 err 信息
 			}
-			collection.find( 
-					{online: '否' },
-					function(err, online) {
-				pool.release(db);
-				if (err) {
-					return callback(err);// 失败！返回 err 信息
-				}
-				online.toArray(function(err, items) {          
+			collection.find({ _id:{$regex :/^_[0-9]+$/},online: '否'}
+					,{skip:(page-1)*10,limit:10}).toArray(function(err, items) { 
+					pool.release(db);
 					logger.info("count: " + items.length);
 				      callback(null, items);
 				})
 				// 成功！返回查询信息
 			});
 		});
-	});
 };
 
+
+//读取信息
+Online.get_bigtableS= function(page,updataId,selectInfo ,callback) {
+	// 打开数据库
+	pool.acquire(function(err, db) {
+		if (err) {
+			return callback(err);// 错误，返回 err 信息
+		}
+		db.collection('online', function(err, collection) {
+			if (err) {
+				pool.release(db);
+				return callback(err);// 错误，返回 err 信息
+			}
+			logger.info("get_bigtable: " + !(updataId[0]=="_"));
+			if(!(updataId[0]=="_")){	
+				
+				collection.find( {_id:{"$in":updataId}}
+						,{skip:(page-1)*10,limit:10}).toArray(function(err, items) {     
+						pool.release(db);
+						logger.info("itemscount: " + items.length);
+						return      callback(null, items);
+					})
+					// 成功！返回查询信息
+			}
+			else{
+//				时间为空，按状态查询
+				if( selectInfo.begindata=="" && selectInfo.begindataQA=="") 
+				{
+					if(selectInfo.isonline.match("all")){
+						collection.find({ _id:{$regex :/^_[0-9]+$/}}
+						,{skip:(page-1)*10,limit:10}).toArray(function(err, items) {   
+								pool.release(db);
+								logger.info("online: " + items.length);
+								return      callback(null, items);
+							})
+							// 成功！返回查询信息
+					}
+					else{
+						collection.find(
+								{online:selectInfo.isonline, _id:{$regex :/^_[0-9]+$/}},
+								{skip:(page-1)*10,limit:10}).toArray(function(err, items) {  
+								pool.release(db);
+								logger.info("online: " + items.length);
+								return      callback(null, items);
+							})
+							// 成功！返回查询信息
+					}
+				
+				}
+				else{
+					//按时间查询
+					if(!selectInfo.begindata=="" ){
+						logger.info('find( { _id:{$regex :/^_[0-9]+$/},online: '+selectInfo.isonline+',  onliedate: { $gt: '+ Date(selectInfo.begindata)+', $lt: '+ Date(selectInfo.enddata) +'}	}');
+						if(selectInfo.isonline.match("all")){
+							collection.find(
+									{_id:{$regex :/^_[0-9]+$/},
+				 					onliedate: { "$gte": new Date(selectInfo.begindata), "$lte": new Date(selectInfo.enddata) }},
+				 					{skip:(page-1)*10,limit:10}).toArray(function(err, items) {    
+				 						pool.release(db);	
+									return      callback(null, items);
+								})
+								// 成功！返回查询信息
+						}
+						else{
+							collection.find(
+									{
+									_id:{$regex :/^_[0-9]+$/},	
+									online: selectInfo.isonline,  
+				 					onliedate: { "$gte": new Date(selectInfo.begindata), "$lte": new Date(selectInfo.enddata) }},
+				 					{skip:(page-1)*10,limit:10}).toArray(function(err, items) {  
+				 						pool.release(db);	
+									return      callback(null, items);
+								})
+								// 成功！返回查询信息
+						}
+						
+						
+					}
+					if(!selectInfo.begindataQA==""){
+						logger.info('find( {online: '+selectInfo.isonline+',  info.date: { $gt: '+new Date(selectInfo.begindataQA)+', $lt: '+new Date(selectInfo.enddataQA) +'}	}');
+						if(selectInfo.isonline.match("all")){
+							collection.find(	{
+								_id:{$regex :/^_[0-9]+$/},
+								'info.date': { "$gte": new Date(selectInfo.begindataQA), "$lte": new Date(selectInfo.enddataQA) }},
+								{skip:(page-1)*10,limit:10}).toArray(function(err, items) {   
+									pool.release(db);	
+								return      callback(null, items);
+							})
+							// 成功！返回查询信息
+							
+						}
+						else{
+							collection.find(	{
+								_id:{$regex :/^_[0-9]+$/},
+								online: selectInfo.isonline,  
+								'info.date': { "$gte": new Date(selectInfo.begindataQA), "$lte": new Date(selectInfo.enddataQA) }},
+								{skip:(page-1)*10,limit:10}).toArray(function(err, items) {  
+									pool.release(db);	
+								return      callback(null, items);
+							})
+							// 成功！返回查询信息
+						}
+			
+					}
+				}
+			}
+	
+		});
+	});
+};
 
 //读取信息
 Online.get_bigtable = function(updataId,selectInfo ,callback) {
@@ -124,7 +228,6 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 				pool.release(db);
 				return callback(err);// 错误，返回 err 信息
 			}
-			logger.info("get_bigtable: " + !(updataId[0]=="_"));
 			if(!(updataId[0]=="_")){
 				collection.find( {_id:{"$in":updataId}},
 						function(err, online) {
@@ -145,7 +248,7 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 				if( selectInfo.begindata=="" && selectInfo.begindataQA=="") 
 				{
 					if(selectInfo.isonline.match("all")){
-						collection.find(function(err, online) {
+						collection.find({_id:{$regex :/^_[0-9]+$/}},function(err, online) {
 							pool.release(db);
 							if (err) {
 								return callback(err);// 失败！返回 err 信息
@@ -159,7 +262,7 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 					}
 					else{
 						collection.find(
-								{online:selectInfo.isonline},
+								{_id:{$regex :/^_[0-9]+$/},online:selectInfo.isonline},
 								function(err, online) {
 							pool.release(db);
 							if (err) {
@@ -180,7 +283,7 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 						logger.info('find( {online: '+selectInfo.isonline+',  onliedate: { $gt: '+ Date(selectInfo.begindata)+', $lt: '+ Date(selectInfo.enddata) +'}	}');
 						if(selectInfo.isonline.match("all")){
 							collection.find(
-									{
+									{_id:{$regex :/^_[0-9]+$/},
 				 					onliedate: { "$gte": new Date(selectInfo.begindata), "$lte": new Date(selectInfo.enddata) }},
 									function(err, online) {
 								pool.release(db);
@@ -196,7 +299,7 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 						}
 						else{
 							collection.find(
-									{
+									{_id:{$regex :/^_[0-9]+$/},
 									online: selectInfo.isonline,  
 				 					onliedate: { "$gte": new Date(selectInfo.begindata), "$lte": new Date(selectInfo.enddata) }},
 									function(err, online) {
@@ -217,7 +320,7 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 					if(!selectInfo.begindataQA==""){
 						logger.info('find( {online: '+selectInfo.isonline+',  info.date: { $gt: '+new Date(selectInfo.begindataQA)+', $lt: '+new Date(selectInfo.enddataQA) +'}	}');
 						if(selectInfo.isonline.match("all")){
-							collection.find(	{
+							collection.find(	{_id:{$regex :/^_[0-9]+$/},
 								'info.date': { "$gte": new Date(selectInfo.begindataQA), "$lte": new Date(selectInfo.enddataQA) }},
 								function(err, online) {
 							pool.release(db);
@@ -232,7 +335,7 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 							
 						}
 						else{
-							collection.find(	{
+							collection.find(	{_id:{$regex :/^_[0-9]+$/},
 								online: selectInfo.isonline,  
 								'info.date': { "$gte": new Date(selectInfo.begindataQA), "$lte": new Date(selectInfo.enddataQA) }},
 								function(err, online) {
@@ -254,6 +357,7 @@ Online.get_bigtable = function(updataId,selectInfo ,callback) {
 		});
 	});
 };
+
 //更新次数信息
 Online.update_bigtable= function(updataId,datainfo, callback) {
 	// 打开数据库
